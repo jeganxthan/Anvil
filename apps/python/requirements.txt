@@ -1,0 +1,46 @@
+fastapi
+uvicorn
+openai
+python-dotenv
+pydantic
+sse-starlette
+
+# {
+#     "id": "chatcmpl-b52d95e475c30cac",
+#     "choices": [
+#         {
+#             "finish_reason": "length",
+#             "index": 0,
+#             "logprobs": null,
+#             "message": {
+#                 "content": null,
+#                 "refusal": null,
+#                 "role": "assistant",
+#                 "annotations": null,
+#                 "audio": null,
+#                 "function_call": null,
+#                 "tool_calls": [],
+#                 "reasoning": "\nOkay, I need to explain FastAPI async programming. Let me start by recalling what I know about FastAPI. FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. One of its key features is support for asynchronous programming, which allows handling multiple requests concurrently without blocking the main thread.\n\nSo, async programming in FastAPI. How does that work? Well, Python has the async and await keywords for asynchronous functions. FastAPI leverages these to handle async request handlers. But how exactly?\n\nFirst, I should explain that traditional synchronous functions block the thread while waiting for I/O operations like database queries or network requests. In contrast, async functions can yield control back to the event loop when waiting, allowing other tasks to run. This is especially useful for I/O-bound applications.\n\nIn FastAPI, you can define an endpoint with an async def if the function is asynchronous. For example:\n\n@app.get(\"/async\")\nasync def async_endpoint():\n    await some_async_function()\n    return {\"result\": \"Async\"}\n\nBut wait, does FastAPI automatically handle async functions? Or does it require some setup? I think FastAPI uses Starlette under the hood, which supports async. So when you create an async function as an endpoint, FastAPI runs it in the event loop.\n\nBut what about mixing sync and async code? If you have a synchronous function that's blocking, calling it from an async function might not be efficient. So it's better to use async versions of libraries. For example, using databases with async drivers like asyncpg for PostgreSQL or aiomysql for MySQL.\n\nAlso, there's the option to run functions in a thread pool if they are synchronous but I/O-bound. Like using await asyncio.to_thread(blocking_function). That way, you don't block the event loop.\n\nAnother point: when you start the server, you use Uvicorn or Hypercorn, which are ASGI servers that support async. So the main event loop is managed by the server.\n\nWhat about dependencies? FastAPI's dependency injection can also be async. So dependencies can be async functions and they will be awaited.\n\nTesting async endpoints: when using the test client, you have to use the async client if your app uses async. Or maybe the sync client works too, but I think for proper async testing, you need to use the async test client.\n\nPotential pitfalls: deadlocks if you mix async and sync code improperly. Also, not all libraries are",
+#                 "reasoning_content": "\nOkay, I need to explain FastAPI async programming. Let me start by recalling what I know about FastAPI. FastAPI is a modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints. One of its key features is support for asynchronous programming, which allows handling multiple requests concurrently without blocking the main thread.\n\nSo, async programming in FastAPI. How does that work? Well, Python has the async and await keywords for asynchronous functions. FastAPI leverages these to handle async request handlers. But how exactly?\n\nFirst, I should explain that traditional synchronous functions block the thread while waiting for I/O operations like database queries or network requests. In contrast, async functions can yield control back to the event loop when waiting, allowing other tasks to run. This is especially useful for I/O-bound applications.\n\nIn FastAPI, you can define an endpoint with an async def if the function is asynchronous. For example:\n\n@app.get(\"/async\")\nasync def async_endpoint():\n    await some_async_function()\n    return {\"result\": \"Async\"}\n\nBut wait, does FastAPI automatically handle async functions? Or does it require some setup? I think FastAPI uses Starlette under the hood, which supports async. So when you create an async function as an endpoint, FastAPI runs it in the event loop.\n\nBut what about mixing sync and async code? If you have a synchronous function that's blocking, calling it from an async function might not be efficient. So it's better to use async versions of libraries. For example, using databases with async drivers like asyncpg for PostgreSQL or aiomysql for MySQL.\n\nAlso, there's the option to run functions in a thread pool if they are synchronous but I/O-bound. Like using await asyncio.to_thread(blocking_function). That way, you don't block the event loop.\n\nAnother point: when you start the server, you use Uvicorn or Hypercorn, which are ASGI servers that support async. So the main event loop is managed by the server.\n\nWhat about dependencies? FastAPI's dependency injection can also be async. So dependencies can be async functions and they will be awaited.\n\nTesting async endpoints: when using the test client, you have to use the async client if your app uses async. Or maybe the sync client works too, but I think for proper async testing, you need to use the async test client.\n\nPotential pitfalls: deadlocks if you mix async and sync code improperly. Also, not all libraries are"
+#             },
+#             "stop_reason": null,
+#             "token_ids": null
+#         }
+#     ],
+#     "created": 1784969315,
+#     "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+#     "object": "chat.completion",
+#     "moderation": null,
+#     "service_tier": null,
+#     "system_fingerprint": null,
+#     "usage": {
+#         "completion_tokens": 512,
+#         "prompt_tokens": 21,
+#         "total_tokens": 533,
+#         "completion_tokens_details": null,
+#         "prompt_tokens_details": null
+#     },
+#     "prompt_logprobs": null,
+#     "prompt_token_ids": null,
+#     "kv_transfer_params": null
+# }

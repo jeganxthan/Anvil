@@ -1,26 +1,21 @@
-from sse_starlette.sse import EventSourceResponse
-from app.core.client import CHAT_CONFIG
+from collections.abc import AsyncGenerator
+
+from openai import AsyncOpenAI
+
 from app.core.utils import serialize_messages
 from app.schemas.chat import ChatRequest, ChatResponse, Usage
-from collections.abc import Sequence
-from openai.types.chat import ChatCompletionMessageParam
-from app.core.exceptions import internal_server_error
-from openai import AsyncOpenAI
-class NvidiaService:
-    
-    def __init__(self, client:AsyncOpenAI):
-        self.client=client
-        
-    async def generate_stream(self, request: ChatRequest):
-        messages = serialize_messages(request)    
-        return EventSourceResponse(self.generate(messages))
+from app.core.exceptions import InternalServerError
 
-    async def generate_chat(self, request: ChatRequest):
+class NvidiaService:
+    def __init__(self, client: AsyncOpenAI, chat_config: dict):
+        self.client = client
+        self.chat_config = chat_config
+
+    async def generate_chat(self, request: ChatRequest) -> ChatResponse:
         messages = serialize_messages(request)
         try:
             response = await self.client.chat.completions.create(
-                 messages=messages,
-                 **CHAT_CONFIG
+                messages=messages, **self.chat_config
             )
 
             return ChatResponse(
@@ -30,36 +25,29 @@ class NvidiaService:
                 usage=Usage(
                     prompt_tokens=response.usage.prompt_tokens,
                     completion_tokens=response.usage.completion_tokens,
-                    total_tokens=response.usage.total_tokens
-                ) if response.usage else None
+                    total_tokens=response.usage.total_tokens,
+                )
+                if response.usage
+                else None,
             )
         except Exception as e:
-            internal_server_error(e)
+            raise InternalServerError(
+                "Failed to generate chat response"
+            ) from e
 
-
-    async def generate(self, messages:Sequence[ChatCompletionMessageParam]):
-
+    async def generate_stream(self, request: ChatRequest) -> AsyncGenerator[dict, None]:
+        messages = serialize_messages(request)
         stream = await self.client.chat.completions.create(
-            messages=messages,
-            stream=True,
-            **CHAT_CONFIG
+            messages=messages, stream=True, **self.chat_config
         )
 
         async for chunk in stream:
-
             if not chunk.choices:
                 continue
 
             delta = chunk.choices[0].delta.content
 
             if delta:
-                yield {
-                    "event": "message",
-                    "data": delta
-                }
+                yield {"event": "message", "data": delta}
 
-        yield {
-            "event": "end",
-            "data": "[DONE]"
-        }
-
+        yield {"event": "end", "data": "[DONE]"}

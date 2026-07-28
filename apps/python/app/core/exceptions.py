@@ -1,22 +1,21 @@
-from fastapi import HTTPException
+class AppException(Exception):
+    status_code: int = 500
+    error_code: str = "INTERNAL_ERROR"
+
+    def __init__(self, message:str):
+        self.message=message
+        super().__init__(message)
+
+class BadRequestError(AppException):
+    status_code = 400
+    error_code = "BAD_REQUEST"
 
 
-def internal_server_error(error: Exception):
-    raise HTTPException(
-        status_code=500,
-        detail=str(error)
-    )
+class UnauthorizedError(AppException):
+    status_code = 401
+    error_code = "UNAUTHORIZED"
 
 
-def bad_request(message: str):
-    raise HTTPException(
-        status_code=400,
-        detail=message
-    )
-
-
-def unauthorized(message: str = "Unauthorized"):
-    raise HTTPException(
-        status_code=401,
-        detail=message
-    )
+class InternalServerError(AppException):
+    status_code = 500
+    error_code = "INTERNAL_SERVER_ERROR"

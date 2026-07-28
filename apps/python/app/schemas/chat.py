@@ -1,12 +1,15 @@
-from typing import Literal, Optional
+from typing import Literal
+
 from pydantic import BaseModel
 
+
 class Message(BaseModel):
-    role:Literal["system", "user", "assistant"]
-    content:str
-    
+    role: Literal["system", "user", "assistant"]
+    content: str
+
+
 class ChatRequest(BaseModel):
-    messages:list[Message]
+    messages: list[Message]
 
 
 class Usage(BaseModel):
@@ -19,4 +22,4 @@ class ChatResponse(BaseModel):
     id: str
     model: str
     answer: str
-    usage: Optional[Usage] = None
+    usage: Usage | None = None

@@ -1,4 +1,3 @@
-from openai import AsyncOpenAI
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -9,17 +8,19 @@ class Settings(BaseSettings):
 
     nvidia_api_url: str = "https://integrate.api.nvidia.com/v1"
 
-    nvidia_api_key: str = Field(
-        validation_alias="NVIDIA_API_KEY"
-    )
+    nvidia_api_key: str = Field(validation_alias="NVIDIA_API_KEY")
 
     model_name: str = "nvidia/llama-3.3-nemotron-super-49b-v1.5"
-
+    max_tokens: int = 65536
+    temperature: float = 0.6
+    top_p: float = 0.95
+    frequency_penalty: int = 0
+    presence_penalty: int = 0
+    seed: int = 0
     model_config = SettingsConfigDict(
         env_file=".env",
         extra="ignore",
     )
-
 
 settings = Settings()
 

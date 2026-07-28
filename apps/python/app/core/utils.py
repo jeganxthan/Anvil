@@ -1,4 +1,5 @@
 from typing import cast
+
 from openai.types.chat import ChatCompletionMessageParam
 
 from app.schemas.chat import ChatRequest

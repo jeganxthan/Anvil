@@ -1,21 +1,41 @@
 class AppException(Exception):
-    status_code: int = 500
-    error_code: str = "INTERNAL_ERROR"
-
-    def __init__(self, message:str):
-        self.message=message
+    def __init__(
+        self,
+        status_code: int,
+        error_code: str,
+        message: str,
+    ) -> None:
+        self.status_code = status_code
+        self.error_code = error_code
+        self.message = message
         super().__init__(message)
 
+
 class BadRequestError(AppException):
-    status_code = 400
-    error_code = "BAD_REQUEST"
+    def __init__(self, message: str) -> None:
+        super().__init__(
+            status_code=400,
+            error_code="BAD_REQUEST",
+            message=message,
+        )
 
 
 class UnauthorizedError(AppException):
-    status_code = 401
-    error_code = "UNAUTHORIZED"
+    def __init__(self, message: str = "Unauthorized") -> None:
+        super().__init__(
+            status_code=401,
+            error_code="UNAUTHORIZED",
+            message=message,
+        )
 
 
 class InternalServerError(AppException):
-    status_code = 500
-    error_code = "INTERNAL_SERVER_ERROR"
+    def __init__(
+        self,
+        message: str = "Internal server error",
+    ) -> None:
+        super().__init__(
+            status_code=500,
+            error_code="INTERNAL_SERVER_ERROR",
+            message=message,
+        )

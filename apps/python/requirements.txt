@@ -3,6 +3,9 @@ uvicorn
 openai
 pydantic
 sse-starlette
+sqlalchemy
+pydantic-settings
+sqlalchemy[asyncio]
 
 # {
 #     "id": "chatcmpl-b52d95e475c30cac",

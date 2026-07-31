@@ -9,7 +9,7 @@ from app.core.enum import Provider
 from app.db.base import Base
 
 if TYPE_CHECKING:
-    from app.models.message import Message
+    from app.db.models.message import Message
 
 
 class Conversation(Base):

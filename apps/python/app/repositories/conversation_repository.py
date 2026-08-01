@@ -11,15 +11,17 @@ class ConversationRepository:
         return await self.session.get(Conversation, conversation_id)
     
 
-    async def get_all(self) -> Sequence[Conversation]:
-        stmt = select(Conversation)
+    async def list(self) -> Sequence[Conversation]:
+        stmt = (
+            select(Conversation)
+            .order_by(Conversation.created_at.asc())
+            )
         result = await self.session.execute(stmt)
         return result.scalars().all()
     
     async def create(self, conversation:Conversation)->Conversation:
         self.session.add(conversation)
         await self.session.flush()
-        await self.session.refresh(conversation)
         return conversation
     
     async def exists(self, conversation_id:int)->bool:
@@ -29,14 +31,7 @@ class ConversationRepository:
         result = await self.session.execute(stmt)
         return result.scalar_one()
     
-    async def update(self,conversation_id:int, title:str):
-        conversation = await self.session.get(
-            Conversation,conversation_id
-        )
-        if not conversation:
-            return None
-        
-        conversation.title=title
+    async def update(self,conversation:Conversation)->Conversation:
         await self.session.flush()
         await self.session.refresh(conversation)
         return conversation

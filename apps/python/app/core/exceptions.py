@@ -39,3 +39,22 @@ class InternalServerError(AppException):
             error_code="INTERNAL_SERVER_ERROR",
             message=message,
         )
+
+
+class DomainException(Exception):
+    """Base class for all business/domain exceptions."""
+    pass
+
+
+class InvalidConversationTitle(DomainException):
+    def __init__(self, message: str = "Conversation title cannot be empty."):
+        super().__init__(message)
+        
+class ConversationNotFound(DomainException):
+    pass
+
+class InvalidEnum(DomainException):
+    pass
+
+class MessageNotFound(DomainException):
+    pass

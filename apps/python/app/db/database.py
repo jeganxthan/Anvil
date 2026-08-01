@@ -1,7 +1,18 @@
-from sqlalchemy.ext.asyncio import create_async_engine
+from sqlalchemy.ext.asyncio import( create_async_engine,async_sessionmaker, AsyncSession
+)
+from app.core.client import settings
 
-def get_engine():
-    engine = create_async_engine(
-    "sqlite+aiosqlite:///anvil.db", connect_args={"autocommit": False}
-    )
-    return engine
+engine = create_async_engine(settings.database_url, connect_args={"autocommit": False})
+
+AsyncSessionLocal = async_sessionmaker(
+    engine,
+    class_=AsyncSession,
+    expire_on_commit=False,
+)
+
+async def get_db():
+    async with AsyncSessionLocal() as session:
+        try:
+            yield session
+        finally:
+            await session.close()

@@ -1,0 +1,1736 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "typing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "typing",
+        "description": "typing",
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "exists",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "exists",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "logging.config",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "sqlalchemy.engine",
+        "description": "sqlalchemy.engine",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.engine",
+        "documentation": {}
+    },
+    {
+        "label": "async_engine_from_config",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "app.db.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Conversation",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "app.db.models",
+        "description": "app.db.models",
+        "isExtraImport": true,
+        "detail": "app.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncOpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncOpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncOpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.core.client",
+        "description": "app.core.client",
+        "isExtraImport": true,
+        "detail": "app.core.client",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.core.client",
+        "description": "app.core.client",
+        "isExtraImport": true,
+        "detail": "app.core.client",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.client",
+        "description": "app.core.client",
+        "isExtraImport": true,
+        "detail": "app.core.client",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.core.client",
+        "description": "app.core.client",
+        "isExtraImport": true,
+        "detail": "app.core.client",
+        "documentation": {}
+    },
+    {
+        "label": "NvidiaService",
+        "importPath": "app.services.nvidia_service",
+        "description": "app.services.nvidia_service",
+        "isExtraImport": true,
+        "detail": "app.services.nvidia_service",
+        "documentation": {}
+    },
+    {
+        "label": "NvidiaService",
+        "importPath": "app.services.nvidia_service",
+        "description": "app.services.nvidia_service",
+        "isExtraImport": true,
+        "detail": "app.services.nvidia_service",
+        "documentation": {}
+    },
+    {
+        "label": "StrEnum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "AppException",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationNotFound",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidConversationTitle",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationNotFound",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "MessageNotFound",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InternalServerError",
+        "importPath": "app.core.exceptions",
+        "description": "app.core.exceptions",
+        "isExtraImport": true,
+        "detail": "app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi.applications",
+        "description": "fastapi.applications",
+        "isExtraImport": true,
+        "detail": "fastapi.applications",
+        "documentation": {}
+    },
+    {
+        "label": "ChatCompletionMessageParam",
+        "importPath": "openai.types.chat",
+        "description": "openai.types.chat",
+        "isExtraImport": true,
+        "detail": "openai.types.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "app.schemas.chat",
+        "description": "app.schemas.chat",
+        "isExtraImport": true,
+        "detail": "app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "app.schemas.chat",
+        "description": "app.schemas.chat",
+        "isExtraImport": true,
+        "detail": "app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "importPath": "app.schemas.chat",
+        "description": "app.schemas.chat",
+        "isExtraImport": true,
+        "detail": "app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "app.schemas.chat",
+        "description": "app.schemas.chat",
+        "isExtraImport": true,
+        "detail": "app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "importPath": "app.schemas.chat",
+        "description": "app.schemas.chat",
+        "isExtraImport": true,
+        "detail": "app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "Usage",
+        "importPath": "app.schemas.chat",
+        "description": "app.schemas.chat",
+        "isExtraImport": true,
+        "detail": "app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Provider",
+        "importPath": "app.core.enum",
+        "description": "app.core.enum",
+        "isExtraImport": true,
+        "detail": "app.core.enum",
+        "documentation": {}
+    },
+    {
+        "label": "MessageRole",
+        "importPath": "app.core.enum",
+        "description": "app.core.enum",
+        "isExtraImport": true,
+        "detail": "app.core.enum",
+        "documentation": {}
+    },
+    {
+        "label": "Provider",
+        "importPath": "app.core.enum",
+        "description": "app.core.enum",
+        "isExtraImport": true,
+        "detail": "app.core.enum",
+        "documentation": {}
+    },
+    {
+        "label": "MessageRole",
+        "importPath": "app.core.enum",
+        "description": "app.core.enum",
+        "isExtraImport": true,
+        "detail": "app.core.enum",
+        "documentation": {}
+    },
+    {
+        "label": "MessageRole",
+        "importPath": "app.core.enum",
+        "description": "app.core.enum",
+        "isExtraImport": true,
+        "detail": "app.core.enum",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationCreate",
+        "importPath": "app.schemas.conversation",
+        "description": "app.schemas.conversation",
+        "isExtraImport": true,
+        "detail": "app.schemas.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationResponse",
+        "importPath": "app.schemas.conversation",
+        "description": "app.schemas.conversation",
+        "isExtraImport": true,
+        "detail": "app.schemas.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationUpdate",
+        "importPath": "app.schemas.conversation",
+        "description": "app.schemas.conversation",
+        "isExtraImport": true,
+        "detail": "app.schemas.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationCreate",
+        "importPath": "app.schemas.conversation",
+        "description": "app.schemas.conversation",
+        "isExtraImport": true,
+        "detail": "app.schemas.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationService",
+        "importPath": "app.services.conversation_service",
+        "description": "app.services.conversation_service",
+        "isExtraImport": true,
+        "detail": "app.services.conversation_service",
+        "documentation": {}
+    },
+    {
+        "label": "EventSourceResponse",
+        "importPath": "sse_starlette.sse",
+        "description": "sse_starlette.sse",
+        "isExtraImport": true,
+        "detail": "sse_starlette.sse",
+        "documentation": {}
+    },
+    {
+        "label": "get_nvidia_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationRepository",
+        "importPath": "app.repositories.conversation_repository",
+        "description": "app.repositories.conversation_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.conversation_repository",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationRepository",
+        "importPath": "app.repositories.conversation_repository",
+        "description": "app.repositories.conversation_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.conversation_repository",
+        "documentation": {}
+    },
+    {
+        "label": "MessageRepository",
+        "importPath": "app.repositories.message_repository",
+        "description": "app.repositories.message_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.message_repository",
+        "documentation": {}
+    },
+    {
+        "label": "MessageRepository",
+        "importPath": "app.repositories.message_repository",
+        "description": "app.repositories.message_repository",
+        "isExtraImport": true,
+        "detail": "app.repositories.message_repository",
+        "documentation": {}
+    },
+    {
+        "label": "Conversation",
+        "importPath": "app.db.models.conversation",
+        "description": "app.db.models.conversation",
+        "isExtraImport": true,
+        "detail": "app.db.models.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "app.db.models.message",
+        "description": "app.db.models.message",
+        "isExtraImport": true,
+        "detail": "app.db.models.message",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "app.db.models.message",
+        "description": "app.db.models.message",
+        "isExtraImport": true,
+        "detail": "app.db.models.message",
+        "documentation": {}
+    },
+    {
+        "label": "MessageCreate",
+        "importPath": "app.schemas.message",
+        "description": "app.schemas.message",
+        "isExtraImport": true,
+        "detail": "app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "serialize_messages",
+        "importPath": "app.core.utils",
+        "description": "app.core.utils",
+        "isExtraImport": true,
+        "detail": "app.core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "log_request",
+        "importPath": "app.middleware.process_time",
+        "description": "app.middleware.process_time",
+        "isExtraImport": true,
+        "detail": "app.middleware.process_time",
+        "documentation": {}
+    },
+    {
+        "label": "lifespan",
+        "importPath": "app.core.lifespan",
+        "description": "app.core.lifespan",
+        "isExtraImport": true,
+        "detail": "app.core.lifespan",
+        "documentation": {}
+    },
+    {
+        "label": "nvidia",
+        "importPath": "app.router",
+        "description": "app.router",
+        "isExtraImport": true,
+        "detail": "app.router",
+        "documentation": {}
+    },
+    {
+        "label": "register_exception_handlers",
+        "importPath": "app.core.exception_handler",
+        "description": "app.core.exception_handler",
+        "isExtraImport": true,
+        "detail": "app.core.exception_handler",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "apps.python.alembic.versions.bc7ff639da18_create_conversation_and_message_tables",
+        "description": "apps.python.alembic.versions.bc7ff639da18_create_conversation_and_message_tables",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('conversations',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('title', sa.String(length=255), nullable=False),\n    sa.Column('provider', sa.Enum('OPENAI', 'NVIDIA', 'OLLAMA', 'ANTHROPIC', 'GEMINI', name='provider'), nullable=False),\n    sa.Column('model', sa.String(length=100), nullable=False),\n    sa.Column('system_prompt', sa.Text(), nullable=True),\n    sa.Column('created_at', sa.DateTime(timezone=True), server_default=sa.text('(CURRENT_TIMESTAMP)'), nullable=False),",
+        "detail": "apps.python.alembic.versions.bc7ff639da18_create_conversation_and_message_tables",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "apps.python.alembic.versions.bc7ff639da18_create_conversation_and_message_tables",
+        "description": "apps.python.alembic.versions.bc7ff639da18_create_conversation_and_message_tables",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('messages')\n    op.drop_table('conversations')\n    # ### end Alembic commands ###",
+        "detail": "apps.python.alembic.versions.bc7ff639da18_create_conversation_and_message_tables",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "apps.python.alembic.env",
+        "description": "apps.python.alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "apps.python.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "do_run_migrations",
+        "kind": 2,
+        "importPath": "apps.python.alembic.env",
+        "description": "apps.python.alembic.env",
+        "peekOfCode": "def do_run_migrations(connection: Connection) -> None:\n    context.configure(connection=connection, target_metadata=target_metadata)\n    with context.begin_transaction():\n        context.run_migrations()\nasync def run_async_migrations() -> None:\n    \"\"\"In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = async_engine_from_config(\n        config.get_section(config.config_ini_section, {}),",
+        "detail": "apps.python.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "apps.python.alembic.env",
+        "description": "apps.python.alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\"\"\"\n    asyncio.run(run_async_migrations())\nif context.is_offline_mode():\n    run_migrations_offline()\nelse:\n    run_migrations_online()",
+        "detail": "apps.python.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "apps.python.alembic.env",
+        "description": "apps.python.alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = Base.metadata",
+        "detail": "apps.python.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "apps.python.alembic.env",
+        "description": "apps.python.alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "apps.python.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "apps.python.app.core.client",
+        "description": "apps.python.app.core.client",
+        "peekOfCode": "class Settings(BaseSettings):\n    host: str = \"127.0.0.1\"\n    port: int = 8000\n    database_url:str=Field(\n        default=\"sqlite+aiosqlite:///anvil.db\",\n        validation_alias=\"DATABASE_URL\"\n    )\n    nvidia_api_url: str = \"https://integrate.api.nvidia.com/v1\"\n    nvidia_api_key: str = Field(validation_alias=\"NVIDIA_API_KEY\")\n    model_name: str = \"nvidia/llama-3.3-nemotron-super-49b-v1.5\"",
+        "detail": "apps.python.app.core.client",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "apps.python.app.core.client",
+        "description": "apps.python.app.core.client",
+        "peekOfCode": "settings = Settings()\nCHAT_CONFIG = {\n    \"model\": settings.model_name,\n    \"max_tokens\": 65536,\n    \"temperature\": 0.6,\n    \"top_p\": 0.95,\n    \"frequency_penalty\": 0,\n    \"presence_penalty\": 0,\n    \"seed\": 0,\n}",
+        "detail": "apps.python.app.core.client",
+        "documentation": {}
+    },
+    {
+        "label": "CHAT_CONFIG",
+        "kind": 5,
+        "importPath": "apps.python.app.core.client",
+        "description": "apps.python.app.core.client",
+        "peekOfCode": "CHAT_CONFIG = {\n    \"model\": settings.model_name,\n    \"max_tokens\": 65536,\n    \"temperature\": 0.6,\n    \"top_p\": 0.95,\n    \"frequency_penalty\": 0,\n    \"presence_penalty\": 0,\n    \"seed\": 0,\n}",
+        "detail": "apps.python.app.core.client",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "kind": 2,
+        "importPath": "apps.python.app.core.dependencies",
+        "description": "apps.python.app.core.dependencies",
+        "peekOfCode": "def get_settings(request:Request)-> Settings:\n    return request.app.state.settings\ndef get_client(request:Request)->AsyncOpenAI:\n    return request.app.state.client\ndef get_chat_config(settings: Settings = Depends(get_settings)) -> dict:\n    return {\n        \"model\": settings.model_name,\n        \"max_tokens\": settings.max_tokens,\n        \"temperature\": settings.temperature,\n        \"top_p\": settings.top_p,",
+        "detail": "apps.python.app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_client",
+        "kind": 2,
+        "importPath": "apps.python.app.core.dependencies",
+        "description": "apps.python.app.core.dependencies",
+        "peekOfCode": "def get_client(request:Request)->AsyncOpenAI:\n    return request.app.state.client\ndef get_chat_config(settings: Settings = Depends(get_settings)) -> dict:\n    return {\n        \"model\": settings.model_name,\n        \"max_tokens\": settings.max_tokens,\n        \"temperature\": settings.temperature,\n        \"top_p\": settings.top_p,\n        \"frequency_penalty\": settings.frequency_penalty,\n        \"presence_penalty\": settings.presence_penalty,",
+        "detail": "apps.python.app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_config",
+        "kind": 2,
+        "importPath": "apps.python.app.core.dependencies",
+        "description": "apps.python.app.core.dependencies",
+        "peekOfCode": "def get_chat_config(settings: Settings = Depends(get_settings)) -> dict:\n    return {\n        \"model\": settings.model_name,\n        \"max_tokens\": settings.max_tokens,\n        \"temperature\": settings.temperature,\n        \"top_p\": settings.top_p,\n        \"frequency_penalty\": settings.frequency_penalty,\n        \"presence_penalty\": settings.presence_penalty,\n        \"seed\": settings.seed,\n    }",
+        "detail": "apps.python.app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_nvidia_service",
+        "kind": 2,
+        "importPath": "apps.python.app.core.dependencies",
+        "description": "apps.python.app.core.dependencies",
+        "peekOfCode": "def get_nvidia_service(\n    client: AsyncOpenAI = Depends(get_client),\n    chat_config: dict = Depends(get_chat_config),\n) -> NvidiaService:\n    return NvidiaService(client, chat_config=chat_config)",
+        "detail": "apps.python.app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "Provider",
+        "kind": 6,
+        "importPath": "apps.python.app.core.enum",
+        "description": "apps.python.app.core.enum",
+        "peekOfCode": "class Provider(StrEnum):\n    OPENAI = \"openai\"\n    NVIDIA = \"nvidia\"\n    OLLAMA = \"ollama\"\n    ANTHROPIC = \"anthropic\"\n    GEMINI = \"gemini\"\nclass MessageRole(StrEnum):\n    USER = \"user\"\n    ASSISTANT = \"assistant\"\n    SYSTEM = \"system\"",
+        "detail": "apps.python.app.core.enum",
+        "documentation": {}
+    },
+    {
+        "label": "MessageRole",
+        "kind": 6,
+        "importPath": "apps.python.app.core.enum",
+        "description": "apps.python.app.core.enum",
+        "peekOfCode": "class MessageRole(StrEnum):\n    USER = \"user\"\n    ASSISTANT = \"assistant\"\n    SYSTEM = \"system\"\n    TOOL = \"tool\"",
+        "detail": "apps.python.app.core.enum",
+        "documentation": {}
+    },
+    {
+        "label": "register_exception_handlers",
+        "kind": 2,
+        "importPath": "apps.python.app.core.exception_handler",
+        "description": "apps.python.app.core.exception_handler",
+        "peekOfCode": "def register_exception_handlers(\n    app: FastAPI,\n) -> None:\n    app.add_exception_handler(\n        AppException,\n        app_exception_handler,\n    )\n    app.add_exception_handler(\n        Exception,\n        unexpected_exception_handler,",
+        "detail": "apps.python.app.core.exception_handler",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "apps.python.app.core.exception_handler",
+        "description": "apps.python.app.core.exception_handler",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nasync def app_exception_handler(\n    request: Request,\n    exc: Exception,\n) -> JSONResponse:\n    assert isinstance(exc, AppException)\n    if exc.status_code >= 500:\n        logger.error(\n            \"%s %s - %s: %s\",\n            request.method,",
+        "detail": "apps.python.app.core.exception_handler",
+        "documentation": {}
+    },
+    {
+        "label": "AppException",
+        "kind": 6,
+        "importPath": "apps.python.app.core.exceptions",
+        "description": "apps.python.app.core.exceptions",
+        "peekOfCode": "class AppException(Exception):\n    def __init__(\n        self,\n        status_code: int,\n        error_code: str,\n        message: str,\n    ) -> None:\n        self.status_code = status_code\n        self.error_code = error_code\n        self.message = message",
+        "detail": "apps.python.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "BadRequestError",
+        "kind": 6,
+        "importPath": "apps.python.app.core.exceptions",
+        "description": "apps.python.app.core.exceptions",
+        "peekOfCode": "class BadRequestError(AppException):\n    def __init__(self, message: str) -> None:\n        super().__init__(\n            status_code=400,\n            error_code=\"BAD_REQUEST\",\n            message=message,\n        )\nclass UnauthorizedError(AppException):\n    def __init__(self, message: str = \"Unauthorized\") -> None:\n        super().__init__(",
+        "detail": "apps.python.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "UnauthorizedError",
+        "kind": 6,
+        "importPath": "apps.python.app.core.exceptions",
+        "description": "apps.python.app.core.exceptions",
+        "peekOfCode": "class UnauthorizedError(AppException):\n    def __init__(self, message: str = \"Unauthorized\") -> None:\n        super().__init__(\n            status_code=401,\n            error_code=\"UNAUTHORIZED\",\n            message=message,\n        )\nclass InternalServerError(AppException):\n    def __init__(\n        self,",
+        "detail": "apps.python.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InternalServerError",
+        "kind": 6,
+        "importPath": "apps.python.app.core.exceptions",
+        "description": "apps.python.app.core.exceptions",
+        "peekOfCode": "class InternalServerError(AppException):\n    def __init__(\n        self,\n        message: str = \"Internal server error\",\n    ) -> None:\n        super().__init__(\n            status_code=500,\n            error_code=\"INTERNAL_SERVER_ERROR\",\n            message=message,\n        )",
+        "detail": "apps.python.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "DomainException",
+        "kind": 6,
+        "importPath": "apps.python.app.core.exceptions",
+        "description": "apps.python.app.core.exceptions",
+        "peekOfCode": "class DomainException(Exception):\n    \"\"\"Base class for all business/domain exceptions.\"\"\"\n    pass\nclass InvalidConversationTitle(DomainException):\n    def __init__(self, message: str = \"Conversation title cannot be empty.\"):\n        super().__init__(message)\nclass ConversationNotFound(DomainException):\n    pass\nclass InvalidEnum(DomainException):\n    pass",
+        "detail": "apps.python.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidConversationTitle",
+        "kind": 6,
+        "importPath": "apps.python.app.core.exceptions",
+        "description": "apps.python.app.core.exceptions",
+        "peekOfCode": "class InvalidConversationTitle(DomainException):\n    def __init__(self, message: str = \"Conversation title cannot be empty.\"):\n        super().__init__(message)\nclass ConversationNotFound(DomainException):\n    pass\nclass InvalidEnum(DomainException):\n    pass\nclass MessageNotFound(DomainException):\n    pass",
+        "detail": "apps.python.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationNotFound",
+        "kind": 6,
+        "importPath": "apps.python.app.core.exceptions",
+        "description": "apps.python.app.core.exceptions",
+        "peekOfCode": "class ConversationNotFound(DomainException):\n    pass\nclass InvalidEnum(DomainException):\n    pass\nclass MessageNotFound(DomainException):\n    pass",
+        "detail": "apps.python.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidEnum",
+        "kind": 6,
+        "importPath": "apps.python.app.core.exceptions",
+        "description": "apps.python.app.core.exceptions",
+        "peekOfCode": "class InvalidEnum(DomainException):\n    pass\nclass MessageNotFound(DomainException):\n    pass",
+        "detail": "apps.python.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "MessageNotFound",
+        "kind": 6,
+        "importPath": "apps.python.app.core.exceptions",
+        "description": "apps.python.app.core.exceptions",
+        "peekOfCode": "class MessageNotFound(DomainException):\n    pass",
+        "detail": "apps.python.app.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logging",
+        "kind": 2,
+        "importPath": "apps.python.app.core.logging",
+        "description": "apps.python.app.core.logging",
+        "peekOfCode": "def setup_logging()->None:\n    logging.config.dictConfig(LOGGING_CONFIG)",
+        "detail": "apps.python.app.core.logging",
+        "documentation": {}
+    },
+    {
+        "label": "serialize_messages",
+        "kind": 2,
+        "importPath": "apps.python.app.core.utils",
+        "description": "apps.python.app.core.utils",
+        "peekOfCode": "def serialize_messages(\n    request: ChatRequest,\n) -> list[ChatCompletionMessageParam]:\n    return cast(\n        list[ChatCompletionMessageParam],\n        [\n            {\n                \"role\": message.role,\n                \"content\": message.content,\n            }",
+        "detail": "apps.python.app.core.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Conversation",
+        "kind": 6,
+        "importPath": "apps.python.app.db.models.conversation",
+        "description": "apps.python.app.db.models.conversation",
+        "peekOfCode": "class Conversation(Base):\n    __tablename__ = \"conversations\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    title: Mapped[str]=mapped_column(\n        String(255),\n        nullable=False\n    )\n    provider:Mapped[Provider]=mapped_column(\n        Enum(Provider),\n        nullable=False",
+        "detail": "apps.python.app.db.models.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "apps.python.app.db.models.message",
+        "description": "apps.python.app.db.models.message",
+        "peekOfCode": "class Message(Base):\n    __tablename__ = \"messages\"\n    id: Mapped[int] = mapped_column(primary_key=True)\n    conversation_id: Mapped[int] = mapped_column(\n        ForeignKey(\"conversations.id\", ondelete=\"CASCADE\"),\n        nullable=False,\n    )\n    role: Mapped[MessageRole] = mapped_column(\n        SQLEnum(MessageRole),\n        nullable=False,",
+        "detail": "apps.python.app.db.models.message",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "apps.python.app.db.base",
+        "description": "apps.python.app.db.base",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass",
+        "detail": "apps.python.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "apps.python.app.db.database",
+        "description": "apps.python.app.db.database",
+        "peekOfCode": "engine = create_async_engine(settings.database_url, connect_args={\"autocommit\": False})\nAsyncSessionLocal = async_sessionmaker(\n    engine,\n    class_=AsyncSession,\n    expire_on_commit=False,\n)\nasync def get_db():\n    async with AsyncSessionLocal() as session:\n        try:\n            yield session",
+        "detail": "apps.python.app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "kind": 5,
+        "importPath": "apps.python.app.db.database",
+        "description": "apps.python.app.db.database",
+        "peekOfCode": "AsyncSessionLocal = async_sessionmaker(\n    engine,\n    class_=AsyncSession,\n    expire_on_commit=False,\n)\nasync def get_db():\n    async with AsyncSessionLocal() as session:\n        try:\n            yield session\n        finally:",
+        "detail": "apps.python.app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationRepository",
+        "kind": 6,
+        "importPath": "apps.python.app.repositories.conversation_repository",
+        "description": "apps.python.app.repositories.conversation_repository",
+        "peekOfCode": "class ConversationRepository:\n    def __init__(self, session:AsyncSession):\n        self.session = session\n    async def get_by_id(self, conversation_id:int)->Conversation|None:\n        return await self.session.get(Conversation, conversation_id)\n    async def list(self) -> Sequence[Conversation]:\n        stmt = (\n            select(Conversation)\n            .order_by(Conversation.created_at.asc())\n            )",
+        "detail": "apps.python.app.repositories.conversation_repository",
+        "documentation": {}
+    },
+    {
+        "label": "MessageRepository",
+        "kind": 6,
+        "importPath": "apps.python.app.repositories.message_repository",
+        "description": "apps.python.app.repositories.message_repository",
+        "peekOfCode": "class MessageRepository:\n    def __init__(self, session:AsyncSession):\n        self.session=session\n    async def get_by_id(self, message_id:int)->Message|None:\n        return await self.session.get(Message, message_id) \n    async def list(self, conversation_id: int)->Sequence[Message]:\n        stmt = (\n           select(Message)\n        .where(Message.conversation_id == conversation_id)\n        .order_by(Message.position)",
+        "detail": "apps.python.app.repositories.message_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_service",
+        "kind": 2,
+        "importPath": "apps.python.app.router.conversation_router",
+        "description": "apps.python.app.router.conversation_router",
+        "peekOfCode": "def get_service(db:AsyncSession=Depends(get_db)):\n    return ConversationService(db)\n@router.post(\"/\", response_model=ConversationResponse)\nasync def create_conversation(request:ConversationCreate, service:ConversationService=Depends(get_service)):\n    return await service.create(request)\n@router.get(\"/\", response_model=ConversationResponse)\nasync def list_conversation(service:ConversationService=Depends(get_service)):\n    return await service.list()\n@router.get(\"/{conversation_id}\", response_model=ConversationResponse)\nasync def get_conversation(conversation_id:int, service:ConversationService=Depends(get_service)):",
+        "detail": "apps.python.app.router.conversation_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "apps.python.app.router.conversation_router",
+        "description": "apps.python.app.router.conversation_router",
+        "peekOfCode": "router = APIRouter(prefix=\"/conversation\", tags=[\"conversation\"])\ndef get_service(db:AsyncSession=Depends(get_db)):\n    return ConversationService(db)\n@router.post(\"/\", response_model=ConversationResponse)\nasync def create_conversation(request:ConversationCreate, service:ConversationService=Depends(get_service)):\n    return await service.create(request)\n@router.get(\"/\", response_model=ConversationResponse)\nasync def list_conversation(service:ConversationService=Depends(get_service)):\n    return await service.list()\n@router.get(\"/{conversation_id}\", response_model=ConversationResponse)",
+        "detail": "apps.python.app.router.conversation_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "apps.python.app.router.nvidia",
+        "description": "apps.python.app.router.nvidia",
+        "peekOfCode": "router = APIRouter(prefix=\"/nvidia\", tags=[\"nvidia\"])\n@router.post(\"/chat/stream\")\nasync def stream(\n    request: ChatRequest, service: NvidiaService = Depends(get_nvidia_service)\n):\n    return EventSourceResponse(service.generate_stream(request))\n@router.post(\"/chat\", response_model=ChatResponse)\nasync def chat(\n    request: ChatRequest, service: NvidiaService = Depends(get_nvidia_service)\n):",
+        "detail": "apps.python.app.router.nvidia",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.chat",
+        "description": "apps.python.app.schemas.chat",
+        "peekOfCode": "class Message(BaseModel):\n    role: Literal[\"system\", \"user\", \"assistant\"]\n    content: str\nclass ChatRequest(BaseModel):\n    messages: list[Message]\nclass Usage(BaseModel):\n    prompt_tokens: int\n    completion_tokens: int\n    total_tokens: int\nclass ChatResponse(BaseModel):",
+        "detail": "apps.python.app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.chat",
+        "description": "apps.python.app.schemas.chat",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    messages: list[Message]\nclass Usage(BaseModel):\n    prompt_tokens: int\n    completion_tokens: int\n    total_tokens: int\nclass ChatResponse(BaseModel):\n    id: str\n    model: str\n    answer: str",
+        "detail": "apps.python.app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "Usage",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.chat",
+        "description": "apps.python.app.schemas.chat",
+        "peekOfCode": "class Usage(BaseModel):\n    prompt_tokens: int\n    completion_tokens: int\n    total_tokens: int\nclass ChatResponse(BaseModel):\n    id: str\n    model: str\n    answer: str\n    usage: Usage | None = None",
+        "detail": "apps.python.app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.chat",
+        "description": "apps.python.app.schemas.chat",
+        "peekOfCode": "class ChatResponse(BaseModel):\n    id: str\n    model: str\n    answer: str\n    usage: Usage | None = None",
+        "detail": "apps.python.app.schemas.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationBase",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.conversation",
+        "description": "apps.python.app.schemas.conversation",
+        "peekOfCode": "class ConversationBase(BaseModel):\n    title: str = Field(min_length=1, max_length=255)\n    provider: Provider\n    model: str = Field(min_length=1, max_length=100)\n    system_prompt: str | None = None\nclass ConversationCreate(ConversationBase):\n    pass\nclass ConversationUpdate(BaseModel):\n    title: str | None = Field(\n        default=None,",
+        "detail": "apps.python.app.schemas.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationCreate",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.conversation",
+        "description": "apps.python.app.schemas.conversation",
+        "peekOfCode": "class ConversationCreate(ConversationBase):\n    pass\nclass ConversationUpdate(BaseModel):\n    title: str | None = Field(\n        default=None,\n        min_length=1,\n        max_length=255,\n    )\n    provider: Provider | None = None\n    model: str = Field(min_length=1, max_length=100)",
+        "detail": "apps.python.app.schemas.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationUpdate",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.conversation",
+        "description": "apps.python.app.schemas.conversation",
+        "peekOfCode": "class ConversationUpdate(BaseModel):\n    title: str | None = Field(\n        default=None,\n        min_length=1,\n        max_length=255,\n    )\n    provider: Provider | None = None\n    model: str = Field(min_length=1, max_length=100)\n    system_prompt: str | None = None\nclass ConversationResponse(ConversationBase):",
+        "detail": "apps.python.app.schemas.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationResponse",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.conversation",
+        "description": "apps.python.app.schemas.conversation",
+        "peekOfCode": "class ConversationResponse(ConversationBase):\n    id: int\n    created_at: datetime\n    updated_at: datetime\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "apps.python.app.schemas.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "MessageBase",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.message",
+        "description": "apps.python.app.schemas.message",
+        "peekOfCode": "class MessageBase(BaseModel):\n    conversation_id: int\n    role: MessageRole\n    content: str = Field(\n        min_length=1,\n        max_length=100_000,\n    )\nclass MessageCreate(MessageBase):\n    pass\nclass MessageUpdate(BaseModel):",
+        "detail": "apps.python.app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "MessageCreate",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.message",
+        "description": "apps.python.app.schemas.message",
+        "peekOfCode": "class MessageCreate(MessageBase):\n    pass\nclass MessageUpdate(BaseModel):\n    content: str = Field(min_length=1)\nclass MessageResponse(MessageBase):\n    id: int\n    conversation_id: int\n    position: int\n    created_at: datetime\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "apps.python.app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "MessageUpdate",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.message",
+        "description": "apps.python.app.schemas.message",
+        "peekOfCode": "class MessageUpdate(BaseModel):\n    content: str = Field(min_length=1)\nclass MessageResponse(MessageBase):\n    id: int\n    conversation_id: int\n    position: int\n    created_at: datetime\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "apps.python.app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "MessageResponse",
+        "kind": 6,
+        "importPath": "apps.python.app.schemas.message",
+        "description": "apps.python.app.schemas.message",
+        "peekOfCode": "class MessageResponse(MessageBase):\n    id: int\n    conversation_id: int\n    position: int\n    created_at: datetime\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "apps.python.app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationService",
+        "kind": 6,
+        "importPath": "apps.python.app.services.conversation_service",
+        "description": "apps.python.app.services.conversation_service",
+        "peekOfCode": "class ConversationService:\n    def __init__(self, session: AsyncSession):\n        self.conversation_repo = ConversationRepository(session)\n        self.message_repo = MessageRepository(session)\n        self.session = session\n    async def create(self,data:ConversationCreate) -> Conversation:\n        title=data.title.strip()\n        if not title:\n            raise InvalidConversationTitle()\n        try:",
+        "detail": "apps.python.app.services.conversation_service",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "apps.python.app.services.conversation_service",
+        "description": "apps.python.app.services.conversation_service",
+        "peekOfCode": "DEFAULT_SYSTEM_PROMPT = \"You are a helpful assistant.\"\nclass ConversationService:\n    def __init__(self, session: AsyncSession):\n        self.conversation_repo = ConversationRepository(session)\n        self.message_repo = MessageRepository(session)\n        self.session = session\n    async def create(self,data:ConversationCreate) -> Conversation:\n        title=data.title.strip()\n        if not title:\n            raise InvalidConversationTitle()",
+        "detail": "apps.python.app.services.conversation_service",
+        "documentation": {}
+    },
+    {
+        "label": "MessageService",
+        "kind": 6,
+        "importPath": "apps.python.app.services.message_service",
+        "description": "apps.python.app.services.message_service",
+        "peekOfCode": "class MessageService:\n    def __init__(self, session: AsyncSession):\n        self.conversation_repo = ConversationRepository(session)\n        self.message_repo = MessageRepository(session)\n        self.session = session\n    async def create(self, data: MessageCreate) -> Message:\n        conversation = await self.conversation_repo.get_by_id(\n            data.conversation_id\n        )\n        if conversation is None:",
+        "detail": "apps.python.app.services.message_service",
+        "documentation": {}
+    },
+    {
+        "label": "NvidiaService",
+        "kind": 6,
+        "importPath": "apps.python.app.services.nvidia_service",
+        "description": "apps.python.app.services.nvidia_service",
+        "peekOfCode": "class NvidiaService:\n    def __init__(self, client: AsyncOpenAI, chat_config: dict):\n        self.client = client\n        self.chat_config = chat_config\n    async def generate_chat(self, request: ChatRequest) -> ChatResponse:\n        messages = serialize_messages(request)\n        try:\n            response = await self.client.chat.completions.create(\n                messages=messages, **self.chat_config\n            )",
+        "detail": "apps.python.app.services.nvidia_service",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "apps.python.app.main",
+        "description": "apps.python.app.main",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan)\napp.include_router(nvidia.router)\napp.middleware(\"http\")(log_request)\nregister_exception_handlers(app)\n@app.get(\"/\")\nasync def root():\n    return {\"message\": \"Hello World\"}",
+        "detail": "apps.python.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "apps.python.run",
+        "description": "apps.python.run",
+        "peekOfCode": "def main():\n    uvicorn.run(\n        \"app.main:app\",\n        host=\"127.0.0.1\",\n        port=8000,\n        reload=True,\n    )\nif __name__ == \"__main__\":\n    main()",
+        "detail": "apps.python.run",
+        "documentation": {}
+    }
+]

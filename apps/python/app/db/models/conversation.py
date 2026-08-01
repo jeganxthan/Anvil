@@ -51,3 +51,18 @@ class Conversation(Base):
         onupdate=func.now(),
         nullable=False
     )
+
+    @classmethod
+    def from_create(
+        cls,
+        title: str,
+        provider: Provider,
+        model: str,
+        system_prompt: str | None = None,
+    ) -> "Conversation":
+        return cls(
+            title=title.strip(),
+            provider=provider,
+            model=model,
+            system_prompt=system_prompt,
+        )

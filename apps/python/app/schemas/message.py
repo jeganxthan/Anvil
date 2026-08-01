@@ -6,6 +6,7 @@ from app.core.enum import MessageRole
 
 
 class MessageBase(BaseModel):
+    conversation_id: int
     role: MessageRole
     content: str = Field(
         min_length=1,

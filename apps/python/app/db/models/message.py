@@ -46,3 +46,18 @@ class Message(Base):
     conversation: Mapped["Conversation"] = relationship(
         back_populates="messages",
     )
+
+    @classmethod
+    def from_create(
+        cls,
+        conversation_id: int,
+        role: MessageRole,
+        content: str,
+        position: int,
+    ) -> "Message":
+        return cls(
+            conversation_id=conversation_id,
+            role=role,
+            content=content,
+            position=position,
+        )

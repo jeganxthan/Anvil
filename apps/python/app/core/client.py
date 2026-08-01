@@ -6,6 +6,10 @@ class Settings(BaseSettings):
     host: str = "127.0.0.1"
     port: int = 8000
 
+    database_url:str=Field(
+        default="sqlite+aiosqlite:///anvil.db",
+        validation_alias="DATABASE_URL"
+    )
     nvidia_api_url: str = "https://integrate.api.nvidia.com/v1"
 
     nvidia_api_key: str = Field(validation_alias="NVIDIA_API_KEY")

@@ -1,25 +1,6 @@
-from typing import Literal
-
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
-class Message(BaseModel):
-    role: Literal["system", "user", "assistant"]
-    content: str
-
-
-class ChatRequest(BaseModel):
-    messages: list[Message]
-
-
-class Usage(BaseModel):
-    prompt_tokens: int
-    completion_tokens: int
-    total_tokens: int
-
-
-class ChatResponse(BaseModel):
-    id: str
-    model: str
-    answer: str
-    usage: Usage | None = None
+class ChatGenerateRequest(BaseModel):
+    conversation_id: int = Field(gt=0)
+    content: str = Field(min_length=1)

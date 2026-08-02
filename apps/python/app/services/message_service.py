@@ -59,7 +59,38 @@ class MessageService:
             raise ConversationNotFound()
 
         return await self.message_repo.list(conversation_id)
+    
+    async def get(
+        self,
+        message_id: int,
+    ) -> Message:
 
+        message = await self.message_repo.get_by_id(message_id)
+
+        if message is None:
+            raise MessageNotFound()
+
+        return message
+    
+    async def update(
+        self,
+        message_id: int,
+        content: str,
+    ) -> Message:
+
+        message = await self.message_repo.get_by_id(message_id)
+
+        if message is None:
+            raise MessageNotFound()
+
+        message.content = content.strip()
+
+        updated = await self.message_repo.update(message)
+
+        await self.session.commit()
+
+        return updated
+    
     async def delete(
         self,
         message_id: int,

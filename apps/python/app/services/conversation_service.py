@@ -57,7 +57,7 @@ class ConversationService:
             raise ConversationNotFound()
         return conversation
     
-    async def rename(self, conversation_id:int, title:str)->Conversation:
+    async def update(self, conversation_id:int, title:str)->Conversation:
         conversation=await self.conversation_repo.get_by_id(conversation_id)
         if conversation is None:
             raise ConversationNotFound()

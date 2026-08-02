@@ -17,8 +17,7 @@ class ConversationCreate(ConversationBase):
 
 
 class ConversationUpdate(BaseModel):
-    title: str | None = Field(
-        default=None,
+    title: str= Field(
         min_length=1,
         max_length=255,
     )

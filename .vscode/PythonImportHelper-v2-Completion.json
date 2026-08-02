@@ -344,6 +344,14 @@
         "documentation": {}
     },
     {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
         "label": "Base",
         "importPath": "app.db.base",
         "description": "app.db.base",
@@ -506,6 +514,22 @@
     },
     {
         "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -995,11 +1019,51 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
         "label": "ConversationService",
         "importPath": "app.services.conversation_service",
         "description": "app.services.conversation_service",
         "isExtraImport": true,
         "detail": "app.services.conversation_service",
+        "documentation": {}
+    },
+    {
+        "label": "MessageCreate",
+        "importPath": "app.schemas.message",
+        "description": "app.schemas.message",
+        "isExtraImport": true,
+        "detail": "app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "MessageResponse",
+        "importPath": "app.schemas.message",
+        "description": "app.schemas.message",
+        "isExtraImport": true,
+        "detail": "app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "MessageCreate",
+        "importPath": "app.schemas.message",
+        "description": "app.schemas.message",
+        "isExtraImport": true,
+        "detail": "app.schemas.message",
+        "documentation": {}
+    },
+    {
+        "label": "MessageService",
+        "importPath": "app.services.message_service",
+        "description": "app.services.message_service",
+        "isExtraImport": true,
+        "detail": "app.services.message_service",
         "documentation": {}
     },
     {
@@ -1080,14 +1144,6 @@
         "description": "app.db.models.message",
         "isExtraImport": true,
         "detail": "app.db.models.message",
-        "documentation": {}
-    },
-    {
-        "label": "MessageCreate",
-        "importPath": "app.schemas.message",
-        "description": "app.schemas.message",
-        "isExtraImport": true,
-        "detail": "app.schemas.message",
         "documentation": {}
     },
     {
@@ -1560,6 +1616,24 @@
         "description": "apps.python.app.router.conversation_router",
         "peekOfCode": "router = APIRouter(prefix=\"/conversation\", tags=[\"conversation\"])\ndef get_service(db:AsyncSession=Depends(get_db)):\n    return ConversationService(db)\n@router.post(\"/\", response_model=ConversationResponse)\nasync def create_conversation(request:ConversationCreate, service:ConversationService=Depends(get_service)):\n    return await service.create(request)\n@router.get(\"/\", response_model=ConversationResponse)\nasync def list_conversation(service:ConversationService=Depends(get_service)):\n    return await service.list()\n@router.get(\"/{conversation_id}\", response_model=ConversationResponse)",
         "detail": "apps.python.app.router.conversation_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_service",
+        "kind": 2,
+        "importPath": "apps.python.app.router.message_router",
+        "description": "apps.python.app.router.message_router",
+        "peekOfCode": "def get_service(db:AsyncSession=Depends(get_db)):\n    return MessageService(db)\n@router.post(\"/\", response_model=MessageResponse)\nasync def create_message(request:MessageCreate, service:MessageService=Depends(get_service)):\n    return await service.create(request)\n@router.get(\"/\", resopnse_model=MessageResponse)\nasync def list_message(message_id:int, service:MessageService=Depends(get_service)):\n    return await service.list(message_id)\n@router.get(\"/{message_id}\", response_model=MessageResponse)\nasync def get_message(message_id:int, service:MessageService=Depends(get_service)):",
+        "detail": "apps.python.app.router.message_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "apps.python.app.router.message_router",
+        "description": "apps.python.app.router.message_router",
+        "peekOfCode": "router = APIRouter(prefix=\"/message\", tags=[\"message\"])\ndef get_service(db:AsyncSession=Depends(get_db)):\n    return MessageService(db)\n@router.post(\"/\", response_model=MessageResponse)\nasync def create_message(request:MessageCreate, service:MessageService=Depends(get_service)):\n    return await service.create(request)\n@router.get(\"/\", resopnse_model=MessageResponse)\nasync def list_message(message_id:int, service:MessageService=Depends(get_service)):\n    return await service.list(message_id)\n@router.get(\"/{message_id}\", response_model=MessageResponse)",
+        "detail": "apps.python.app.router.message_router",
         "documentation": {}
     },
     {

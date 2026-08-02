@@ -6,35 +6,49 @@ class Settings(BaseSettings):
     host: str = "127.0.0.1"
     port: int = 8000
 
-    database_url:str=Field(
+    database_url: str = Field(
         default="sqlite+aiosqlite:///anvil.db",
-        validation_alias="DATABASE_URL"
+        validation_alias="DATABASE_URL",
     )
-    nvidia_api_url: str = "https://integrate.api.nvidia.com/v1"
 
-    nvidia_api_key: str = Field(validation_alias="NVIDIA_API_KEY")
+    # NVIDIA
+    nvidia_api_url: str = Field(
+        default="https://integrate.api.nvidia.com/v1",
+        validation_alias="NVIDIA_API_URL",
+    )
 
-    model_name: str = "nvidia/llama-3.3-nemotron-super-49b-v1.5"
-    max_tokens: int = 65536
-    temperature: float = 0.6
-    top_p: float = 0.95
-    frequency_penalty: int = 0
-    presence_penalty: int = 0
-    seed: int = 0
+    nvidia_api_key: str = Field(
+        validation_alias="NVIDIA_API_KEY",
+    )
+
+    nvidia_model: str = Field(
+        default="nvidia/llama-3.3-nemotron-super-49b-v1.5",
+        validation_alias="NVIDIA_MODEL",
+    )
+
+    # Generation defaults
+    temperature: float = Field(default=0.6, validation_alias="TEMPERATURE")
+
+    max_tokens: int = Field(default=65536, validation_alias="MAX_TOKENS")
+
+    top_p: float = Field(default=0.95, validation_alias="TOP_P")
+
+    frequency_penalty: float = Field(
+        default=0.0,
+        validation_alias="FREQUENCY_PENALTY",
+    )
+
+    presence_penalty: float = Field(
+        default=0.0,
+        validation_alias="PRESENCE_PENALTY",
+    )
+
+    seed: int = Field(default=0, validation_alias="SEED")
+
     model_config = SettingsConfigDict(
         env_file=".env",
         extra="ignore",
     )
 
+
 settings = Settings()
-
-
-CHAT_CONFIG = {
-    "model": settings.model_name,
-    "max_tokens": 65536,
-    "temperature": 0.6,
-    "top_p": 0.95,
-    "frequency_penalty": 0,
-    "presence_penalty": 0,
-    "seed": 0,
-}

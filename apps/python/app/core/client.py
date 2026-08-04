@@ -49,6 +49,12 @@ class Settings(BaseSettings):
         env_file=".env",
         extra="ignore",
     )
+    
+    embedding_model: str = (
+    "sentence-transformers/all-MiniLM-L6-v2"
+    )
+    
+    embedding_device:str="cpu"
 
 
 settings = Settings()

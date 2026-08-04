@@ -7,7 +7,7 @@ class ProviderRegistry:
         self._providers: dict[Provider, BaseProvider] = {}
 
     def register(self, provider: BaseProvider) -> None:
-        info = provider.get_provider_info()
+        info = provider.info
         self._providers[info.provider] = provider
 
     def get(self, provider: Provider) -> BaseProvider:

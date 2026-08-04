@@ -75,7 +75,8 @@ class NvidiaProvider(BaseProvider):
                 "Failed to stream response."
             ) from exc
 
-    async def get_provider_info(self) -> ProviderInfo:
+    @property
+    async def info(self) -> ProviderInfo:
 
         return ProviderInfo(
             provider=Provider.NVIDIA,

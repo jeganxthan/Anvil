@@ -3,13 +3,13 @@ from abc import ABC, abstractmethod
 from langchain_core.documents import Document
 
 
-class BaseDocumentTransformer(ABC):
+class BaseSplitter(ABC):
     @abstractmethod
-    async def transform(
+    async def split(
         self,
         documents: list[Document],
     ) -> list[Document]:
         """
-        Transform one or more documents.
+        Split documents into smaller chunks.
         """
         raise NotImplementedError

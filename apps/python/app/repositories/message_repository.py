@@ -2,6 +2,7 @@ from collections.abc import Sequence
 from sqlalchemy import select, exists, func
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.db.models import Message
+from sqlalchemy import func, select
 
 class MessageRepository:
     def __init__(self, session:AsyncSession):
@@ -39,7 +40,6 @@ class MessageRepository:
     async def delete(self, message:Message)->None:
         await self.session.delete(message)
         
-    from sqlalchemy import func, select
 
     async def next_position(
         self,

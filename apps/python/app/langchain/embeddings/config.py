@@ -1,0 +1,16 @@
+DEFAULT_MODEL = "BAAI/bge-small-en-v1.5"
+
+DEFAULT_DEVICE = "cpu"
+
+DEFAULT_NORMALIZE = True
+
+DEFAULT_BATCH_SIZE = 32
+
+DEFAULT_ENCODE_KWARGS = {
+    "normalize_embeddings": DEFAULT_NORMALIZE,
+    "batch_size": DEFAULT_BATCH_SIZE,
+}
+
+DEFAULT_MODEL_KWARGS = {
+    "device": DEFAULT_DEVICE,
+}

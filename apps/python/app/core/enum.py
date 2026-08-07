@@ -1,12 +1,9 @@
 from enum import StrEnum
 
 
+
 class Provider(StrEnum):
-    OPENAI = "openai"
-    NVIDIA = "nvidia"
-    OLLAMA = "ollama"
-    ANTHROPIC = "anthropic"
-    GEMINI = "gemini"
+    LITELLM = "litellm"
 
 class MessageRole(StrEnum):
     USER = "user"

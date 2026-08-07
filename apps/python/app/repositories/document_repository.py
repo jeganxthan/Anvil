@@ -1,4 +1,4 @@
-from sqlalchemy import delete, exists, select
+from sqlalchemy import delete, exists, select, func
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.models.document import Document
@@ -84,6 +84,39 @@ class DocumentRepository:
         await self.session.execute(
             delete(Document).where(
                 Document.id == document_id,
+            )
+        )
+
+        await self.session.flush()
+        
+    async def update(
+        self,
+        document: Document,
+    ) -> Document:
+        await self.session.flush()
+        await self.session.refresh(document)
+
+        return document
+    
+
+    async def count(
+        self,
+    ) -> int:
+        stmt = select(func.count()).select_from(
+            Document
+        )
+
+        result = await self.session.execute(stmt)
+
+        return result.scalar_one()
+    
+    async def delete_by_path(
+    self,
+    path: str,
+) -> None:
+        await self.session.execute(
+            delete(Document).where(
+                Document.path == path,
             )
         )
 

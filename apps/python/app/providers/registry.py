@@ -6,9 +6,14 @@ class ProviderRegistry:
     def __init__(self):
         self._providers: dict[Provider, BaseProvider] = {}
 
-    def register(self, provider: BaseProvider) -> None:
-        info = provider.info
-        self._providers[info.provider] = provider
+    def register(
+        self,
+        provider: BaseProvider,
+    ) -> None:
+        self._providers[provider.provider] = provider
 
-    def get(self, provider: Provider) -> BaseProvider:
+    def get(
+        self,
+        provider: Provider,
+    ) -> BaseProvider:
         return self._providers[provider]

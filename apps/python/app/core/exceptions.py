@@ -58,3 +58,6 @@ class InvalidEnum(DomainException):
 
 class MessageNotFound(DomainException):
     pass
+
+class PromptNotFound(DomainException):
+    pass

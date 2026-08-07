@@ -5,7 +5,7 @@ from langchain_core.documents import Document
 
 class BaseSplitter(ABC):
     @abstractmethod
-    async def split(
+    def split(
         self,
         documents: list[Document],
     ) -> list[Document]:

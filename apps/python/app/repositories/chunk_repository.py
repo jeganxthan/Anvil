@@ -1,8 +1,8 @@
 from collections.abc import Sequence
-from sqlalchemy import delete, select
+from sqlalchemy import delete, select, exists, func
 from sqlalchemy.ext.asyncio import AsyncSession
-from app.vectorstore.model import ChunkCreate
 from app.db.models.chunk import Chunk
+from app.schemas.chunk import ChunkCreate
 
 class ChunkRepository:
     def __init__(
@@ -79,7 +79,19 @@ class ChunkRepository:
             for chunk_id in chunk_ids
             if chunk_id in chunk_map
         ]
-    
+    async def exists(
+        self,
+        chunk_id: int,
+    ) -> bool:
+        stmt = select(
+            exists().where(
+                Chunk.id == chunk_id,
+            )
+        )
+
+        result = await self.session.execute(stmt)
+
+        return bool(result.scalar())
     async def list(
         self,
         document_id: int,
@@ -139,3 +151,18 @@ class ChunkRepository:
         )
 
         await self.session.flush()
+        
+    async def count(
+        self,
+        document_id: int | None = None,
+    ) -> int:
+        stmt = select(func.count()).select_from(Chunk)
+
+        if document_id is not None:
+            stmt = stmt.where(
+                Chunk.document_id == document_id
+            )
+
+        result = await self.session.execute(stmt)
+
+        return result.scalar_one()

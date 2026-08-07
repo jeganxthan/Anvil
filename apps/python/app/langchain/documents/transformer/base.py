@@ -5,7 +5,7 @@ from langchain_core.documents import Document
 
 class BaseDocumentTransformer(ABC):
     @abstractmethod
-    async def transform(
+    def transform(
         self,
         documents: list[Document],
     ) -> list[Document]:

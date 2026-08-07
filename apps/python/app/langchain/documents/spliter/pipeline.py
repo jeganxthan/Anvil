@@ -1,6 +1,6 @@
 from langchain_core.documents import Document
-from app.langchain.documents.spliter.base import BaseSplitter
 
+from app.langchain.documents.spliter.base import BaseSplitter
 
 
 class SplitterPipeline:
@@ -13,12 +13,12 @@ class SplitterPipeline:
     ) -> None:
         self.splitters.append(splitter)
 
-    async def split(
+    def split(
         self,
         documents: list[Document],
     ) -> list[Document]:
         for splitter in self.splitters:
-            documents = await splitter.split(
+            documents = splitter.split(
                 documents,
             )
 

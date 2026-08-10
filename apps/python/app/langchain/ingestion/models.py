@@ -6,12 +6,14 @@ from pydantic import BaseModel
 class IngestionRequest(BaseModel):
     path: Path
 
-    document_id: int
+    chunk_size: int = 500
 
-    loader: str | None = None
+    chunk_overlap: int = 50
 
 
 class IngestionResponse(BaseModel):
-    documents: int
+    document_id: int
 
     chunks: int
+
+    embeddings: int

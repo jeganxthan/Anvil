@@ -1,0 +1,2471 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "BigInteger",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "sqlalchemy.engine",
+        "description": "sqlalchemy.engine",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.engine",
+        "documentation": {}
+    },
+    {
+        "label": "async_engine_from_config",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
+        "isExtraImport": true,
+        "detail": "app.db.models.document",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
+        "isExtraImport": true,
+        "detail": "app.db.models.document",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
+        "isExtraImport": true,
+        "detail": "app.db.models.document",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
+        "isExtraImport": true,
+        "detail": "app.db.models.document",
+        "documentation": {}
+    },
+    {
+        "label": "Chunk",
+        "importPath": "app.db.models.chunk",
+        "description": "app.db.models.chunk",
+        "isExtraImport": true,
+        "detail": "app.db.models.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "Chunk",
+        "importPath": "app.db.models.chunk",
+        "description": "app.db.models.chunk",
+        "isExtraImport": true,
+        "detail": "app.db.models.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "Chunk",
+        "importPath": "app.db.models.chunk",
+        "description": "app.db.models.chunk",
+        "isExtraImport": true,
+        "detail": "app.db.models.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "app.core.dependencies",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_chunk_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_document_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
+        "isExtraImport": true,
+        "detail": "app.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
+        "isExtraImport": true,
+        "detail": "app.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelService",
+        "importPath": "app.services.embedding_service",
+        "description": "app.services.embedding_service",
+        "isExtraImport": true,
+        "detail": "app.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelService",
+        "importPath": "app.services.embedding_service",
+        "description": "app.services.embedding_service",
+        "isExtraImport": true,
+        "detail": "app.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelService",
+        "importPath": "app.services.embedding_service",
+        "description": "app.services.embedding_service",
+        "isExtraImport": true,
+        "detail": "app.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkService",
+        "importPath": "app.services.chunk_service",
+        "description": "app.services.chunk_service",
+        "isExtraImport": true,
+        "detail": "app.services.chunk_service",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkService",
+        "importPath": "app.services.chunk_service",
+        "description": "app.services.chunk_service",
+        "isExtraImport": true,
+        "detail": "app.services.chunk_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "app.services.document_service",
+        "description": "app.services.document_service",
+        "isExtraImport": true,
+        "detail": "app.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "app.services.document_service",
+        "description": "app.services.document_service",
+        "isExtraImport": true,
+        "detail": "app.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "SecretStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain_huggingface",
+        "description": "langchain_huggingface",
+        "isExtraImport": true,
+        "detail": "langchain_huggingface",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingProvider",
+        "importPath": "app.langchain.embedding.base",
+        "description": "app.langchain.embedding.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.base",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingProvider",
+        "importPath": "app.langchain.embedding.base",
+        "description": "app.langchain.embedding.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.base",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingProvider",
+        "importPath": "app.langchain.embedding.base",
+        "description": "app.langchain.embedding.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.base",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingProvider",
+        "importPath": "app.langchain.embedding.base",
+        "description": "app.langchain.embedding.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.base",
+        "documentation": {}
+    },
+    {
+        "label": "Embeddings",
+        "importPath": "langchain_core.embeddings",
+        "description": "langchain_core.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain_core.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "Embeddings",
+        "importPath": "langchain_core.embeddings",
+        "description": "langchain_core.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain_core.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "Embeddings",
+        "importPath": "langchain_core.embeddings",
+        "description": "langchain_core.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain_core.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaEmbeddings",
+        "importPath": "langchain_ollama",
+        "description": "langchain_ollama",
+        "isExtraImport": true,
+        "detail": "langchain_ollama",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIEmbeddings",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceProvider",
+        "importPath": "app.langchain.embedding.provider.huggingface_embedding",
+        "description": "app.langchain.embedding.provider.huggingface_embedding",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.provider.huggingface_embedding",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaProvider",
+        "importPath": "app.langchain.embedding.provider.ollama_embedding",
+        "description": "app.langchain.embedding.provider.ollama_embedding",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.provider.ollama_embedding",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIProvider",
+        "importPath": "app.langchain.embedding.provider.openai_embedding",
+        "description": "app.langchain.embedding.provider.openai_embedding",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.provider.openai_embedding",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "VectorStore",
+        "importPath": "langchain_core.vectorstores",
+        "description": "langchain_core.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_core.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkCreate",
+        "importPath": "app.db.schemas.chunk",
+        "description": "app.db.schemas.chunk",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkCreate",
+        "importPath": "app.db.schemas.chunk",
+        "description": "app.db.schemas.chunk",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkCreate",
+        "importPath": "app.db.schemas.chunk",
+        "description": "app.db.schemas.chunk",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkResponse",
+        "importPath": "app.db.schemas.chunk",
+        "description": "app.db.schemas.chunk",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkCreate",
+        "importPath": "app.db.schemas.chunk",
+        "description": "app.db.schemas.chunk",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "importPath": "app.db.schemas.document",
+        "description": "app.db.schemas.document",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "importPath": "app.db.schemas.document",
+        "description": "app.db.schemas.document",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "importPath": "app.db.schemas.document",
+        "description": "app.db.schemas.document",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentResponse",
+        "importPath": "app.db.schemas.document",
+        "description": "app.db.schemas.document",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "importPath": "app.db.schemas.document",
+        "description": "app.db.schemas.document",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentTransformer",
+        "importPath": "app.langchain.ingestion.transformer",
+        "description": "app.langchain.ingestion.transformer",
+        "isExtraImport": true,
+        "detail": "app.langchain.ingestion.transformer",
+        "documentation": {}
+    },
+    {
+        "label": "LoaderRegistry",
+        "importPath": "app.langchain.loaders.registry",
+        "description": "app.langchain.loaders.registry",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.registry",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkRepository",
+        "importPath": "app.repository.chunk_repo",
+        "description": "app.repository.chunk_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.chunk_repo",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkRepository",
+        "importPath": "app.repository.chunk_repo",
+        "description": "app.repository.chunk_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.chunk_repo",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "importPath": "app.repository.document_repo",
+        "description": "app.repository.document_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.document_repo",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "importPath": "app.repository.document_repo",
+        "description": "app.repository.document_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.document_repo",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "UnstructuredHTMLLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "JSONLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "UnstructuredMarkdownLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PyMuPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "TextDocumentLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "WebBaseLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PDFLoader",
+        "importPath": "app.langchain.loaders.pdf",
+        "description": "app.langchain.loaders.pdf",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.pdf",
+        "documentation": {}
+    },
+    {
+        "label": "TextDocumentLoader",
+        "importPath": "app.langchain.loaders.text",
+        "description": "app.langchain.loaders.text",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.text",
+        "documentation": {}
+    },
+    {
+        "label": "JSONDocumentLoader",
+        "importPath": "app.langchain.loaders.json",
+        "description": "app.langchain.loaders.json",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.json",
+        "documentation": {}
+    },
+    {
+        "label": "MarkdownDocumentLoader",
+        "importPath": "app.langchain.loaders.markdown",
+        "description": "app.langchain.loaders.markdown",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.markdown",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLDocumentLoader",
+        "importPath": "app.langchain.loaders.html",
+        "description": "app.langchain.loaders.html",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.html",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSplitter",
+        "importPath": "app.langchain.spliter.base",
+        "description": "app.langchain.spliter.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.spliter.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSplitter",
+        "importPath": "app.langchain.spliter.base",
+        "description": "app.langchain.spliter.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.spliter.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSplitter",
+        "importPath": "app.langchain.spliter.base",
+        "description": "app.langchain.spliter.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.spliter.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSplitter",
+        "importPath": "app.langchain.spliter.base",
+        "description": "app.langchain.spliter.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.spliter.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSplitter",
+        "importPath": "app.langchain.spliter.base",
+        "description": "app.langchain.spliter.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.spliter.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSplitter",
+        "importPath": "app.langchain.spliter.base",
+        "description": "app.langchain.spliter.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.spliter.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSplitter",
+        "importPath": "app.langchain.spliter.base",
+        "description": "app.langchain.spliter.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.spliter.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSplitter",
+        "importPath": "app.langchain.spliter.base",
+        "description": "app.langchain.spliter.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.spliter.base",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLHeaderTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "LatexTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "MarkdownHeaderTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "PythonCodeTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "TokenTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelCreate",
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelUpdate",
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelCreate",
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelResponse",
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelUpdate",
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelCreate",
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelUpdate",
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelRepository",
+        "importPath": "app.repository.embedding_repo",
+        "description": "app.repository.embedding_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.embedding_repo",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.factory",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.routers.embedding_router",
+        "description": "app.routers.embedding_router",
+        "isExtraImport": true,
+        "detail": "app.routers.embedding_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.routers.document_router",
+        "description": "app.routers.document_router",
+        "isExtraImport": true,
+        "detail": "app.routers.document_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.routers.chunk_router",
+        "description": "app.routers.chunk_router",
+        "isExtraImport": true,
+        "detail": "app.routers.chunk_router",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"python\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"python\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"python\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"python\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"python\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.11/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.6e9eb39f0898_add_dimension_to_embedding_models",
+        "description": "alembic.versions.6e9eb39f0898_add_dimension_to_embedding_models",
+        "peekOfCode": "def upgrade() -> None:\n    # Add the column temporarily as nullable\n    op.add_column(\n        \"embedding_models\",\n        sa.Column(\n            \"dimension\",\n            sa.Integer(),\n            nullable=True,\n        ),\n    )",
+        "detail": "alembic.versions.6e9eb39f0898_add_dimension_to_embedding_models",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.6e9eb39f0898_add_dimension_to_embedding_models",
+        "description": "alembic.versions.6e9eb39f0898_add_dimension_to_embedding_models",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('embedding_models', 'dimension')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.6e9eb39f0898_add_dimension_to_embedding_models",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.9b6f09e12be2_add_documents_and_chunks",
+        "description": "alembic.versions.9b6f09e12be2_add_documents_and_chunks",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('documents',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=255), nullable=False),\n    sa.Column('path', sa.String(length=1024), nullable=False),\n    sa.Column('mime_type', sa.String(length=100), nullable=False),\n    sa.Column('size', sa.BigInteger(), nullable=False),\n    sa.Column('created_at', sa.DateTime(timezone=True), server_default=sa.text('(CURRENT_TIMESTAMP)'), nullable=False),",
+        "detail": "alembic.versions.9b6f09e12be2_add_documents_and_chunks",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.9b6f09e12be2_add_documents_and_chunks",
+        "description": "alembic.versions.9b6f09e12be2_add_documents_and_chunks",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('chunks')\n    op.drop_table('documents')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.9b6f09e12be2_add_documents_and_chunks",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.fa2315a8819f_create_initial_tables",
+        "description": "alembic.versions.fa2315a8819f_create_initial_tables",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('embedding_models',\n    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),\n    sa.Column('provider', sa.String(length=50), nullable=False),\n    sa.Column('model', sa.String(length=255), nullable=False),\n    sa.Column('api_key', sa.String(length=500), nullable=True),\n    sa.Column('device', sa.String(length=50), nullable=False),\n    sa.Column('normalize', sa.Boolean(), nullable=False),",
+        "detail": "alembic.versions.fa2315a8819f_create_initial_tables",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.fa2315a8819f_create_initial_tables",
+        "description": "alembic.versions.fa2315a8819f_create_initial_tables",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('embedding_models')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.fa2315a8819f_create_initial_tables",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "do_run_migrations",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def do_run_migrations(connection: Connection) -> None:\n    context.configure(connection=connection, target_metadata=target_metadata)\n    with context.begin_transaction():\n        context.run_migrations()\nasync def run_async_migrations() -> None:\n    \"\"\"In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = async_engine_from_config(\n        config.get_section(config.config_ini_section, {}),",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\"\"\"\n    asyncio.run(run_async_migrations())\nif context.is_offline_mode():\n    run_migrations_offline()\nelse:\n    run_migrations_online()",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# this is the Alembic Config object, which provides\n# access to the values within the .ini file in use.\nconfig = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = Base.metadata",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "kind": 2,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "def get_settings() -> Settings:\n    return Settings()\ndef get_embedding_service(\n    db: AsyncSession = Depends(get_db),\n) -> EmbeddingModelService:\n    return EmbeddingModelService(db)\ndef get_chunk_service(\n    session: AsyncSession = Depends(get_db),\n) -> ChunkService:\n    return ChunkService(session)",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding_service",
+        "kind": 2,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "def get_embedding_service(\n    db: AsyncSession = Depends(get_db),\n) -> EmbeddingModelService:\n    return EmbeddingModelService(db)\ndef get_chunk_service(\n    session: AsyncSession = Depends(get_db),\n) -> ChunkService:\n    return ChunkService(session)\ndef get_document_service(\n    session: AsyncSession = Depends(get_db),",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_chunk_service",
+        "kind": 2,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "def get_chunk_service(\n    session: AsyncSession = Depends(get_db),\n) -> ChunkService:\n    return ChunkService(session)\ndef get_document_service(\n    session: AsyncSession = Depends(get_db),\n) -> DocumentService:\n    return DocumentService(session)",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_document_service",
+        "kind": 2,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "def get_document_service(\n    session: AsyncSession = Depends(get_db),\n) -> DocumentService:\n    return DocumentService(session)",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
+        "peekOfCode": "class Settings(BaseSettings):\n    # DATABASE\n    database_url: str = Field(\n        default=\"sqlite+aiosqlite:///anvil.db\",\n        validation_alias=\"DATABASE_URL\",\n    )\n@lru_cache\ndef get_settings() -> Settings:\n    return Settings()\nsettings = get_settings()",
+        "detail": "app.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "kind": 2,
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
+        "peekOfCode": "def get_settings() -> Settings:\n    return Settings()\nsettings = get_settings()",
+        "detail": "app.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
+        "peekOfCode": "settings = get_settings()",
+        "detail": "app.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "Chunk",
+        "kind": 6,
+        "importPath": "app.db.models.chunk",
+        "description": "app.db.models.chunk",
+        "peekOfCode": "class Chunk(Base):\n    __tablename__ = \"chunks\"\n    id: Mapped[int] = mapped_column(\n        primary_key=True,\n    )\n    document_id: Mapped[int] = mapped_column(\n        ForeignKey(\n            \"documents.id\",\n            ondelete=\"CASCADE\",\n        ),",
+        "detail": "app.db.models.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "kind": 6,
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
+        "peekOfCode": "class Document(Base):\n    __tablename__ = \"documents\"\n    id: Mapped[int] = mapped_column(\n        primary_key=True,\n    )\n    name: Mapped[str] = mapped_column(\n        String(255),\n        nullable=False,\n    )\n    path: Mapped[str] = mapped_column(",
+        "detail": "app.db.models.document",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "kind": 6,
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "peekOfCode": "class EmbeddingModel(Base):\n    __tablename__ = \"embedding_models\"\n    id: Mapped[int] = mapped_column(\n        primary_key=True,\n        autoincrement=True,\n    )\n    provider: Mapped[str] = mapped_column(\n        String(50),\n        nullable=False,\n    )",
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkCreate",
+        "kind": 6,
+        "importPath": "app.db.schemas.chunk",
+        "description": "app.db.schemas.chunk",
+        "peekOfCode": "class ChunkCreate(BaseModel):\n    document_id: int\n    content: str\n    chunk_index: int\n    metadata: dict[str, object] = Field(default_factory=dict)\nclass ChunkResponse(BaseModel):\n    id: int\n    document_id: int\n    content: str\n    chunk_index: int",
+        "detail": "app.db.schemas.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkResponse",
+        "kind": 6,
+        "importPath": "app.db.schemas.chunk",
+        "description": "app.db.schemas.chunk",
+        "peekOfCode": "class ChunkResponse(BaseModel):\n    id: int\n    document_id: int\n    content: str\n    chunk_index: int\n    metadata: dict[str, object] = Field(\n        validation_alias=\"chunk_metadata\",\n        serialization_alias=\"metadata\",\n    )\n    model_config = ConfigDict(",
+        "detail": "app.db.schemas.chunk",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "kind": 6,
+        "importPath": "app.db.schemas.document",
+        "description": "app.db.schemas.document",
+        "peekOfCode": "class DocumentCreate(BaseModel):\n    name: str\n    path: str\n    mime_type: str\n    size: int\nclass DocumentResponse(BaseModel):\n    id: int\n    name: str\n    path: str\n    mime_type: str",
+        "detail": "app.db.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentResponse",
+        "kind": 6,
+        "importPath": "app.db.schemas.document",
+        "description": "app.db.schemas.document",
+        "peekOfCode": "class DocumentResponse(BaseModel):\n    id: int\n    name: str\n    path: str\n    mime_type: str\n    size: int\n    model_config = ConfigDict(\n        from_attributes=True,\n    )",
+        "detail": "app.db.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelBase",
+        "kind": 6,
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "peekOfCode": "class EmbeddingModelBase(BaseModel):\n    provider: str\n    model: str\n    dimension: int\n    device: str = \"cpu\"\n    normalize: bool = True\n    batch_size: int = 32\nclass EmbeddingModelCreate(EmbeddingModelBase):\n    api_key: SecretStr | None = None\n    is_active: bool = False",
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelCreate",
+        "kind": 6,
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "peekOfCode": "class EmbeddingModelCreate(EmbeddingModelBase):\n    api_key: SecretStr | None = None\n    is_active: bool = False\nclass EmbeddingModelUpdate(BaseModel):\n    provider: str | None = None\n    model: str | None = None\n    dimension: int | None = None\n    api_key: SecretStr | None = None\n    device: str | None = None\n    normalize: bool | None = None",
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelUpdate",
+        "kind": 6,
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "peekOfCode": "class EmbeddingModelUpdate(BaseModel):\n    provider: str | None = None\n    model: str | None = None\n    dimension: int | None = None\n    api_key: SecretStr | None = None\n    device: str | None = None\n    normalize: bool | None = None\n    batch_size: int | None = None\n    is_active: bool | None = None\nclass EmbeddingModelResponse(EmbeddingModelBase):",
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelResponse",
+        "kind": 6,
+        "importPath": "app.db.schemas.embedding",
+        "description": "app.db.schemas.embedding",
+        "peekOfCode": "class EmbeddingModelResponse(EmbeddingModelBase):\n    id: int\n    is_active: bool\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "app.db.schemas.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass",
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "engine = create_async_engine(settings.database_url)\nAsyncSessionLocal = async_sessionmaker(\n    engine,\n    class_=AsyncSession,\n    expire_on_commit=False,\n)\nasync def get_db() -> AsyncGenerator[AsyncSession, None]:\n    async with AsyncSessionLocal() as session:\n        yield session",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSessionLocal",
+        "kind": 5,
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "peekOfCode": "AsyncSessionLocal = async_sessionmaker(\n    engine,\n    class_=AsyncSession,\n    expire_on_commit=False,\n)\nasync def get_db() -> AsyncGenerator[AsyncSession, None]:\n    async with AsyncSessionLocal() as session:\n        yield session",
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceProvider",
+        "kind": 6,
+        "importPath": "app.langchain.embedding.provider.huggingface_embedding",
+        "description": "app.langchain.embedding.provider.huggingface_embedding",
+        "peekOfCode": "class HuggingFaceProvider(EmbeddingProvider):\n    def create(\n        self,\n        config: EmbeddingModel,\n    ) -> LangChainHuggingFaceEmbeddings:\n        return LangChainHuggingFaceEmbeddings(\n            model_name=config.model,\n            model_kwargs={\n                \"device\": config.device,\n            },",
+        "detail": "app.langchain.embedding.provider.huggingface_embedding",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaProvider",
+        "kind": 6,
+        "importPath": "app.langchain.embedding.provider.ollama_embedding",
+        "description": "app.langchain.embedding.provider.ollama_embedding",
+        "peekOfCode": "class OllamaProvider(EmbeddingProvider):\n    def create(\n        self,\n        config: EmbeddingModel,\n    ) -> Embeddings:\n        return OllamaEmbeddings(\n            model=config.model,\n        )",
+        "detail": "app.langchain.embedding.provider.ollama_embedding",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIProvider",
+        "kind": 6,
+        "importPath": "app.langchain.embedding.provider.openai_embedding",
+        "description": "app.langchain.embedding.provider.openai_embedding",
+        "peekOfCode": "class OpenAIProvider(EmbeddingProvider):\n    def create(\n        self,\n        config: EmbeddingModel,\n    ) -> Embeddings:\n        return OpenAIEmbeddings(\n            model=config.model,\n            api_key=config.api_key,\n        )",
+        "detail": "app.langchain.embedding.provider.openai_embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingProvider",
+        "kind": 6,
+        "importPath": "app.langchain.embedding.base",
+        "description": "app.langchain.embedding.base",
+        "peekOfCode": "class EmbeddingProvider(ABC):\n    @abstractmethod\n    def create(\n        self,\n        config: EmbeddingModel,\n    ) -> Any:\n        \"\"\"\n        Create a LangChain embedding implementation.\n        \"\"\"\n        raise NotImplementedError",
+        "detail": "app.langchain.embedding.base",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingFactory",
+        "kind": 6,
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
+        "peekOfCode": "class EmbeddingFactory:\n    _providers: dict[str, EmbeddingProvider] = {\n        \"huggingface\": HuggingFaceProvider(),\n        \"ollama\": OllamaProvider(),\n        \"openai\": OpenAIProvider(),\n    }\n    @classmethod\n    def create(\n        cls,\n        config: EmbeddingModel,",
+        "detail": "app.langchain.embedding.factory",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingConfig",
+        "kind": 6,
+        "importPath": "app.langchain.embedding.models",
+        "description": "app.langchain.embedding.models",
+        "peekOfCode": "class EmbeddingConfig(BaseModel):\n    provider: str\n    model: str\n    api_key: str | None = None\n    device: str = \"cpu\"",
+        "detail": "app.langchain.embedding.models",
+        "documentation": {}
+    },
+    {
+        "label": "IngestionRequest",
+        "kind": 6,
+        "importPath": "app.langchain.ingestion.models",
+        "description": "app.langchain.ingestion.models",
+        "peekOfCode": "class IngestionRequest(BaseModel):\n    path: Path\n    chunk_size: int = 500\n    chunk_overlap: int = 50\nclass IngestionResponse(BaseModel):\n    document_id: int\n    chunks: int\n    embeddings: int",
+        "detail": "app.langchain.ingestion.models",
+        "documentation": {}
+    },
+    {
+        "label": "IngestionResponse",
+        "kind": 6,
+        "importPath": "app.langchain.ingestion.models",
+        "description": "app.langchain.ingestion.models",
+        "peekOfCode": "class IngestionResponse(BaseModel):\n    document_id: int\n    chunks: int\n    embeddings: int",
+        "detail": "app.langchain.ingestion.models",
+        "documentation": {}
+    },
+    {
+        "label": "IngestionService",
+        "kind": 6,
+        "importPath": "app.langchain.ingestion.service",
+        "description": "app.langchain.ingestion.service",
+        "peekOfCode": "class IngestionService:\n    def __init__(\n        self,\n        loader_registry: LoaderRegistry,\n        transformer: DocumentTransformer,\n        splitter,\n        embedding_service: EmbeddingModelService,\n        document_repository: DocumentRepository,\n        chunk_repository: ChunkRepository,\n        vectorstore: VectorStore,",
+        "detail": "app.langchain.ingestion.service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentTransformer",
+        "kind": 6,
+        "importPath": "app.langchain.ingestion.transformer",
+        "description": "app.langchain.ingestion.transformer",
+        "peekOfCode": "class DocumentTransformer:\n    async def transform(\n        self,\n        documents: list[Document],\n    ) -> list[Document]:\n        transformed = []\n        for document in documents:\n            content = document.page_content.strip()\n            if not content:\n                continue",
+        "detail": "app.langchain.ingestion.transformer",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLDocumentLoader",
+        "kind": 6,
+        "importPath": "app.langchain.loaders.html",
+        "description": "app.langchain.loaders.html",
+        "peekOfCode": "class HTMLDocumentLoader:\n    def __init__(\n        self,\n        path: str | Path,\n    ):\n        self.path = Path(path)\n    def load(\n        self,\n    ) -> list[Document]:\n        loader = UnstructuredHTMLLoader(",
+        "detail": "app.langchain.loaders.html",
+        "documentation": {}
+    },
+    {
+        "label": "JSONDocumentLoader",
+        "kind": 6,
+        "importPath": "app.langchain.loaders.json",
+        "description": "app.langchain.loaders.json",
+        "peekOfCode": "class JSONDocumentLoader:\n    def __init__(\n        self,\n        path: str | Path,\n        jq_schema: str = \".\",\n        text_content: bool = False,\n    ):\n        self.path = Path(path)\n        self.jq_schema = jq_schema\n        self.text_content = text_content",
+        "detail": "app.langchain.loaders.json",
+        "documentation": {}
+    },
+    {
+        "label": "MarkdownDocumentLoader",
+        "kind": 6,
+        "importPath": "app.langchain.loaders.markdown",
+        "description": "app.langchain.loaders.markdown",
+        "peekOfCode": "class MarkdownDocumentLoader:\n    def __init__(\n        self,\n        path: str | Path,\n    ):\n        self.path = Path(path)\n    def load(\n        self,\n    ) -> list[Document]:\n        loader = UnstructuredMarkdownLoader(",
+        "detail": "app.langchain.loaders.markdown",
+        "documentation": {}
+    },
+    {
+        "label": "PDFLoader",
+        "kind": 6,
+        "importPath": "app.langchain.loaders.pdf",
+        "description": "app.langchain.loaders.pdf",
+        "peekOfCode": "class PDFLoader:\n    def __init__(self, path: str | Path):\n        self.path = Path(path)\n    def load(self) -> list[Document]:\n        loader = PyMuPDFLoader(str(self.path))\n        return loader.load()\n    def lazy_load(self):\n        loader = PyMuPDFLoader(str(self.path))\n        return loader.lazy_load()",
+        "detail": "app.langchain.loaders.pdf",
+        "documentation": {}
+    },
+    {
+        "label": "LoaderRegistry",
+        "kind": 6,
+        "importPath": "app.langchain.loaders.registry",
+        "description": "app.langchain.loaders.registry",
+        "peekOfCode": "class LoaderRegistry:\n    def resolve(\n        self,\n        path: Path,\n    ):\n        suffix = path.suffix.lower()\n        if suffix == \".pdf\":\n            return PDFLoader(path)\n        if suffix == \".txt\":\n            return TextDocumentLoader(path)",
+        "detail": "app.langchain.loaders.registry",
+        "documentation": {}
+    },
+    {
+        "label": "TextDocumentLoader",
+        "kind": 6,
+        "importPath": "app.langchain.loaders.text",
+        "description": "app.langchain.loaders.text",
+        "peekOfCode": "class TextDocumentLoader:\n    def __init__(\n        self,\n        path: str | Path,\n        encoding: str = \"utf-8\",\n    ):\n        self.path = Path(path)\n        self.encoding = encoding\n    def load(\n        self,",
+        "detail": "app.langchain.loaders.text",
+        "documentation": {}
+    },
+    {
+        "label": "URLDocumentLoader",
+        "kind": 6,
+        "importPath": "app.langchain.loaders.url",
+        "description": "app.langchain.loaders.url",
+        "peekOfCode": "class URLDocumentLoader:\n    def __init__(\n        self,\n        urls: str | list[str],\n    ):\n        if isinstance(urls, str):\n            urls = [urls]\n        self.urls = urls\n    def load(\n        self,",
+        "detail": "app.langchain.loaders.url",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSplitter",
+        "kind": 6,
+        "importPath": "app.langchain.spliter.base",
+        "description": "app.langchain.spliter.base",
+        "peekOfCode": "class BaseSplitter(ABC):\n    @abstractmethod\n    def split(\n        self,\n        documents: list[Document],\n    ) -> list[Document]:\n        \"\"\"\n        Split documents into smaller chunks.\n        \"\"\"\n        raise NotImplementedError",
+        "detail": "app.langchain.spliter.base",
+        "documentation": {}
+    },
+    {
+        "label": "CharacterSplitter",
+        "kind": 6,
+        "importPath": "app.langchain.spliter.character",
+        "description": "app.langchain.spliter.character",
+        "peekOfCode": "class CharacterSplitter(BaseSplitter):\n    def __init__(\n        self,\n        chunk_size:int=1000,\n        chunk_overlap:int=200,\n        separator:str=\"\\n\\n\"\n    ):\n        self.splitter=CharacterTextSplitter(\n            separator=separator,\n            chunk_size=chunk_size,",
+        "detail": "app.langchain.spliter.character",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLSplitter",
+        "kind": 6,
+        "importPath": "app.langchain.spliter.html",
+        "description": "app.langchain.spliter.html",
+        "peekOfCode": "class HTMLSplitter(BaseSplitter):\n    def __init__(self):\n        self.splitter = HTMLHeaderTextSplitter(\n            headers_to_split_on=[\n                (\"h1\", \"h1\"),\n                (\"h2\", \"h2\"),\n                (\"h3\", \"h3\"),\n                (\"h4\", \"h4\"),\n            ]\n        )",
+        "detail": "app.langchain.spliter.html",
+        "documentation": {}
+    },
+    {
+        "label": "LatexSplitter",
+        "kind": 6,
+        "importPath": "app.langchain.spliter.latex",
+        "description": "app.langchain.spliter.latex",
+        "peekOfCode": "class LatexSplitter(BaseSplitter):\n    def __init__(\n        self,\n        chunk_size: int = 1000,\n        chunk_overlap: int = 200,\n    ):\n        self.splitter = LatexTextSplitter(\n            chunk_size=chunk_size,\n            chunk_overlap=chunk_overlap,\n        )",
+        "detail": "app.langchain.spliter.latex",
+        "documentation": {}
+    },
+    {
+        "label": "MarkdownSplitter",
+        "kind": 6,
+        "importPath": "app.langchain.spliter.markdown",
+        "description": "app.langchain.spliter.markdown",
+        "peekOfCode": "class MarkdownSplitter(BaseSplitter):\n    def __init__(self):\n        self.splitter = MarkdownHeaderTextSplitter(\n            headers_to_split_on=[\n                (\"#\", \"h1\"),\n                (\"##\", \"h2\"),\n                (\"###\", \"h3\"),\n                (\"####\", \"h4\"),\n            ],\n        )",
+        "detail": "app.langchain.spliter.markdown",
+        "documentation": {}
+    },
+    {
+        "label": "SplitterPipeline",
+        "kind": 6,
+        "importPath": "app.langchain.spliter.pipeline",
+        "description": "app.langchain.spliter.pipeline",
+        "peekOfCode": "class SplitterPipeline:\n    def __init__(self):\n        self.splitters: list[BaseSplitter] = []\n    def register(\n        self,\n        splitter: BaseSplitter,\n    ) -> None:\n        self.splitters.append(splitter)\n    def split(\n        self,",
+        "detail": "app.langchain.spliter.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "PythonSplitter",
+        "kind": 6,
+        "importPath": "app.langchain.spliter.python",
+        "description": "app.langchain.spliter.python",
+        "peekOfCode": "class PythonSplitter(BaseSplitter):\n    def __init__(\n        self,\n        chunk_size: int = 1000,\n        chunk_overlap: int = 200,\n    ):\n        self.splitter = PythonCodeTextSplitter(\n            chunk_size=chunk_size,\n            chunk_overlap=chunk_overlap,\n        )",
+        "detail": "app.langchain.spliter.python",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveSplitter",
+        "kind": 6,
+        "importPath": "app.langchain.spliter.recursive",
+        "description": "app.langchain.spliter.recursive",
+        "peekOfCode": "class RecursiveSplitter(BaseSplitter):\n    def __init__(\n        self,\n        chunk_size: int = 1000,\n        chunk_overlap: int = 200,\n        separators: list[str] | None = None,\n        keep_separator: bool = True,\n    ):\n        self.splitter = RecursiveCharacterTextSplitter(\n            chunk_size=chunk_size,",
+        "detail": "app.langchain.spliter.recursive",
+        "documentation": {}
+    },
+    {
+        "label": "TokenSplitter",
+        "kind": 6,
+        "importPath": "app.langchain.spliter.token",
+        "description": "app.langchain.spliter.token",
+        "peekOfCode": "class TokenSplitter(BaseSplitter):\n    def __init__(\n        self,\n        chunk_size: int = 512,\n        chunk_overlap: int = 64,\n    ):\n        self.splitter = TokenTextSplitter(\n            chunk_size=chunk_size,\n            chunk_overlap=chunk_overlap,\n        )",
+        "detail": "app.langchain.spliter.token",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkRepository",
+        "kind": 6,
+        "importPath": "app.repository.chunk_repo",
+        "description": "app.repository.chunk_repo",
+        "peekOfCode": "class ChunkRepository:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def create(\n        self,\n        data: ChunkCreate,\n    ) -> Chunk:\n        chunk = Chunk(\n            document_id=data.document_id,\n            content=data.content,",
+        "detail": "app.repository.chunk_repo",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "kind": 6,
+        "importPath": "app.repository.document_repo",
+        "description": "app.repository.document_repo",
+        "peekOfCode": "class DocumentRepository:\n    def __init__(\n        self,\n        session: AsyncSession,\n    ):\n        self.session = session\n    async def create(\n        self,\n        data: DocumentCreate,\n    ) -> Document:",
+        "detail": "app.repository.document_repo",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelRepository",
+        "kind": 6,
+        "importPath": "app.repository.embedding_repo",
+        "description": "app.repository.embedding_repo",
+        "peekOfCode": "class EmbeddingModelRepository:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def create(\n        self,\n        data: EmbeddingModelCreate,\n    ) -> EmbeddingModel:\n        embedding_model = EmbeddingModel(\n            provider=data.provider,\n            model=data.model,",
+        "detail": "app.repository.embedding_repo",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.chunk_router",
+        "description": "app.routers.chunk_router",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/chunks\",\n    tags=[\"Chunks\"],\n)\n@router.post(\n    \"\",\n    response_model=ChunkResponse,\n    status_code=status.HTTP_201_CREATED,\n)\nasync def create_chunk(",
+        "detail": "app.routers.chunk_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.document_router",
+        "description": "app.routers.document_router",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/documents\",\n    tags=[\"Documents\"],\n)\n@router.post(\n    \"\",\n    response_model=DocumentResponse,\n    status_code=status.HTTP_201_CREATED,\n)\nasync def create_document(",
+        "detail": "app.routers.document_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.embedding_router",
+        "description": "app.routers.embedding_router",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/embedding-models\",\n    tags=[\"Embedding Models\"],\n)\n@router.post(\"/query\")\nasync def embed_query(\n    text: str,\n    service: EmbeddingModelService = Depends(get_embedding_service),\n):\n    embedding = await service.embed_query(text)",
+        "detail": "app.routers.embedding_router",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkService",
+        "kind": 6,
+        "importPath": "app.services.chunk_service",
+        "description": "app.services.chunk_service",
+        "peekOfCode": "class ChunkService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n        self.repository = ChunkRepository(session)\n    async def create(\n        self,\n        data: ChunkCreate,\n    ) -> Chunk:\n        chunk = await self.repository.create(data)\n        await self.session.commit()",
+        "detail": "app.services.chunk_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "kind": 6,
+        "importPath": "app.services.document_service",
+        "description": "app.services.document_service",
+        "peekOfCode": "class DocumentService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n        self.repository = DocumentRepository(session)\n    async def create(\n        self,\n        data: DocumentCreate,\n    ) -> Document:\n        # Prevent duplicate documents with the same path\n        existing = await self.repository.get_by_path(",
+        "detail": "app.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelService",
+        "kind": 6,
+        "importPath": "app.services.embedding_service",
+        "description": "app.services.embedding_service",
+        "peekOfCode": "class EmbeddingModelService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n        self.repository = EmbeddingModelRepository(session)\n    async def get_embeddings(self):\n        config = await self.repository.get_active()\n        if config is None:\n            raise ValueError(\n                \"No active embedding model configured\"\n            )",
+        "detail": "app.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI()\nfrom app.routers.embedding_router import router as embedding_router\nfrom app.routers.document_router import router as document_router\nfrom app.routers.chunk_router import router as chunk_router\napp.include_router(embedding_router)\napp.include_router(document_router)\napp.include_router(chunk_router)\n@app.get(\"/\")\nasync def root():\n    return {\"message\": \"Anvil\"}",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]

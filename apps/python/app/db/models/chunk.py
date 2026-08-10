@@ -1,7 +1,4 @@
-from __future__ import annotations
-
 from datetime import datetime
-from typing import TYPE_CHECKING
 
 from sqlalchemy import (
     DateTime,
@@ -15,17 +12,19 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.base import Base
 
-if TYPE_CHECKING:
-    from app.db.models.document import Document
-
 
 class Chunk(Base):
     __tablename__ = "chunks"
 
-    id: Mapped[int] = mapped_column(primary_key=True)
+    id: Mapped[int] = mapped_column(
+        primary_key=True,
+    )
 
     document_id: Mapped[int] = mapped_column(
-        ForeignKey("documents.id", ondelete="CASCADE"),
+        ForeignKey(
+            "documents.id",
+            ondelete="CASCADE",
+        ),
         nullable=False,
     )
 
@@ -39,10 +38,11 @@ class Chunk(Base):
         nullable=False,
     )
 
-    metadata: Mapped[dict] = mapped_column(
+    chunk_metadata: Mapped[dict] = mapped_column(
+        "metadata",
         JSON,
-        default=dict,
         nullable=False,
+        default=dict,
     )
 
     created_at: Mapped[datetime] = mapped_column(
@@ -51,6 +51,7 @@ class Chunk(Base):
         nullable=False,
     )
 
-    document: Mapped["Document"] = relationship(
+    document = relationship(
+        "Document",
         back_populates="chunks",
     )

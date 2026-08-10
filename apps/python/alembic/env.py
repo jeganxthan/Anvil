@@ -7,8 +7,12 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 
 from alembic import context
 from app.db.base import Base
-import app.db.models
+from app.db.base import Base
+from app.db.models.embedding import EmbeddingModel
+from app.db.models.document import Document
+from app.db.models.chunk import Chunk
 
+target_metadata = Base.metadata
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config

@@ -1,10 +1,12 @@
+import asyncio
 from pathlib import Path
 
-from langchain_community.document_loaders import TextDocumentLoader
+from langchain_community.document_loaders import TextLoader
 from langchain_core.documents import Document
+from app.langchain.loaders.base import DocumentLoader
 
 
-class TextDocumentLoader:
+class TextDocumentLoader(DocumentLoader):
     def __init__(
         self,
         path: str | Path,
@@ -13,20 +15,22 @@ class TextDocumentLoader:
         self.path = Path(path)
         self.encoding = encoding
 
-    def load(
+    async def load(
         self,
     ) -> list[Document]:
-        loader = TextDocumentLoader(
+        loader = TextLoader(
             str(self.path),
             encoding=self.encoding,
         )
 
-        return loader.load()
+        return await asyncio.to_thread(
+            loader.load,
+        )
 
-    def lazy_load(
+    async def lazy_load(
         self,
     ):
-        loader = TextDocumentLoader(
+        loader = TextLoader(
             str(self.path),
             encoding=self.encoding,
         )

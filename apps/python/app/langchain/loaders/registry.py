@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from app.langchain.loaders.base import DocumentLoader
 from app.langchain.loaders.pdf import PDFLoader
 from app.langchain.loaders.text import TextDocumentLoader
 from app.langchain.loaders.json import JSONDocumentLoader
@@ -8,10 +9,8 @@ from app.langchain.loaders.html import HTMLDocumentLoader
 
 
 class LoaderRegistry:
-    def resolve(
-        self,
-        path: Path,
-    ):
+
+    def resolve(self, path: Path) -> DocumentLoader:
         suffix = path.suffix.lower()
 
         if suffix == ".pdf":

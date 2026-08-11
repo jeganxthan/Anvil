@@ -17,6 +17,14 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -92,11 +100,67 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Any",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -414,11 +478,11 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "app.db.base",
-        "description": "app.db.base",
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
         "isExtraImport": true,
-        "detail": "app.db.base",
+        "detail": "sqlalchemy.ext.asyncio",
         "documentation": {}
     },
     {
@@ -451,102 +515,6 @@
         "description": "app.db.base",
         "isExtraImport": true,
         "detail": "app.db.base",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingModel",
-        "importPath": "app.db.models.embedding",
-        "description": "app.db.models.embedding",
-        "isExtraImport": true,
-        "detail": "app.db.models.embedding",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingModel",
-        "importPath": "app.db.models.embedding",
-        "description": "app.db.models.embedding",
-        "isExtraImport": true,
-        "detail": "app.db.models.embedding",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingModel",
-        "importPath": "app.db.models.embedding",
-        "description": "app.db.models.embedding",
-        "isExtraImport": true,
-        "detail": "app.db.models.embedding",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingModel",
-        "importPath": "app.db.models.embedding",
-        "description": "app.db.models.embedding",
-        "isExtraImport": true,
-        "detail": "app.db.models.embedding",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingModel",
-        "importPath": "app.db.models.embedding",
-        "description": "app.db.models.embedding",
-        "isExtraImport": true,
-        "detail": "app.db.models.embedding",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingModel",
-        "importPath": "app.db.models.embedding",
-        "description": "app.db.models.embedding",
-        "isExtraImport": true,
-        "detail": "app.db.models.embedding",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingModel",
-        "importPath": "app.db.models.embedding",
-        "description": "app.db.models.embedding",
-        "isExtraImport": true,
-        "detail": "app.db.models.embedding",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingModel",
-        "importPath": "app.db.models.embedding",
-        "description": "app.db.models.embedding",
-        "isExtraImport": true,
-        "detail": "app.db.models.embedding",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "app.db.models.document",
-        "description": "app.db.models.document",
-        "isExtraImport": true,
-        "detail": "app.db.models.document",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "app.db.models.document",
-        "description": "app.db.models.document",
-        "isExtraImport": true,
-        "detail": "app.db.models.document",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "app.db.models.document",
-        "description": "app.db.models.document",
-        "isExtraImport": true,
-        "detail": "app.db.models.document",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "app.db.models.document",
-        "description": "app.db.models.document",
-        "isExtraImport": true,
-        "detail": "app.db.models.document",
         "documentation": {}
     },
     {
@@ -574,40 +542,143 @@
         "documentation": {}
     },
     {
-        "label": "app.core.dependencies",
-        "kind": 6,
+        "label": "Document",
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
         "isExtraImport": true,
-        "importPath": "app.core.dependencies",
-        "description": "app.core.dependencies",
-        "detail": "app.core.dependencies",
+        "detail": "app.db.models.document",
         "documentation": {}
     },
     {
-        "label": "get_chunk_service",
-        "importPath": "app.core.dependencies",
-        "description": "app.core.dependencies",
+        "label": "Document",
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
         "isExtraImport": true,
-        "detail": "app.core.dependencies",
+        "detail": "app.db.models.document",
         "documentation": {}
     },
     {
-        "label": "get_document_service",
-        "importPath": "app.core.dependencies",
-        "description": "app.core.dependencies",
+        "label": "Document",
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
         "isExtraImport": true,
-        "detail": "app.core.dependencies",
+        "detail": "app.db.models.document",
         "documentation": {}
     },
     {
-        "label": "get_embedding_service",
-        "importPath": "app.core.dependencies",
-        "description": "app.core.dependencies",
+        "label": "Document",
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
         "isExtraImport": true,
-        "detail": "app.core.dependencies",
+        "detail": "app.db.models.document",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
         "documentation": {}
     },
     {
         "label": "Settings",
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
+        "isExtraImport": true,
+        "detail": "app.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
+        "isExtraImport": true,
+        "detail": "app.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
         "importPath": "app.core.settings",
         "description": "app.core.settings",
         "isExtraImport": true,
@@ -727,6 +798,30 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -748,14 +843,6 @@
         "description": "functools",
         "isExtraImport": true,
         "detail": "functools",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingModelService",
-        "importPath": "app.services.embedding_service",
-        "description": "app.services.embedding_service",
-        "isExtraImport": true,
-        "detail": "app.services.embedding_service",
         "documentation": {}
     },
     {
@@ -812,6 +899,198 @@
         "description": "app.services.document_service",
         "isExtraImport": true,
         "detail": "app.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "IngestionService",
+        "importPath": "app.langchain.ingestion.service",
+        "description": "app.langchain.ingestion.service",
+        "isExtraImport": true,
+        "detail": "app.langchain.ingestion.service",
+        "documentation": {}
+    },
+    {
+        "label": "IngestionService",
+        "importPath": "app.langchain.ingestion.service",
+        "description": "app.langchain.ingestion.service",
+        "isExtraImport": true,
+        "detail": "app.langchain.ingestion.service",
+        "documentation": {}
+    },
+    {
+        "label": "IngestionService",
+        "importPath": "app.langchain.ingestion.service",
+        "description": "app.langchain.ingestion.service",
+        "isExtraImport": true,
+        "detail": "app.langchain.ingestion.service",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.factory",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.factory",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.factory",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.factory",
+        "documentation": {}
+    },
+    {
+        "label": "AnvilSQLiteVec",
+        "importPath": "app.langchain.vectorstore.sqlite_vec",
+        "description": "app.langchain.vectorstore.sqlite_vec",
+        "isExtraImport": true,
+        "detail": "app.langchain.vectorstore.sqlite_vec",
+        "documentation": {}
+    },
+    {
+        "label": "AnvilSQLiteVec",
+        "importPath": "app.langchain.vectorstore.sqlite_vec",
+        "description": "app.langchain.vectorstore.sqlite_vec",
+        "isExtraImport": true,
+        "detail": "app.langchain.vectorstore.sqlite_vec",
+        "documentation": {}
+    },
+    {
+        "label": "AnvilSQLiteVec",
+        "importPath": "app.langchain.vectorstore.sqlite_vec",
+        "description": "app.langchain.vectorstore.sqlite_vec",
+        "isExtraImport": true,
+        "detail": "app.langchain.vectorstore.sqlite_vec",
+        "documentation": {}
+    },
+    {
+        "label": "AnvilSQLiteVec",
+        "importPath": "app.langchain.vectorstore.sqlite_vec",
+        "description": "app.langchain.vectorstore.sqlite_vec",
+        "isExtraImport": true,
+        "detail": "app.langchain.vectorstore.sqlite_vec",
+        "documentation": {}
+    },
+    {
+        "label": "LoaderRegistry",
+        "importPath": "app.langchain.loaders.registry",
+        "description": "app.langchain.loaders.registry",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.registry",
+        "documentation": {}
+    },
+    {
+        "label": "LoaderRegistry",
+        "importPath": "app.langchain.loaders.registry",
+        "description": "app.langchain.loaders.registry",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.registry",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentTransformer",
+        "importPath": "app.langchain.ingestion.transformer",
+        "description": "app.langchain.ingestion.transformer",
+        "isExtraImport": true,
+        "detail": "app.langchain.ingestion.transformer",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentTransformer",
+        "importPath": "app.langchain.ingestion.transformer",
+        "description": "app.langchain.ingestion.transformer",
+        "isExtraImport": true,
+        "detail": "app.langchain.ingestion.transformer",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveSplitter",
+        "importPath": "app.langchain.spliter.recursive",
+        "description": "app.langchain.spliter.recursive",
+        "isExtraImport": true,
+        "detail": "app.langchain.spliter.recursive",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "importPath": "app.repository.document_repo",
+        "description": "app.repository.document_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.document_repo",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "importPath": "app.repository.document_repo",
+        "description": "app.repository.document_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.document_repo",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "importPath": "app.repository.document_repo",
+        "description": "app.repository.document_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.document_repo",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkRepository",
+        "importPath": "app.repository.chunk_repo",
+        "description": "app.repository.chunk_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.chunk_repo",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkRepository",
+        "importPath": "app.repository.chunk_repo",
+        "description": "app.repository.chunk_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.chunk_repo",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkRepository",
+        "importPath": "app.repository.chunk_repo",
+        "description": "app.repository.chunk_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.chunk_repo",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelRepository",
+        "importPath": "app.repository.embedding_repo",
+        "description": "app.repository.embedding_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.embedding_repo",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelRepository",
+        "importPath": "app.repository.embedding_repo",
+        "description": "app.repository.embedding_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.embedding_repo",
         "documentation": {}
     },
     {
@@ -903,6 +1182,22 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseSettings",
         "importPath": "pydantic_settings",
         "description": "pydantic_settings",
@@ -967,6 +1262,14 @@
         "documentation": {}
     },
     {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "Mapped",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -992,6 +1295,14 @@
     },
     {
         "label": "AsyncGenerator",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
         "importPath": "collections.abc",
         "description": "collections.abc",
         "isExtraImport": true,
@@ -1063,6 +1374,14 @@
         "documentation": {}
     },
     {
+        "label": "Embeddings",
+        "importPath": "langchain_core.embeddings",
+        "description": "langchain_core.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain_core.embeddings",
+        "documentation": {}
+    },
+    {
         "label": "OllamaEmbeddings",
         "importPath": "langchain_ollama",
         "description": "langchain_ollama",
@@ -1076,6 +1395,22 @@
         "description": "langchain_openai",
         "isExtraImport": true,
         "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
         "documentation": {}
     },
     {
@@ -1199,11 +1534,11 @@
         "documentation": {}
     },
     {
-        "label": "VectorStore",
-        "importPath": "langchain_core.vectorstores",
-        "description": "langchain_core.vectorstores",
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
         "isExtraImport": true,
-        "detail": "langchain_core.vectorstores",
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -1279,6 +1614,14 @@
         "documentation": {}
     },
     {
+        "label": "DocumentResponse",
+        "importPath": "app.db.schemas.document",
+        "description": "app.db.schemas.document",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.document",
+        "documentation": {}
+    },
+    {
         "label": "DocumentCreate",
         "importPath": "app.db.schemas.document",
         "description": "app.db.schemas.document",
@@ -1287,51 +1630,35 @@
         "documentation": {}
     },
     {
-        "label": "DocumentTransformer",
-        "importPath": "app.langchain.ingestion.transformer",
-        "description": "app.langchain.ingestion.transformer",
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
         "isExtraImport": true,
-        "detail": "app.langchain.ingestion.transformer",
+        "detail": "langchain_core.documents",
         "documentation": {}
     },
     {
-        "label": "LoaderRegistry",
-        "importPath": "app.langchain.loaders.registry",
-        "description": "app.langchain.loaders.registry",
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
         "isExtraImport": true,
-        "detail": "app.langchain.loaders.registry",
+        "detail": "langchain_core.documents",
         "documentation": {}
     },
     {
-        "label": "ChunkRepository",
-        "importPath": "app.repository.chunk_repo",
-        "description": "app.repository.chunk_repo",
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
         "isExtraImport": true,
-        "detail": "app.repository.chunk_repo",
+        "detail": "langchain_core.documents",
         "documentation": {}
     },
     {
-        "label": "ChunkRepository",
-        "importPath": "app.repository.chunk_repo",
-        "description": "app.repository.chunk_repo",
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
         "isExtraImport": true,
-        "detail": "app.repository.chunk_repo",
-        "documentation": {}
-    },
-    {
-        "label": "DocumentRepository",
-        "importPath": "app.repository.document_repo",
-        "description": "app.repository.document_repo",
-        "isExtraImport": true,
-        "detail": "app.repository.document_repo",
-        "documentation": {}
-    },
-    {
-        "label": "DocumentRepository",
-        "importPath": "app.repository.document_repo",
-        "description": "app.repository.document_repo",
-        "isExtraImport": true,
-        "detail": "app.repository.document_repo",
+        "detail": "langchain_core.documents",
         "documentation": {}
     },
     {
@@ -1495,7 +1822,7 @@
         "documentation": {}
     },
     {
-        "label": "TextDocumentLoader",
+        "label": "TextLoader",
         "importPath": "langchain_community.document_loaders",
         "description": "langchain_community.document_loaders",
         "isExtraImport": true,
@@ -1508,6 +1835,62 @@
         "description": "langchain_community.document_loaders",
         "isExtraImport": true,
         "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentLoader",
+        "importPath": "app.langchain.loaders.base",
+        "description": "app.langchain.loaders.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.base",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentLoader",
+        "importPath": "app.langchain.loaders.base",
+        "description": "app.langchain.loaders.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.base",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentLoader",
+        "importPath": "app.langchain.loaders.base",
+        "description": "app.langchain.loaders.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.base",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentLoader",
+        "importPath": "app.langchain.loaders.base",
+        "description": "app.langchain.loaders.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.base",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentLoader",
+        "importPath": "app.langchain.loaders.base",
+        "description": "app.langchain.loaders.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.base",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentLoader",
+        "importPath": "app.langchain.loaders.base",
+        "description": "app.langchain.loaders.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.base",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentLoader",
+        "importPath": "app.langchain.loaders.base",
+        "description": "app.langchain.loaders.base",
+        "isExtraImport": true,
+        "detail": "app.langchain.loaders.base",
         "documentation": {}
     },
     {
@@ -1548,6 +1931,14 @@
         "description": "app.langchain.loaders.html",
         "isExtraImport": true,
         "detail": "app.langchain.loaders.html",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRetriever",
+        "importPath": "langchain_core.retrievers",
+        "description": "langchain_core.retrievers",
+        "isExtraImport": true,
+        "detail": "langchain_core.retrievers",
         "documentation": {}
     },
     {
@@ -1671,6 +2062,65 @@
         "documentation": {}
     },
     {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite_vec",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite_vec",
+        "description": "sqlite_vec",
+        "detail": "sqlite_vec",
+        "documentation": {}
+    },
+    {
+        "label": "serialize_float32",
+        "importPath": "sqlite_vec",
+        "description": "sqlite_vec",
+        "isExtraImport": true,
+        "detail": "sqlite_vec",
+        "documentation": {}
+    },
+    {
+        "label": "VectorStore",
+        "importPath": "langchain_core.vectorstores",
+        "description": "langchain_core.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_core.vectorstores",
+        "documentation": {}
+    },
+    {
         "label": "EmbeddingModelCreate",
         "importPath": "app.db.schemas.embedding",
         "description": "app.db.schemas.embedding",
@@ -1727,19 +2177,51 @@
         "documentation": {}
     },
     {
-        "label": "EmbeddingModelRepository",
-        "importPath": "app.repository.embedding_repo",
-        "description": "app.repository.embedding_repo",
+        "label": "get_chunk_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
         "isExtraImport": true,
-        "detail": "app.repository.embedding_repo",
+        "detail": "app.core.dependencies",
         "documentation": {}
     },
     {
-        "label": "EmbeddingFactory",
-        "importPath": "app.langchain.embedding.factory",
-        "description": "app.langchain.embedding.factory",
+        "label": "get_document_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
         "isExtraImport": true,
-        "detail": "app.langchain.embedding.factory",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_ingestion_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_ingestion_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "IngestionRequest",
+        "importPath": "app.langchain.ingestion.models",
+        "description": "app.langchain.ingestion.models",
+        "isExtraImport": true,
+        "detail": "app.langchain.ingestion.models",
         "documentation": {}
     },
     {
@@ -1764,6 +2246,14 @@
         "description": "app.routers.chunk_router",
         "isExtraImport": true,
         "detail": "app.routers.chunk_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.routers.ingestion_router",
+        "description": "app.routers.ingestion_router",
+        "isExtraImport": true,
+        "detail": "app.routers.ingestion_router",
         "documentation": {}
     },
     {
@@ -1886,6 +2376,24 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "alembic.versions.f446268513d3_update_document_relationships",
+        "description": "alembic.versions.f446268513d3_update_document_relationships",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('chunk_vectors_auxiliary')\n    op.drop_table('chunk_vectors_vector_chunks00')\n    op.drop_table('chunk_vectors_rowids')\n    op.drop_table('chunk_vectors_info')\n    op.drop_table('chunk_vectors_chunks')\n    # ### end Alembic commands ###\ndef downgrade() -> None:",
+        "detail": "alembic.versions.f446268513d3_update_document_relationships",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.f446268513d3_update_document_relationships",
+        "description": "alembic.versions.f446268513d3_update_document_relationships",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('chunk_vectors_chunks',\n    sa.Column('chunk_id', sa.INTEGER(), nullable=True),\n    sa.Column('size', sa.INTEGER(), nullable=False),\n    sa.Column('validity', sa.BLOB(), nullable=False),\n    sa.Column('rowids', sa.BLOB(), nullable=False),\n    sa.PrimaryKeyConstraint('chunk_id')\n    )",
+        "detail": "alembic.versions.f446268513d3_update_document_relationships",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "alembic.versions.fa2315a8819f_create_initial_tables",
         "description": "alembic.versions.fa2315a8819f_create_initial_tables",
         "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('embedding_models',\n    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),\n    sa.Column('provider', sa.String(length=50), nullable=False),\n    sa.Column('model', sa.String(length=255), nullable=False),\n    sa.Column('api_key', sa.String(length=500), nullable=True),\n    sa.Column('device', sa.String(length=50), nullable=False),\n    sa.Column('normalize', sa.Boolean(), nullable=False),",
@@ -1902,11 +2410,29 @@
         "documentation": {}
     },
     {
+        "label": "include_name",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def include_name(\n    name,\n    type_,\n    parent_names,\n):\n    if type_ == \"table\" and name in EXCLUDED_TABLES:\n        return False\n    return True\ndef include_object(\n    object,",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "include_object",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def include_object(\n    object,\n    name,\n    type_,\n    reflected,\n    compare_to,\n):\n    if type_ == \"table\" and name in EXCLUDED_TABLES:\n        return False\n    return True",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
         "label": "run_migrations_offline",
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    url = config.get_main_option(\n        \"sqlalchemy.url\",\n    )\n    context.configure(\n        url=url,\n        target_metadata=target_metadata,\n        literal_binds=True,\n        dialect_opts={\n            \"paramstyle\": \"named\",",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -1915,7 +2441,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def do_run_migrations(connection: Connection) -> None:\n    context.configure(connection=connection, target_metadata=target_metadata)\n    with context.begin_transaction():\n        context.run_migrations()\nasync def run_async_migrations() -> None:\n    \"\"\"In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = async_engine_from_config(\n        config.get_section(config.config_ini_section, {}),",
+        "peekOfCode": "def do_run_migrations(\n    connection: Connection,\n) -> None:\n    context.configure(\n        connection=connection,\n        target_metadata=target_metadata,\n        include_name=include_name,\n        include_object=include_object,\n    )\n    with context.begin_transaction():",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -1924,16 +2450,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\"\"\"\n    asyncio.run(run_async_migrations())\nif context.is_offline_mode():\n    run_migrations_offline()\nelse:\n    run_migrations_online()",
-        "detail": "alembic.env",
-        "documentation": {}
-    },
-    {
-        "label": "target_metadata",
-        "kind": 5,
-        "importPath": "alembic.env",
-        "description": "alembic.env",
-        "peekOfCode": "target_metadata = Base.metadata\n# this is the Alembic Config object, which provides\n# access to the values within the .ini file in use.\nconfig = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support",
+        "peekOfCode": "def run_migrations_online() -> None:\n    asyncio.run(\n        run_async_migrations(),\n    )\nif context.is_offline_mode():\n    run_migrations_offline()\nelse:\n    run_migrations_online()",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -1942,7 +2459,7 @@
         "kind": 5,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = Base.metadata",
+        "peekOfCode": "config = context.config\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\ntarget_metadata = Base.metadata\n# ---------------------------------------------------------\n# Alembic filters\n# ---------------------------------------------------------\nEXCLUDED_TABLES = {\n    \"chunk_vectors\",\n    \"vector_store_metadata\",",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -1951,7 +2468,16 @@
         "kind": 5,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "peekOfCode": "target_metadata = Base.metadata\n# ---------------------------------------------------------\n# Alembic filters\n# ---------------------------------------------------------\nEXCLUDED_TABLES = {\n    \"chunk_vectors\",\n    \"vector_store_metadata\",\n}\ndef include_name(\n    name,",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "EXCLUDED_TABLES",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "EXCLUDED_TABLES = {\n    \"chunk_vectors\",\n    \"vector_store_metadata\",\n}\ndef include_name(\n    name,\n    type_,\n    parent_names,\n):\n    if type_ == \"table\" and name in EXCLUDED_TABLES:",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -1978,7 +2504,7 @@
         "kind": 2,
         "importPath": "app.core.dependencies",
         "description": "app.core.dependencies",
-        "peekOfCode": "def get_chunk_service(\n    session: AsyncSession = Depends(get_db),\n) -> ChunkService:\n    return ChunkService(session)\ndef get_document_service(\n    session: AsyncSession = Depends(get_db),\n) -> DocumentService:\n    return DocumentService(session)",
+        "peekOfCode": "def get_chunk_service(\n    session: AsyncSession = Depends(get_db),\n) -> ChunkService:\n    return ChunkService(session)\ndef get_document_service(\n    session: AsyncSession = Depends(get_db),\n) -> DocumentService:\n    return DocumentService(session)\nasync def get_ingestion_service(\n    session: AsyncSession = Depends(get_db),",
         "detail": "app.core.dependencies",
         "documentation": {}
     },
@@ -1987,7 +2513,7 @@
         "kind": 2,
         "importPath": "app.core.dependencies",
         "description": "app.core.dependencies",
-        "peekOfCode": "def get_document_service(\n    session: AsyncSession = Depends(get_db),\n) -> DocumentService:\n    return DocumentService(session)",
+        "peekOfCode": "def get_document_service(\n    session: AsyncSession = Depends(get_db),\n) -> DocumentService:\n    return DocumentService(session)\nasync def get_ingestion_service(\n    session: AsyncSession = Depends(get_db),\n) -> IngestionService:\n    embedding_repository = EmbeddingModelRepository(\n        session,\n    )",
         "detail": "app.core.dependencies",
         "documentation": {}
     },
@@ -1996,7 +2522,7 @@
         "kind": 6,
         "importPath": "app.core.settings",
         "description": "app.core.settings",
-        "peekOfCode": "class Settings(BaseSettings):\n    # DATABASE\n    database_url: str = Field(\n        default=\"sqlite+aiosqlite:///anvil.db\",\n        validation_alias=\"DATABASE_URL\",\n    )\n@lru_cache\ndef get_settings() -> Settings:\n    return Settings()\nsettings = get_settings()",
+        "peekOfCode": "class Settings(BaseSettings):\n    # DATABASE\n    database_url: str = Field(\n        default=\"sqlite+aiosqlite:///anvil.db\",\n        validation_alias=\"DATABASE_URL\",\n    )\n    sqlite_vec_path: str = Field(\n        default=\"anvil.db\",\n        validation_alias=\"SQLITE_PATH\",\n    )",
         "detail": "app.core.settings",
         "documentation": {}
     },
@@ -2203,16 +2729,7 @@
         "kind": 6,
         "importPath": "app.langchain.ingestion.models",
         "description": "app.langchain.ingestion.models",
-        "peekOfCode": "class IngestionRequest(BaseModel):\n    path: Path\n    chunk_size: int = 500\n    chunk_overlap: int = 50\nclass IngestionResponse(BaseModel):\n    document_id: int\n    chunks: int\n    embeddings: int",
-        "detail": "app.langchain.ingestion.models",
-        "documentation": {}
-    },
-    {
-        "label": "IngestionResponse",
-        "kind": 6,
-        "importPath": "app.langchain.ingestion.models",
-        "description": "app.langchain.ingestion.models",
-        "peekOfCode": "class IngestionResponse(BaseModel):\n    document_id: int\n    chunks: int\n    embeddings: int",
+        "peekOfCode": "class IngestionRequest(BaseModel):\n    path: str\n    name: str\n    mime_type: str\n    size: int",
         "detail": "app.langchain.ingestion.models",
         "documentation": {}
     },
@@ -2221,7 +2738,7 @@
         "kind": 6,
         "importPath": "app.langchain.ingestion.service",
         "description": "app.langchain.ingestion.service",
-        "peekOfCode": "class IngestionService:\n    def __init__(\n        self,\n        loader_registry: LoaderRegistry,\n        transformer: DocumentTransformer,\n        splitter,\n        embedding_service: EmbeddingModelService,\n        document_repository: DocumentRepository,\n        chunk_repository: ChunkRepository,\n        vectorstore: VectorStore,",
+        "peekOfCode": "class IngestionService:\n    def __init__(\n        self,\n        session: AsyncSession,\n        loader_registry: LoaderRegistry,\n        transformer: DocumentTransformer,\n        splitter,\n        document_repository: DocumentRepository,\n        chunk_repository: ChunkRepository,\n        vectorstore: AnvilSQLiteVec,",
         "detail": "app.langchain.ingestion.service",
         "documentation": {}
     },
@@ -2235,11 +2752,20 @@
         "documentation": {}
     },
     {
+        "label": "DocumentLoader",
+        "kind": 6,
+        "importPath": "app.langchain.loaders.base",
+        "description": "app.langchain.loaders.base",
+        "peekOfCode": "class DocumentLoader(ABC):\n    @abstractmethod\n    async def load(self) -> list[Document]:\n        \"\"\"Load a document and return LangChain documents.\"\"\"\n        ...",
+        "detail": "app.langchain.loaders.base",
+        "documentation": {}
+    },
+    {
         "label": "HTMLDocumentLoader",
         "kind": 6,
         "importPath": "app.langchain.loaders.html",
         "description": "app.langchain.loaders.html",
-        "peekOfCode": "class HTMLDocumentLoader:\n    def __init__(\n        self,\n        path: str | Path,\n    ):\n        self.path = Path(path)\n    def load(\n        self,\n    ) -> list[Document]:\n        loader = UnstructuredHTMLLoader(",
+        "peekOfCode": "class HTMLDocumentLoader(DocumentLoader):\n    def __init__(\n        self,\n        path: str | Path,\n    ):\n        self.path = Path(path)\n    async def load(\n        self,\n    ) -> list[Document]:\n        loader = UnstructuredHTMLLoader(",
         "detail": "app.langchain.loaders.html",
         "documentation": {}
     },
@@ -2248,7 +2774,7 @@
         "kind": 6,
         "importPath": "app.langchain.loaders.json",
         "description": "app.langchain.loaders.json",
-        "peekOfCode": "class JSONDocumentLoader:\n    def __init__(\n        self,\n        path: str | Path,\n        jq_schema: str = \".\",\n        text_content: bool = False,\n    ):\n        self.path = Path(path)\n        self.jq_schema = jq_schema\n        self.text_content = text_content",
+        "peekOfCode": "class JSONDocumentLoader(DocumentLoader):\n    def __init__(\n        self,\n        path: str | Path,\n        jq_schema: str = \".\",\n        text_content: bool = False,\n    ):\n        self.path = Path(path)\n        self.jq_schema = jq_schema\n        self.text_content = text_content",
         "detail": "app.langchain.loaders.json",
         "documentation": {}
     },
@@ -2257,7 +2783,7 @@
         "kind": 6,
         "importPath": "app.langchain.loaders.markdown",
         "description": "app.langchain.loaders.markdown",
-        "peekOfCode": "class MarkdownDocumentLoader:\n    def __init__(\n        self,\n        path: str | Path,\n    ):\n        self.path = Path(path)\n    def load(\n        self,\n    ) -> list[Document]:\n        loader = UnstructuredMarkdownLoader(",
+        "peekOfCode": "class MarkdownDocumentLoader(DocumentLoader):\n    def __init__(\n        self,\n        path: str | Path,\n    ):\n        self.path = Path(path)\n    async def load(\n        self,\n    ) -> list[Document]:\n        loader = UnstructuredMarkdownLoader(",
         "detail": "app.langchain.loaders.markdown",
         "documentation": {}
     },
@@ -2266,7 +2792,7 @@
         "kind": 6,
         "importPath": "app.langchain.loaders.pdf",
         "description": "app.langchain.loaders.pdf",
-        "peekOfCode": "class PDFLoader:\n    def __init__(self, path: str | Path):\n        self.path = Path(path)\n    def load(self) -> list[Document]:\n        loader = PyMuPDFLoader(str(self.path))\n        return loader.load()\n    def lazy_load(self):\n        loader = PyMuPDFLoader(str(self.path))\n        return loader.lazy_load()",
+        "peekOfCode": "class PDFLoader(DocumentLoader):\n    def __init__(self, path: str | Path):\n        self.path = Path(path)\n    async def load(self) -> list[Document]:\n        loader = PyMuPDFLoader(str(self.path))\n        return await asyncio.to_thread(\n            loader.load,\n        )\n    def lazy_load(self):\n        loader = PyMuPDFLoader(str(self.path))",
         "detail": "app.langchain.loaders.pdf",
         "documentation": {}
     },
@@ -2275,7 +2801,7 @@
         "kind": 6,
         "importPath": "app.langchain.loaders.registry",
         "description": "app.langchain.loaders.registry",
-        "peekOfCode": "class LoaderRegistry:\n    def resolve(\n        self,\n        path: Path,\n    ):\n        suffix = path.suffix.lower()\n        if suffix == \".pdf\":\n            return PDFLoader(path)\n        if suffix == \".txt\":\n            return TextDocumentLoader(path)",
+        "peekOfCode": "class LoaderRegistry:\n    def resolve(self, path: Path) -> DocumentLoader:\n        suffix = path.suffix.lower()\n        if suffix == \".pdf\":\n            return PDFLoader(path)\n        if suffix == \".txt\":\n            return TextDocumentLoader(path)\n        if suffix == \".md\":\n            return MarkdownDocumentLoader(path)\n        if suffix in {\".html\", \".htm\"}:",
         "detail": "app.langchain.loaders.registry",
         "documentation": {}
     },
@@ -2284,7 +2810,7 @@
         "kind": 6,
         "importPath": "app.langchain.loaders.text",
         "description": "app.langchain.loaders.text",
-        "peekOfCode": "class TextDocumentLoader:\n    def __init__(\n        self,\n        path: str | Path,\n        encoding: str = \"utf-8\",\n    ):\n        self.path = Path(path)\n        self.encoding = encoding\n    def load(\n        self,",
+        "peekOfCode": "class TextDocumentLoader(DocumentLoader):\n    def __init__(\n        self,\n        path: str | Path,\n        encoding: str = \"utf-8\",\n    ):\n        self.path = Path(path)\n        self.encoding = encoding\n    async def load(\n        self,",
         "detail": "app.langchain.loaders.text",
         "documentation": {}
     },
@@ -2293,8 +2819,17 @@
         "kind": 6,
         "importPath": "app.langchain.loaders.url",
         "description": "app.langchain.loaders.url",
-        "peekOfCode": "class URLDocumentLoader:\n    def __init__(\n        self,\n        urls: str | list[str],\n    ):\n        if isinstance(urls, str):\n            urls = [urls]\n        self.urls = urls\n    def load(\n        self,",
+        "peekOfCode": "class URLDocumentLoader(DocumentLoader):\n    def __init__(\n        self,\n        urls: str | list[str],\n    ):\n        if isinstance(urls, str):\n            urls = [urls]\n        self.urls = urls\n    async def load(\n        self,",
         "detail": "app.langchain.loaders.url",
+        "documentation": {}
+    },
+    {
+        "label": "VectorRetriever",
+        "kind": 6,
+        "importPath": "app.langchain.retrievers.vector",
+        "description": "app.langchain.retrievers.vector",
+        "peekOfCode": "class VectorRetriever(BaseRetriever):\n    vectorstore: AnvilSQLiteVec\n    k: int = 5\n    def _get_relevant_documents(\n        self,\n        query: str,\n    ) -> list[Document]:\n        return self.vectorstore.similarity_search(\n            query,\n            k=self.k,",
+        "detail": "app.langchain.retrievers.vector",
         "documentation": {}
     },
     {
@@ -2379,6 +2914,69 @@
         "documentation": {}
     },
     {
+        "label": "VectorRecord",
+        "kind": 6,
+        "importPath": "app.langchain.vectorstore.models",
+        "description": "app.langchain.vectorstore.models",
+        "peekOfCode": "class VectorRecord:\n    chunk_id: int\n    content: str\n    metadata: dict[str, Any]",
+        "detail": "app.langchain.vectorstore.models",
+        "documentation": {}
+    },
+    {
+        "label": "VectorStoreConfig",
+        "kind": 6,
+        "importPath": "app.langchain.vectorstore.schemas",
+        "description": "app.langchain.vectorstore.schemas",
+        "peekOfCode": "class VectorStoreConfig(BaseModel):\n    database: str = \"anvil.db\"\n    collection: str = \"chunk_vectors\"\n    distance: str = \"cosine\"\nclass SearchResult(BaseModel):\n    chunk_id: int\n    score: float\nclass SearchResponse(BaseModel):\n    results: list[SearchResult] = Field(\n        default_factory=list,",
+        "detail": "app.langchain.vectorstore.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SearchResult",
+        "kind": 6,
+        "importPath": "app.langchain.vectorstore.schemas",
+        "description": "app.langchain.vectorstore.schemas",
+        "peekOfCode": "class SearchResult(BaseModel):\n    chunk_id: int\n    score: float\nclass SearchResponse(BaseModel):\n    results: list[SearchResult] = Field(\n        default_factory=list,\n    )",
+        "detail": "app.langchain.vectorstore.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SearchResponse",
+        "kind": 6,
+        "importPath": "app.langchain.vectorstore.schemas",
+        "description": "app.langchain.vectorstore.schemas",
+        "peekOfCode": "class SearchResponse(BaseModel):\n    results: list[SearchResult] = Field(\n        default_factory=list,\n    )",
+        "detail": "app.langchain.vectorstore.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "AnvilSQLiteVec",
+        "kind": 6,
+        "importPath": "app.langchain.vectorstore.sqlite_vec",
+        "description": "app.langchain.vectorstore.sqlite_vec",
+        "peekOfCode": "class AnvilSQLiteVec(VectorStore):\n    \"\"\"\n    LangChain VectorStore backed by SQLite + sqlite-vec.\n    \"\"\"\n    def __init__(\n        self,\n        db_path: str | Path,\n        embedding: Embeddings,\n        collection_name: str = \"chunk_vectors\",\n    ) -> None:",
+        "detail": "app.langchain.vectorstore.sqlite_vec",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app.langchain.vectorstore.test_config",
+        "description": "app.langchain.vectorstore.test_config",
+        "peekOfCode": "def main():\n    config = EmbeddingModel(\n        provider=\"huggingface\",\n        model=\"BAAI/bge-small-en-v1.5\",\n        dimension=384,\n        device=\"cpu\",\n        normalize=True,\n        batch_size=32,\n        is_active=True,\n    )",
+        "detail": "app.langchain.vectorstore.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app.langchain.vectorstore.test_sqlite_vec",
+        "description": "app.langchain.vectorstore.test_sqlite_vec",
+        "peekOfCode": "def main():\n    config = EmbeddingModel(\n        provider=\"huggingface\",\n        model=\"BAAI/bge-small-en-v1.5\",\n        dimension=384,\n        device=\"cpu\",\n        normalize=True,\n        batch_size=32,\n        is_active=True,\n    )",
+        "detail": "app.langchain.vectorstore.test_sqlite_vec",
+        "documentation": {}
+    },
+    {
         "label": "ChunkRepository",
         "kind": 6,
         "importPath": "app.repository.chunk_repo",
@@ -2433,6 +3031,15 @@
         "documentation": {}
     },
     {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.ingestion_router",
+        "description": "app.routers.ingestion_router",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/documents\",\n    tags=[\"Documents\"],\n)\n@router.post(\n    \"/ingest\",\n    response_model=DocumentResponse,\n    status_code=status.HTTP_201_CREATED,\n)\nasync def ingest_document(",
+        "detail": "app.routers.ingestion_router",
+        "documentation": {}
+    },
+    {
         "label": "ChunkService",
         "kind": 6,
         "importPath": "app.services.chunk_service",
@@ -2460,11 +3067,29 @@
         "documentation": {}
     },
     {
+        "label": "DB_PATH",
+        "kind": 5,
+        "importPath": "app.temp.script",
+        "description": "app.temp.script",
+        "peekOfCode": "DB_PATH = Path(\n    \"/home/jegan/Desktop/Anvil/apps/python/anvil.db\"\n)\nconnection = sqlite3.connect(DB_PATH)\ntry:\n    connection.enable_load_extension(True)\n    sqlite_vec.load(connection)\n    connection.enable_load_extension(False)\n    connection.execute(\n        \"DELETE FROM chunk_vectors\"",
+        "detail": "app.temp.script",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "kind": 5,
+        "importPath": "app.temp.script",
+        "description": "app.temp.script",
+        "peekOfCode": "connection = sqlite3.connect(DB_PATH)\ntry:\n    connection.enable_load_extension(True)\n    sqlite_vec.load(connection)\n    connection.enable_load_extension(False)\n    connection.execute(\n        \"DELETE FROM chunk_vectors\"\n    )\n    connection.commit()\n    print(\"Vector table cleared.\")",
+        "detail": "app.temp.script",
+        "documentation": {}
+    },
+    {
         "label": "app",
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI()\nfrom app.routers.embedding_router import router as embedding_router\nfrom app.routers.document_router import router as document_router\nfrom app.routers.chunk_router import router as chunk_router\napp.include_router(embedding_router)\napp.include_router(document_router)\napp.include_router(chunk_router)\n@app.get(\"/\")\nasync def root():\n    return {\"message\": \"Anvil\"}",
+        "peekOfCode": "app = FastAPI()\nfrom app.routers.embedding_router import router as embedding_router\nfrom app.routers.document_router import router as document_router\nfrom app.routers.chunk_router import router as chunk_router\nfrom app.routers.ingestion_router import router as ingestion_router\napp.include_router(embedding_router)\napp.include_router(document_router)\napp.include_router(chunk_router)\napp.include_router(ingestion_router)\n@app.get(\"/\")",
         "detail": "app.main",
         "documentation": {}
     }

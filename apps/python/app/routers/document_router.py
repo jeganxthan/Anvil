@@ -5,7 +5,8 @@ from app.db.schemas.document import (
     DocumentResponse,
 )
 from app.services.document_service import DocumentService
-from app.core.dependencies import get_document_service
+from app.core.dependencies import get_document_service, get_ingestion_service
+from app.langchain.ingestion.service import IngestionService
 
 
 router = APIRouter(
@@ -34,6 +35,26 @@ async def create_document(
             detail=str(exc),
         )
 
+@router.get("/search")
+async def search_documents(
+    query: str,
+    service: IngestionService = Depends(
+        get_ingestion_service,
+    ),
+):
+    results = service.vectorstore.similarity_search_with_score(
+        query=query,
+        k=5,
+    )
+
+    return [
+        {
+            "content": document.page_content,
+            "metadata": document.metadata,
+            "score": score,
+        }
+        for document, score in results
+    ]
 
 @router.get(
     "/{document_id}",

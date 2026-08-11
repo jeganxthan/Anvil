@@ -1,24 +1,28 @@
+import asyncio
 from pathlib import Path
 
 from langchain_community.document_loaders import UnstructuredMarkdownLoader
 from langchain_core.documents import Document
+from app.langchain.loaders.base import DocumentLoader
 
 
-class MarkdownDocumentLoader:
+class MarkdownDocumentLoader(DocumentLoader):
     def __init__(
         self,
         path: str | Path,
     ):
         self.path = Path(path)
 
-    def load(
+    async def load(
         self,
     ) -> list[Document]:
         loader = UnstructuredMarkdownLoader(
             str(self.path),
         )
 
-        return loader.load()
+        return await asyncio.to_thread(
+            loader.load,
+        )
 
     def lazy_load(
         self,

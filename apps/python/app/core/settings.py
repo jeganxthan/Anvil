@@ -10,6 +10,11 @@ class Settings(BaseSettings):
         validation_alias="DATABASE_URL",
     )
     
+    sqlite_vec_path: str = Field(
+        default="anvil.db",
+        validation_alias="SQLITE_PATH",
+    )
+    
 @lru_cache
 def get_settings() -> Settings:
     return Settings()

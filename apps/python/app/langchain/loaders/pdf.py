@@ -1,16 +1,20 @@
+import asyncio
 from pathlib import Path
 
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_core.documents import Document
+from app.langchain.loaders.base import DocumentLoader
 
 
-class PDFLoader:
+class PDFLoader(DocumentLoader):
     def __init__(self, path: str | Path):
         self.path = Path(path)
 
-    def load(self) -> list[Document]:
+    async def load(self) -> list[Document]:
         loader = PyMuPDFLoader(str(self.path))
-        return loader.load()
+        return await asyncio.to_thread(
+            loader.load,
+        )
 
     def lazy_load(self):
         loader = PyMuPDFLoader(str(self.path))

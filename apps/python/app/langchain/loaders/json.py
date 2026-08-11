@@ -1,10 +1,12 @@
+import asyncio
 from pathlib import Path
 
 from langchain_community.document_loaders import JSONLoader
 from langchain_core.documents import Document
+from app.langchain.loaders.base import DocumentLoader
 
 
-class JSONDocumentLoader:
+class JSONDocumentLoader(DocumentLoader):
     def __init__(
         self,
         path: str | Path,
@@ -15,7 +17,7 @@ class JSONDocumentLoader:
         self.jq_schema = jq_schema
         self.text_content = text_content
 
-    def load(
+    async def load(
         self,
     ) -> list[Document]:
         loader = JSONLoader(
@@ -24,7 +26,9 @@ class JSONDocumentLoader:
             text_content=self.text_content,
         )
 
-        return loader.load()
+        return await asyncio.to_thread(
+            loader.load,
+        )
 
     def lazy_load(
         self,

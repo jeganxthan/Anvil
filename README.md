@@ -18,26 +18,7 @@ Anvil aims to become the **VS Code of AI**.
 
 Instead of forcing users to switch between ChatGPT, Claude, Gemini, Ollama, LM Studio, Open WebUI, NotebookLM, and dozens of AI tools, Anvil provides a single, extensible desktop platform where every model, every workflow, and every AI technique works together.
 
-Our goal is to build an AI workspace that developers, researchers, students, and enterprises can customize and extend — fast by default, and correct by design.
-
----
-
-## Why Anvil?
-
-Modern AI applications are fragmented.
-
-* ChatGPT for writing
-* Claude for long context
-* Gemini for multimodal tasks
-* Ollama for local models
-* Open WebUI for self-hosting
-* LM Studio for local inference
-* NotebookLM for research
-* Pinecone for vectors
-* LangChain for orchestration
-* CrewAI for agents
-
-Anvil brings everything together — and treats every framework as an interchangeable adapter, not a foundation you're locked into.
+Anvil is designed to keep absorbing new AI technology as it matures — new providers, new retrieval strategies, new agent frameworks — without ever requiring a rewrite of its core.
 
 ---
 
@@ -52,7 +33,8 @@ Anvil brings everything together — and treats every framework as an interchang
 * Cross Platform
 * Developer Friendly
 * Plugin Based
-* **Framework-agnostic core** — your own retrieval, caching, and provider logic is the product; LangChain/LlamaIndex/CrewAI plug in only where their specific strength is needed
+* **Framework-agnostic core** — your own caching, memory, and orchestration logic is the product; LangChain, LlamaIndex, LiteLLM, and every other framework plug in as adapters, never as the foundation
+* **Always current** — the architecture is built so new frameworks, providers, and techniques can be added as they emerge, not just the ones listed today
 
 ---
 
@@ -81,176 +63,144 @@ Anvil brings everything together — and treats every framework as an interchang
 
                 Python AI Engine (FastAPI, async)
    ┌────────────────────────────────────────────────────┐
-   │  Provider Layer                                      │
-   │  circuit breaker + token bucket + fallback chain     │
+   │  LiteLLM Gateway                                      │
+   │  single unified endpoint for every provider,          │
+   │  routing, fallback, spend/usage tracking, caching     │
    │  OpenAI · Anthropic · Gemini · NVIDIA · Ollama ·      │
    │  Groq · OpenRouter · TogetherAI · DeepSeek ·          │
-   │  Mistral · Azure OpenAI · AWS Bedrock                 │
+   │  Mistral · Azure OpenAI · AWS Bedrock · 100+ more      │
+   ├────────────────────────────────────────────────────┤
+   │  RAG Framework Selector (user-facing, per session)    │
+   │  ┌───────────────┐        ┌────────────────────┐    │
+   │  │  LlamaIndex    │        │   LangChain          │    │
+   │  │  document Q&A, │        │   agentic workflows, │    │
+   │  │  hierarchical  │        │   memory, tool-using │    │
+   │  │  indexing      │        │   reasoning chains    │    │
+   │  └───────────────┘        └────────────────────┘    │
+   ├────────────────────────────────────────────────────┤
+   │  Ingestion — Crawl4AI                                  │
+   │  scrapes websites into clean, LLM-ready Markdown/       │
+   │  structured data, feeds directly into either RAG path  │
    ├──────────────┬──────────────┬─────────────────────┤
-   │  RAG / CAG    │ Agent / MCP  │  Memory (tiered:     │
-   │  Core         │ Orchestrator │  ring buffer →        │
-   │ (hand-written) │ (LangGraph)  │  summary → semantic → │
-   │                │              │  long-term / MAG)     │
-   ├──────────────┼──────────────┼─────────────────────┤
-   │  LangChain    │  LlamaIndex  │  Observability        │
-   │  adapter      │  adapter     │  (OTel + Langfuse/     │
-   │  (optional)   │  (optional)  │   Phoenix)             │
+   │  CAG          │  MAG          │  Agents / MCP        │
+   │ (static docs, │  (tiered      │  (LangGraph DAG,      │
+   │  prompt/      │  memory:      │  MCP client/server,   │
+   │  provider      │  working →    │  parallel tool calls) │
+   │  caching)      │  summary →    │                       │
+   │                │  semantic →   │                       │
+   │                │  long-term)   │                       │
+   ├──────────────┴──────────────┴─────────────────────┤
+   │  Observability & Prompt Registry                      │
+   │  OpenTelemetry + Langfuse/Phoenix (traces, eval)       │
+   │  Langfuse prompt management (versioned, no-redeploy)   │
    └────────────────────────────────────────────────────┘
 
                               │
 
-        Vector DB (Qdrant / FAISS / Chroma) + Postgres/SQLite
+        Vector DB (SQLite)
 ```
 
 ---
 
 ## Features
 
-### AI Providers
+### AI Providers — via LiteLLM Gateway
 
-* NVIDIA NIM
-* OpenAI
-* Gemini
-* Claude
-* Ollama
-* Groq
-* OpenRouter
-* TogetherAI
-* DeepSeek
-* Mistral
-* Azure OpenAI
-* AWS Bedrock
-
-Every provider sits behind an identical interface — same routes, same request/response contract — wrapped in a shared cache check, circuit breaker, rate limiter, and fallback chain, so switching providers never means switching reliability.
+Anvil no longer hand-writes a separate router per provider. Every provider — OpenAI, Anthropic, Gemini, NVIDIA, Ollama, Groq, OpenRouter, TogetherAI, DeepSeek, Mistral, Azure OpenAI, AWS Bedrock, and 100+ others LiteLLM supports — is reached through **one unified gateway endpoint**. Switching providers is a configuration change, not a new file. LiteLLM handles routing, fallback, and spend tracking; Anvil's own layer adds the shared embeddings/response cache on top.
 
 ### Local Models
 
 * Ollama
 * llama.cpp
 * LM Studio
-* vLLM
+* vLLM (supports prefix caching — the backbone of Anvil's local CAG path)
 * SGLang
+
+### RAG Framework — user-selectable per session
+
+From the frontend, the user picks the RAG engine that fits what they're doing:
+
+* **LlamaIndex** *(default)* — best for deep document Q&A: strongest PDF/table parsing, hierarchical and multi-document indexing, purpose-built query engines with citation support. Pick this for "chat with my docs/codebase."
+* **LangChain** — best for agentic workflows: LCEL chains, richer memory primitives, and native LangGraph integration for multi-step, tool-using reasoning. Pick this when building an agent that needs to retrieve, reason, and act across multiple tools.
+
+Both sit on top of the same vector store and embeddings cache — switching frameworks never means re-ingesting or re-embedding data.
+
+### Web Ingestion — Crawl4AI
+
+Websites are scraped with **Crawl4AI**, which converts pages into clean, LLM-ready Markdown/structured output (stripping nav/ads/boilerplate) before chunking. Scraped content feeds into the same ingestion pipeline as any other document source, and is retrievable through either RAG framework the user selects.
 
 ### Knowledge & Context Strategies
 
-* **RAG (Retrieval-Augmented Generation)** — for large, dynamic knowledge bases: hybrid search (dense + sparse), Reciprocal Rank Fusion, reranking, context compression, citation-grounded answers
-* **CAG (Cache-Augmented Generation)** — for small, static knowledge sets (docs, style guides, plugin references): preloads knowledge directly into the context window and caches inference state, skipping retrieval entirely for lower latency and simpler infra
-* **MAG (Memory-Augmented Generation)** — tiered, persistent memory across sessions: working memory (ring buffer), summary memory, semantic memory, and long-term/workspace memory, so Anvil remembers preferences and context beyond a single chat
+* **RAG** — for large or changing knowledge bases (documents, scraped sites, codebases): hybrid search (dense + sparse), Reciprocal Rank Fusion, reranking, context compression, citation-grounded answers
+* **CAG (Cache-Augmented Generation)** — for small, static knowledge (plugin docs, style guides): preloaded into context, using provider prompt caching or vLLM prefix caching — no dedicated library, a pattern built on infrastructure Anvil already has
+* **MAG (Memory-Augmented Generation)** — tiered, persistent memory across sessions (working → summary → semantic → long-term), so Anvil remembers user preferences and project context between sessions
 
-The RAG/CAG/MAG router picks the right strategy automatically based on corpus size, volatility, and whether cross-session memory is involved — you don't have to choose manually.
+The router picks the right strategy automatically based on corpus size, volatility, and whether cross-session memory is involved.
 
-### RAG Document Support
+### Document Support (feeds RAG via LlamaIndex or LangChain)
 
-* PDF Chat
-* Word Documents
-* Excel
-* CSV
-* Markdown
-* HTML
-* Websites
+* PDF, Word, Excel, CSV, Markdown, HTML
+* Websites (via Crawl4AI)
 * GitHub Repositories
 * YouTube Transcripts
-* Notion
-* Confluence
-* Obsidian Vaults
+* Notion, Confluence, Obsidian Vaults
 
 ### Embeddings
 
-* BGE
-* Nomic
-* E5
-* Jina
-* OpenAI
-* Voyage
-* NVIDIA
-
-All embeddings pass through a shared Rust-side LRU cache (`moka`, TTL + size-bound) before hitting a provider — regardless of which framework or code path triggered the call.
+BGE · Nomic · E5 · Jina · OpenAI · Voyage · NVIDIA — all routed through the same shared Rust-side LRU cache (`moka`, TTL + size-bound) before any provider call, regardless of which RAG framework triggered it.
 
 ### Vector Databases
 
-* Pinecone
-* Qdrant
-* Chroma
-* FAISS
-* LanceDB
-* Milvus
-* Weaviate
+* **sqlite-vec** *(local-first default)* — embedded, zero-deploy, fits Anvil's "Local First" principle exactly
+* **Qdrant** — self-hosted / power-user tier for large personal corpora
+* Pinecone, Chroma, FAISS, LanceDB, Milvus, Weaviate — supported for users who want them
 
 ### AI Techniques
 
-* Hybrid Search / Semantic Search
-* Metadata Filtering
-* Multi Query & Self Query Retrieval
-* Context Compression
-* Re-ranking
+* Hybrid Search, Metadata Filtering, Multi/Self Query Retrieval
+* Context Compression, Re-ranking, Citation RAG
 * Cache-Augmented Generation (CAG)
 * Memory-Augmented Generation (MAG)
-* Long-Term & Conversation Memory
-* Prompt Templates & Versioning
-* Function / Tool Calling
+* Prompt Templates via LangChain/LlamaIndex primitives — never hand-rolled
+* Prompt versioning via Langfuse prompt registry — editable without redeploying
 * Structured Output (Pydantic-validated)
 * Streaming Responses
 
 ### AI Frameworks
 
-Used as optional adapters on top of Anvil's own core — never the default path:
-
-* LangChain (LCEL, chains, tools, memory)
-* LlamaIndex (document ingestion, query engines)
-* LangGraph (default agent orchestration — DAG + topological execution)
-* CrewAI / AutoGen (alternate role-based or conversational agent styles)
-* PydanticAI (default typed, validated agent outputs)
-* OpenAI Agents SDK / Google ADK / Semantic Kernel
-* SmolAgents (code-execution agents — used for the Coding Agent)
-* Haystack, DSPy (opt-in, lower priority)
+* **LiteLLM** — unified provider gateway (replaces per-provider routers)
+* **LlamaIndex** / **LangChain** — user-selectable RAG engines (see comparison above)
+* **LangGraph** — default agent orchestration (DAG + topological execution)
+* **PydanticAI** — default typed, validated agent outputs
+* **SmolAgents** — code-execution agent, powers the Coding Agent
+* CrewAI, AutoGen, OpenAI Agents SDK, Google ADK, Semantic Kernel — optional alternate agent styles
+* **Crawl4AI** — website-to-Markdown scraping for RAG ingestion
 
 ### Model Context Protocol (MCP)
 
-* MCP Client — tool discovery, resource discovery, prompt discovery, standardized transport
-* MCP Server (Rust, planned) — exposes Anvil's own file system, local search, and plugins as MCP tools/resources so other AI clients can use Anvil as a tool provider
+* MCP Client — tool/resource/prompt discovery, standardized transport
+* MCP Server (Rust, planned) — exposes Anvil's own file system, local search, and plugins as MCP tools for other AI clients
 
 ### Agents
 
-* Research Agent
-* Coding Agent (SmolAgents-backed code execution)
-* Documentation Agent
-* File Agent
-* Browser Agent
-* Database Agent
-* GitHub Agent
-* Terminal Agent
-* Planner Agent
-* Multi-Agent Workflows
+Research Agent · Coding Agent (SmolAgents) · Documentation Agent · File Agent · Browser Agent · Database Agent · GitHub Agent · Terminal Agent · Planner Agent · Multi-Agent Workflows
 
 ### Reliability & Performance
 
-* Circuit breaker per provider (closed / open / half-open)
-* Token-bucket rate limiting per provider/key
-* Automatic provider fallback chains
-* Cost tracking & usage analytics
+* LiteLLM-level routing + fallback across providers
+* Circuit breaker and rate limiting on Anvil's own call layer
 * Multi-tier caching (Rust in-memory → relational DB → vector DB)
-* Ring-buffer-bounded chat memory (no unbounded growth on long conversations)
+* Ring-buffer-bounded chat memory
 * Parallel tool-call execution within agent DAGs
+* Cost tracking & usage analytics
 
 ### Workspace
 
-* Projects
-* Chat History
-* Prompt Library
-* Model Profiles
-* Workspaces
-* Collections
-* Tags
-* Search
-* Export
+Projects · Chat History · Prompt Library · Model Profiles · Workspaces · Collections · Tags · Search · Export
 
 ### Developer Tools
 
-* REST API
-* Plugin SDK (Rust SDK, Python SDK)
-* Extension Marketplace
-* CLI
-* MCP Support
+REST API · Plugin SDK (Rust + Python) · Extension Marketplace · CLI · MCP Support
 
 ---
 
@@ -259,9 +209,12 @@ Used as optional adapters on top of Anvil's own core — never the default path:
 **Frontend:** React, TypeScript, Tailwind CSS, Tauri
 **Core:** Rust (Tokio async runtime)
 **AI Engine:** Python (FastAPI, async)
-**AI Frameworks:** LangChain, LlamaIndex, LangGraph, CrewAI, AutoGen, PydanticAI, SmolAgents, DSPy
+**Provider Gateway:** LiteLLM
+**RAG Frameworks:** LlamaIndex, LangChain (user-selectable)
+**Agent Orchestration:** LangGraph, PydanticAI, SmolAgents
+**Web Ingestion:** Crawl4AI
 **Databases:** SQLite, PostgreSQL, Redis
-**Vector Databases:** Pinecone, Qdrant, FAISS, Chroma, LanceDB
+**Vector Databases:** sqlite-vec (local default), Qdrant, Pinecone, FAISS, Chroma, LanceDB
 **Caching:** `moka` (Rust, async-safe LRU + TTL)
 **Observability:** OpenTelemetry, Langfuse / Phoenix, Ragas, DeepEval, Promptfoo
 
@@ -280,30 +233,30 @@ frontend/
 
 src-tauri/
     commands/
-    providers/
-    config/
-    settings/
-    plugins/
     cache/
+    plugins/
     database/
     ipc/
     mcp_server/
+    config/
+    settings/
     updater/
 
 python/
     api/
-    providers/          # circuit breaker, rate limiter, fallback chain per provider
+        gateway.py         # LiteLLM-backed unified chat/embeddings endpoint
     rag/
-        core/            # hand-written retrieval, chunking, fusion, reranking
-        langchain_adapter/
+        selector.py         # user-facing framework choice: llamaindex | langchain
         llamaindex_adapter/
-    cag/                 # cache-augmented generation for static knowledge
-    embeddings/
+        langchain_adapter/
+    ingestion/
+        crawl4ai/            # website scraping → clean Markdown → chunking
+        loaders/              # pdf, docx, xlsx, notion, confluence, obsidian
+    cag/
+    memory/                  # tiered memory (MAG pattern)
     agents/
     mcp_client/
-    memory/              # tiered memory (MAG pattern)
-    workflows/
-    loaders/
+    embeddings/
     evaluation/
     tools/
 
@@ -323,72 +276,41 @@ website/
 ## Roadmap
 
 ### v0.1
-* NVIDIA Provider
-* OpenAI Compatible Client
-* Basic Chat
-* Streaming
-* Chat History
-* Settings
+* LiteLLM gateway wired in (replaces per-provider routers)
+* Basic Chat, Streaming, Chat History, Settings
 
 ### v0.2
-* OpenAI
-* Gemini
-* Claude
-* Ollama
-* Circuit breaker, rate limiting, fallback chain
+* Circuit breaker + shared cache on top of LiteLLM
+* sqlite-vec local vector store
 
 ### v0.3
-* RAG
-* CAG (static knowledge fast path)
-* Embeddings
-* PDF Chat
-* Pinecone
-* FAISS
+* RAG framework selector (LlamaIndex + LangChain adapters)
+* Crawl4AI web ingestion
+* CAG fast path for static knowledge
 * Shared embeddings cache
 
 ### v0.4
-* LangChain adapter
-* LlamaIndex adapter
 * Tiered memory (MAG pattern)
-* Prompt Templates
+* Langfuse prompt registry (no hardcoded prompts)
 
 ### v0.5
-* Agents (LangGraph default orchestration)
-* CrewAI / AutoGen (optional styles)
-* PydanticAI typed outputs
-* SmolAgents (Coding Agent)
+* LangGraph agent orchestration
+* PydanticAI typed outputs, SmolAgents coding agent
 * MCP Client
 
 ### v1.0
-* Plugin Marketplace
-* MCP Server (Rust)
-* Multi-Agent Workspace
-* Enterprise Authentication
-* Cloud Sync
-* Team Collaboration
-* Workflow Builder
-* Observability & Evaluation pipeline (OTel, Langfuse/Phoenix, Ragas)
+* Plugin Marketplace, MCP Server (Rust)
+* Multi-Agent Workspace, Team Collaboration, Cloud Sync
+* Full observability & evaluation pipeline
+
+### Ongoing
+* New providers, RAG/agent frameworks, and ingestion sources get added as adapters behind existing interfaces — the core (cache, memory, orchestration) doesn't change when the ecosystem does
 
 ---
 
 ## Contributing
 
-We welcome developers of all experience levels.
-
-Areas where you can contribute:
-
-* Rust
-* Python
-* React
-* AI
-* Documentation
-* Testing
-* UI/UX
-* Plugin Development
-* Examples
-* Tutorials
-
-Please read `CONTRIBUTING.md` before submitting a pull request.
+We welcome developers of all experience levels — Rust, Python, React, AI, documentation, testing, UI/UX, plugin development. Please read `CONTRIBUTING.md` before submitting a pull request.
 
 ---
 
@@ -402,4 +324,4 @@ MIT License — see `LICENSE`.
 
 Anvil is not intended to be another chatbot.
 
-It is intended to become an extensible AI operating environment where developers can build, run, compare, evaluate, and automate AI workflows using any model, any provider, any retrieval or memory strategy — from one unified desktop application.
+It is an extensible AI operating environment where developers can build, run, compare, evaluate, and automate AI workflows using any model, any provider, any retrieval or memory strategy — and pull in whatever the AI ecosystem builds next, without rewriting the core.

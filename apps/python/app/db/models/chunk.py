@@ -1,4 +1,5 @@
 from datetime import datetime
+from typing import TYPE_CHECKING
 
 from sqlalchemy import (
     DateTime,
@@ -11,6 +12,9 @@ from sqlalchemy import (
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.base import Base
+
+if TYPE_CHECKING:
+    from app.db.models.document import Document
 
 
 class Chunk(Base):
@@ -51,7 +55,7 @@ class Chunk(Base):
         nullable=False,
     )
 
-    document = relationship(
+    document: Mapped["Document"] = relationship(
         "Document",
         back_populates="chunks",
     )

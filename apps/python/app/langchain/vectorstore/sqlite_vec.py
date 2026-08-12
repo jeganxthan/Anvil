@@ -1,5 +1,7 @@
 from __future__ import annotations
+import numpy as np
 
+from langchain_core.vectorstores.utils import maximal_marginal_relevance
 import json
 import sqlite3
 from collections.abc import Iterable
@@ -602,7 +604,127 @@ class AnvilSQLiteVec(VectorStore):
 
         finally:
             connection.close()
+            
+    def _get_embeddings(
+    self,
+    documents: list[Document],
+) -> list[list[float]]:
+        connection = self._connect()
 
+        table_name = self._quote_identifier(
+            self.collection_name,
+        )
+
+        try:
+            embeddings: list[list[float]] = []
+
+            for document in documents:
+                chunk_id = document.id
+
+                if chunk_id is None:
+                    raise ValueError(
+                        "Document must have an id for MMR"
+                    )
+
+                row = connection.execute(
+                    f"""
+                    SELECT embedding
+                    FROM {table_name}
+                    WHERE chunk_id = ?
+                    """,
+                    (int(chunk_id),),
+                ).fetchone()
+
+                if row is None:
+                    raise ValueError(
+                        f"Embedding not found for chunk {chunk_id}"
+                    )
+
+                embeddings.append(
+                    list(
+                        np.frombuffer(
+                            row["embedding"],
+                            dtype=np.float32,
+                        )
+                    )
+                )
+
+            return embeddings
+
+        finally:
+            connection.close()
+    def max_marginal_relevance_search(
+        self,
+        query: str,
+        k: int = 4,
+        fetch_k: int = 20,
+        lambda_mult: float = 0.5,
+        filter: dict[str, Any] | None = None,
+        **kwargs: Any,
+    ) -> list[Document]:
+        embedding = self.embedding.embed_query(query)
+
+        return self.max_marginal_relevance_search_by_vector(
+            embedding=embedding,
+            k=k,
+            fetch_k=fetch_k,
+            lambda_mult=lambda_mult,
+            filter=filter,
+            **kwargs,
+        )
+
+
+    def max_marginal_relevance_search_by_vector(
+        self,
+        embedding: list[float],
+        k: int = 4,
+        fetch_k: int = 20,
+        lambda_mult: float = 0.5,
+        filter: dict[str, Any] | None = None,
+        **kwargs: Any,
+    ) -> list[Document]:
+            if k <= 0:
+                return []
+
+            if fetch_k <= 0:
+                return []
+
+            if not 0 <= lambda_mult <= 1:
+                raise ValueError(
+                    "lambda_mult must be between 0 and 1"
+                )
+
+            # First retrieve more candidates than we finally return.
+            candidates = self.similarity_search_by_vector(
+                embedding=embedding,
+                k=fetch_k,
+                filter=filter,
+                **kwargs,
+            )
+
+            if not candidates:
+                return []
+
+            # We need the actual embeddings of the candidates
+            # for LangChain's MMR calculation.
+            candidate_embeddings = self._get_embeddings(
+                candidates
+            )
+
+            selected_indexes = maximal_marginal_relevance(
+                np.array(
+                    embedding,
+                    dtype=np.float32,
+                ),
+                candidate_embeddings,
+                lambda_mult=lambda_mult,
+                k=k,
+            )
+
+            return [
+                candidates[index]
+                for index in selected_indexes
+            ]
     # ---------------------------------------------------------
     # Delete
     # ---------------------------------------------------------

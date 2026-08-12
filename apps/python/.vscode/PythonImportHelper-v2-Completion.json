@@ -116,6 +116,22 @@
         "documentation": {}
     },
     {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "TYPE_CHECKING",
         "importPath": "typing",
         "description": "typing",
@@ -149,6 +165,14 @@
     },
     {
         "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -662,6 +686,94 @@
         "documentation": {}
     },
     {
+        "label": "Context",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextMessage",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
         "label": "Settings",
         "importPath": "app.core.settings",
         "description": "app.core.settings",
@@ -759,6 +871,14 @@
     },
     {
         "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -955,14 +1075,6 @@
         "description": "app.langchain.embedding.factory",
         "isExtraImport": true,
         "detail": "app.langchain.embedding.factory",
-        "documentation": {}
-    },
-    {
-        "label": "AnvilSQLiteVec",
-        "importPath": "app.langchain.vectorstore.sqlite_vec",
-        "description": "app.langchain.vectorstore.sqlite_vec",
-        "isExtraImport": true,
-        "detail": "app.langchain.vectorstore.sqlite_vec",
         "documentation": {}
     },
     {
@@ -1934,14 +2046,6 @@
         "documentation": {}
     },
     {
-        "label": "BaseRetriever",
-        "importPath": "langchain_core.retrievers",
-        "description": "langchain_core.retrievers",
-        "isExtraImport": true,
-        "detail": "langchain_core.retrievers",
-        "documentation": {}
-    },
-    {
         "label": "BaseSplitter",
         "importPath": "app.langchain.spliter.base",
         "description": "app.langchain.spliter.base",
@@ -2062,11 +2166,20 @@
         "documentation": {}
     },
     {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
+        "label": "numpy",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "dataclasses",
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "maximal_marginal_relevance",
+        "importPath": "langchain_core.vectorstores.utils",
+        "description": "langchain_core.vectorstores.utils",
+        "isExtraImport": true,
+        "detail": "langchain_core.vectorstores.utils",
         "documentation": {}
     },
     {
@@ -2214,6 +2327,54 @@
         "description": "app.core.dependencies",
         "isExtraImport": true,
         "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "to_context_document",
+        "importPath": "app.langchain.retrieval.adapter",
+        "description": "app.langchain.retrieval.adapter",
+        "isExtraImport": true,
+        "detail": "app.langchain.retrieval.adapter",
+        "documentation": {}
+    },
+    {
+        "label": "ContextBuilder",
+        "importPath": "app.ai.context.builder",
+        "description": "app.ai.context.builder",
+        "isExtraImport": true,
+        "detail": "app.ai.context.builder",
+        "documentation": {}
+    },
+    {
+        "label": "ContextFilter",
+        "importPath": "app.ai.context.filter",
+        "description": "app.ai.context.filter",
+        "isExtraImport": true,
+        "detail": "app.ai.context.filter",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDeduplicator",
+        "importPath": "app.ai.context.deduplicator",
+        "description": "app.ai.context.deduplicator",
+        "isExtraImport": true,
+        "detail": "app.ai.context.deduplicator",
+        "documentation": {}
+    },
+    {
+        "label": "ContextRanker",
+        "importPath": "app.ai.context.ranker",
+        "description": "app.ai.context.ranker",
+        "isExtraImport": true,
+        "detail": "app.ai.context.ranker",
+        "documentation": {}
+    },
+    {
+        "label": "ContextTokenBudget",
+        "importPath": "app.ai.context.token_budget",
+        "description": "app.ai.context.token_budget",
+        "isExtraImport": true,
+        "detail": "app.ai.context.token_budget",
         "documentation": {}
     },
     {
@@ -2479,6 +2640,78 @@
         "description": "alembic.env",
         "peekOfCode": "EXCLUDED_TABLES = {\n    \"chunk_vectors\",\n    \"vector_store_metadata\",\n}\ndef include_name(\n    name,\n    type_,\n    parent_names,\n):\n    if type_ == \"table\" and name in EXCLUDED_TABLES:",
         "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "ContextBuilder",
+        "kind": 6,
+        "importPath": "app.ai.context.builder",
+        "description": "app.ai.context.builder",
+        "peekOfCode": "class ContextBuilder:\n    def build(\n        self,\n        query: str,\n        documents: list[ContextDocument] | None = None,\n        messages: list[ContextMessage] | None = None,\n    ) -> Context:\n        return Context(\n            query=query,\n            documents=documents or [],",
+        "detail": "app.ai.context.builder",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDeduplicator",
+        "kind": 6,
+        "importPath": "app.ai.context.deduplicator",
+        "description": "app.ai.context.deduplicator",
+        "peekOfCode": "class ContextDeduplicator:\n    def deduplicate(\n        self,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        seen: set[str] = set()\n        unique_documents: list[ContextDocument] = []\n        for document in documents:\n            content = document.content.strip()\n            if not content:",
+        "detail": "app.ai.context.deduplicator",
+        "documentation": {}
+    },
+    {
+        "label": "ContextFilter",
+        "kind": 6,
+        "importPath": "app.ai.context.filter",
+        "description": "app.ai.context.filter",
+        "peekOfCode": "class ContextFilter:\n    def __init__(\n        self,\n        threshold: float | None = None,\n        mode: Literal[\"higher\", \"lower\"] = \"higher\",\n    ):\n        self.threshold = threshold\n        self.mode = mode\n    def filter(\n        self,",
+        "detail": "app.ai.context.filter",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "kind": 6,
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "peekOfCode": "class ContextDocument:\n    content: str\n    metadata: dict[str, Any] = field(\n        default_factory=dict,\n    )\n    score: float | None = None\n@dataclass\nclass ContextMessage:\n    role: str\n    content: str",
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextMessage",
+        "kind": 6,
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "peekOfCode": "class ContextMessage:\n    role: str\n    content: str\n    metadata: dict[str, Any] = field(\n        default_factory=dict,\n    )\n@dataclass\nclass Context:\n    query: str\n    documents: list[ContextDocument] = field(",
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "Context",
+        "kind": 6,
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "peekOfCode": "class Context:\n    query: str\n    documents: list[ContextDocument] = field(\n        default_factory=list,\n    )\n    messages: list[ContextMessage] = field(\n        default_factory=list,\n    )",
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextRanker",
+        "kind": 6,
+        "importPath": "app.ai.context.ranker",
+        "description": "app.ai.context.ranker",
+        "peekOfCode": "class ContextRanker:\n    def rank(\n        self,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        scored_documents = [\n            document\n            for document in documents\n            if document.score is not None\n        ]",
+        "detail": "app.ai.context.ranker",
+        "documentation": {}
+    },
+    {
+        "label": "ContextTokenBudget",
+        "kind": 6,
+        "importPath": "app.ai.context.token_budget",
+        "description": "app.ai.context.token_budget",
+        "peekOfCode": "class ContextTokenBudget:\n    def __init__(\n        self,\n        max_tokens: int,\n    ):\n        if max_tokens <= 0:\n            raise ValueError(\n                \"max_tokens must be greater than 0\",\n            )\n        self.max_tokens = max_tokens",
+        "detail": "app.ai.context.token_budget",
         "documentation": {}
     },
     {
@@ -2824,12 +3057,12 @@
         "documentation": {}
     },
     {
-        "label": "VectorRetriever",
-        "kind": 6,
-        "importPath": "app.langchain.retrievers.vector",
-        "description": "app.langchain.retrievers.vector",
-        "peekOfCode": "class VectorRetriever(BaseRetriever):\n    vectorstore: AnvilSQLiteVec\n    k: int = 5\n    def _get_relevant_documents(\n        self,\n        query: str,\n    ) -> list[Document]:\n        return self.vectorstore.similarity_search(\n            query,\n            k=self.k,",
-        "detail": "app.langchain.retrievers.vector",
+        "label": "to_context_document",
+        "kind": 2,
+        "importPath": "app.langchain.retrieval.adapter",
+        "description": "app.langchain.retrieval.adapter",
+        "peekOfCode": "def to_context_document(\n    document: Document,\n    score: float | None = None,\n) -> ContextDocument:\n    return ContextDocument(\n        content=document.page_content,\n        metadata=document.metadata,\n        score=score,\n    )",
+        "detail": "app.langchain.retrieval.adapter",
         "documentation": {}
     },
     {

@@ -14,6 +14,9 @@ from app.ai.context.filter import ContextFilter
 from app.ai.context.deduplicator import ContextDeduplicator
 from app.ai.context.ranker import ContextRanker
 from app.ai.context.token_budget import ContextTokenBudget
+from app.ai.context.compressor import ExtractiveCompressor
+from app.ai.context.ordering import PreserveOrder
+from app.ai.context.factory import create_context_pipeline
 
 router = APIRouter(
     prefix="/documents",
@@ -51,7 +54,6 @@ async def search_documents(
         get_ingestion_service,
     ),
 ):
-    # 1. Retrieval
     if search_type == "mmr":
         search_kwargs = {
             "k": 5,
@@ -63,6 +65,7 @@ async def search_documents(
             "k": 5,
         }
 
+    # LangChain owns retrieval.
     retriever = service.vectorstore.as_retriever(
         search_type=search_type,
         search_kwargs=search_kwargs,
@@ -70,44 +73,16 @@ async def search_documents(
 
     documents = await retriever.ainvoke(query)
 
-    # 2. Convert LangChain → Anvil Context
+    # LangChain → Anvil Context
     context_documents = [
         to_context_document(document)
         for document in documents
     ]
 
-    # 3. Filter
-    context_filter = ContextFilter()
+    # Anvil owns context engineering.
+    context_pipeline = create_context_pipeline()
 
-    context_documents = context_filter.filter(
-        context_documents,
-    )
-
-    # 4. Deduplicate
-    deduplicator = ContextDeduplicator()
-
-    context_documents = deduplicator.deduplicate(
-        context_documents,
-    )
-
-    # 5. Rank
-    ranker = ContextRanker()
-
-    context_documents = ranker.rank(
-        context_documents,
-    )
-
-    # 6. Token budget
-    token_budget = ContextTokenBudget(
-        max_tokens=3000,
-    )
-
-    context_documents = token_budget.apply(
-        context_documents,
-    )
-
-    # 7. Build final context
-    context = ContextBuilder().build(
+    context = context_pipeline.run(
         query=query,
         documents=context_documents,
     )

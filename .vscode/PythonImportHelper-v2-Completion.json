@@ -172,6 +172,14 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "TYPE_CHECKING",
         "importPath": "typing",
         "description": "typing",
@@ -1727,11 +1735,396 @@
         "documentation": {}
     },
     {
+        "label": "Context",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
         "label": "ContextDocument",
         "importPath": "app.ai.context.model",
         "description": "app.ai.context.model",
         "isExtraImport": true,
         "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextMessage",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ContextBuilder",
+        "importPath": "app.ai.context.builder",
+        "description": "app.ai.context.builder",
+        "isExtraImport": true,
+        "detail": "app.ai.context.builder",
+        "documentation": {}
+    },
+    {
+        "label": "ContextBuilder",
+        "importPath": "app.ai.context.builder",
+        "description": "app.ai.context.builder",
+        "isExtraImport": true,
+        "detail": "app.ai.context.builder",
+        "documentation": {}
+    },
+    {
+        "label": "ContextBuilder",
+        "importPath": "app.ai.context.builder",
+        "description": "app.ai.context.builder",
+        "isExtraImport": true,
+        "detail": "app.ai.context.builder",
+        "documentation": {}
+    },
+    {
+        "label": "ExtractiveCompressor",
+        "importPath": "app.ai.context.compressor",
+        "description": "app.ai.context.compressor",
+        "isExtraImport": true,
+        "detail": "app.ai.context.compressor",
+        "documentation": {}
+    },
+    {
+        "label": "ContextCompressor",
+        "importPath": "app.ai.context.compressor",
+        "description": "app.ai.context.compressor",
+        "isExtraImport": true,
+        "detail": "app.ai.context.compressor",
+        "documentation": {}
+    },
+    {
+        "label": "ExtractiveCompressor",
+        "importPath": "app.ai.context.compressor",
+        "description": "app.ai.context.compressor",
+        "isExtraImport": true,
+        "detail": "app.ai.context.compressor",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDeduplicator",
+        "importPath": "app.ai.context.deduplicator",
+        "description": "app.ai.context.deduplicator",
+        "isExtraImport": true,
+        "detail": "app.ai.context.deduplicator",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDeduplicator",
+        "importPath": "app.ai.context.deduplicator",
+        "description": "app.ai.context.deduplicator",
+        "isExtraImport": true,
+        "detail": "app.ai.context.deduplicator",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDeduplicator",
+        "importPath": "app.ai.context.deduplicator",
+        "description": "app.ai.context.deduplicator",
+        "isExtraImport": true,
+        "detail": "app.ai.context.deduplicator",
+        "documentation": {}
+    },
+    {
+        "label": "ContextFilter",
+        "importPath": "app.ai.context.filter",
+        "description": "app.ai.context.filter",
+        "isExtraImport": true,
+        "detail": "app.ai.context.filter",
+        "documentation": {}
+    },
+    {
+        "label": "ContextFilter",
+        "importPath": "app.ai.context.filter",
+        "description": "app.ai.context.filter",
+        "isExtraImport": true,
+        "detail": "app.ai.context.filter",
+        "documentation": {}
+    },
+    {
+        "label": "ContextFilter",
+        "importPath": "app.ai.context.filter",
+        "description": "app.ai.context.filter",
+        "isExtraImport": true,
+        "detail": "app.ai.context.filter",
+        "documentation": {}
+    },
+    {
+        "label": "PreserveOrder",
+        "importPath": "app.ai.context.ordering",
+        "description": "app.ai.context.ordering",
+        "isExtraImport": true,
+        "detail": "app.ai.context.ordering",
+        "documentation": {}
+    },
+    {
+        "label": "ContextOrdering",
+        "importPath": "app.ai.context.ordering",
+        "description": "app.ai.context.ordering",
+        "isExtraImport": true,
+        "detail": "app.ai.context.ordering",
+        "documentation": {}
+    },
+    {
+        "label": "PreserveOrder",
+        "importPath": "app.ai.context.ordering",
+        "description": "app.ai.context.ordering",
+        "isExtraImport": true,
+        "detail": "app.ai.context.ordering",
+        "documentation": {}
+    },
+    {
+        "label": "ContextPipeline",
+        "importPath": "app.ai.context.pipeline",
+        "description": "app.ai.context.pipeline",
+        "isExtraImport": true,
+        "detail": "app.ai.context.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "ContextRanker",
+        "importPath": "app.ai.context.ranker",
+        "description": "app.ai.context.ranker",
+        "isExtraImport": true,
+        "detail": "app.ai.context.ranker",
+        "documentation": {}
+    },
+    {
+        "label": "ContextRanker",
+        "importPath": "app.ai.context.ranker",
+        "description": "app.ai.context.ranker",
+        "isExtraImport": true,
+        "detail": "app.ai.context.ranker",
+        "documentation": {}
+    },
+    {
+        "label": "ContextRanker",
+        "importPath": "app.ai.context.ranker",
+        "description": "app.ai.context.ranker",
+        "isExtraImport": true,
+        "detail": "app.ai.context.ranker",
+        "documentation": {}
+    },
+    {
+        "label": "ContextTokenBudget",
+        "importPath": "app.ai.context.token_budget",
+        "description": "app.ai.context.token_budget",
+        "isExtraImport": true,
+        "detail": "app.ai.context.token_budget",
+        "documentation": {}
+    },
+    {
+        "label": "ContextTokenBudget",
+        "importPath": "app.ai.context.token_budget",
+        "description": "app.ai.context.token_budget",
+        "isExtraImport": true,
+        "detail": "app.ai.context.token_budget",
+        "documentation": {}
+    },
+    {
+        "label": "ContextTokenBudget",
+        "importPath": "app.ai.context.token_budget",
+        "description": "app.ai.context.token_budget",
+        "isExtraImport": true,
+        "detail": "app.ai.context.token_budget",
         "documentation": {}
     },
     {
@@ -1756,6 +2149,198 @@
         "description": "dataclasses",
         "isExtraImport": true,
         "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "field",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryMessage",
+        "importPath": "app.ai.memory.models",
+        "description": "app.ai.memory.models",
+        "isExtraImport": true,
+        "detail": "app.ai.memory.models",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryMessage",
+        "importPath": "app.ai.memory.models",
+        "description": "app.ai.memory.models",
+        "isExtraImport": true,
+        "detail": "app.ai.memory.models",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryMessage",
+        "importPath": "app.ai.memory.models",
+        "description": "app.ai.memory.models",
+        "isExtraImport": true,
+        "detail": "app.ai.memory.models",
+        "documentation": {}
+    },
+    {
+        "label": "ShortTermMemory",
+        "importPath": "app.ai.memory.short_term",
+        "description": "app.ai.memory.short_term",
+        "isExtraImport": true,
+        "detail": "app.ai.memory.short_term",
+        "documentation": {}
+    },
+    {
+        "label": "ShortTermMemory",
+        "importPath": "app.ai.memory.short_term",
+        "description": "app.ai.memory.short_term",
+        "isExtraImport": true,
+        "detail": "app.ai.memory.short_term",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryManager",
+        "importPath": "app.ai.memory.manager",
+        "description": "app.ai.memory.manager",
+        "isExtraImport": true,
+        "detail": "app.ai.memory.manager",
         "documentation": {}
     },
     {
@@ -2975,126 +3560,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "Mapped",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -3628,134 +4093,6 @@
         "description": "langchain_openai",
         "isExtraImport": true,
         "detail": "langchain_openai",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
         "documentation": {}
     },
     {
@@ -5347,43 +5684,11 @@
         "documentation": {}
     },
     {
-        "label": "ContextBuilder",
-        "importPath": "app.ai.context.builder",
-        "description": "app.ai.context.builder",
+        "label": "create_context_pipeline",
+        "importPath": "app.ai.context.factory",
+        "description": "app.ai.context.factory",
         "isExtraImport": true,
-        "detail": "app.ai.context.builder",
-        "documentation": {}
-    },
-    {
-        "label": "ContextFilter",
-        "importPath": "app.ai.context.filter",
-        "description": "app.ai.context.filter",
-        "isExtraImport": true,
-        "detail": "app.ai.context.filter",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDeduplicator",
-        "importPath": "app.ai.context.deduplicator",
-        "description": "app.ai.context.deduplicator",
-        "isExtraImport": true,
-        "detail": "app.ai.context.deduplicator",
-        "documentation": {}
-    },
-    {
-        "label": "ContextRanker",
-        "importPath": "app.ai.context.ranker",
-        "description": "app.ai.context.ranker",
-        "isExtraImport": true,
-        "detail": "app.ai.context.ranker",
-        "documentation": {}
-    },
-    {
-        "label": "ContextTokenBudget",
-        "importPath": "app.ai.context.token_budget",
-        "description": "app.ai.context.token_budget",
-        "isExtraImport": true,
-        "detail": "app.ai.context.token_budget",
+        "detail": "app.ai.context.factory",
         "documentation": {}
     },
     {
@@ -7290,12 +7595,48 @@
         "documentation": {}
     },
     {
+        "label": "ContextCompressor",
+        "kind": 6,
+        "importPath": "apps.python.app.ai.context.compressor",
+        "description": "apps.python.app.ai.context.compressor",
+        "peekOfCode": "class ContextCompressor(ABC):\n    @abstractmethod\n    def compress(\n        self,\n        query: str,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        ...\nclass NoOpCompressor(ContextCompressor):\n    def compress(",
+        "detail": "apps.python.app.ai.context.compressor",
+        "documentation": {}
+    },
+    {
+        "label": "NoOpCompressor",
+        "kind": 6,
+        "importPath": "apps.python.app.ai.context.compressor",
+        "description": "apps.python.app.ai.context.compressor",
+        "peekOfCode": "class NoOpCompressor(ContextCompressor):\n    def compress(\n        self,\n        query: str,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        return documents\nclass ExtractiveCompressor(ContextCompressor):\n    def __init__(\n        self,",
+        "detail": "apps.python.app.ai.context.compressor",
+        "documentation": {}
+    },
+    {
+        "label": "ExtractiveCompressor",
+        "kind": 6,
+        "importPath": "apps.python.app.ai.context.compressor",
+        "description": "apps.python.app.ai.context.compressor",
+        "peekOfCode": "class ExtractiveCompressor(ContextCompressor):\n    def __init__(\n        self,\n        max_tokens_per_document: int = 500,\n    ):\n        if max_tokens_per_document <= 0:\n            raise ValueError(\n                \"max_tokens_per_document must be greater than 0\",\n            )\n        self.max_tokens_per_document = (",
+        "detail": "apps.python.app.ai.context.compressor",
+        "documentation": {}
+    },
+    {
         "label": "ContextDeduplicator",
         "kind": 6,
         "importPath": "apps.python.app.ai.context.deduplicator",
         "description": "apps.python.app.ai.context.deduplicator",
         "peekOfCode": "class ContextDeduplicator:\n    def deduplicate(\n        self,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        seen: set[str] = set()\n        unique_documents: list[ContextDocument] = []\n        for document in documents:\n            content = document.content.strip()\n            if not content:",
         "detail": "apps.python.app.ai.context.deduplicator",
+        "documentation": {}
+    },
+    {
+        "label": "create_context_pipeline",
+        "kind": 2,
+        "importPath": "apps.python.app.ai.context.factory",
+        "description": "apps.python.app.ai.context.factory",
+        "peekOfCode": "def create_context_pipeline() -> ContextPipeline:\n    return ContextPipeline(\n        context_filter=ContextFilter(),\n        deduplicator=ContextDeduplicator(),\n        ranker=ContextRanker(),\n        token_budget=ContextTokenBudget(\n            max_tokens=3000,\n        ),\n        compressor=ExtractiveCompressor(\n            max_tokens_per_document=500,",
+        "detail": "apps.python.app.ai.context.factory",
         "documentation": {}
     },
     {
@@ -7335,6 +7676,33 @@
         "documentation": {}
     },
     {
+        "label": "ContextOrdering",
+        "kind": 6,
+        "importPath": "apps.python.app.ai.context.ordering",
+        "description": "apps.python.app.ai.context.ordering",
+        "peekOfCode": "class ContextOrdering(ABC):\n    @abstractmethod\n    def order(\n        self,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        ...\nclass PreserveOrder(ContextOrdering):\n    def order(\n        self,",
+        "detail": "apps.python.app.ai.context.ordering",
+        "documentation": {}
+    },
+    {
+        "label": "PreserveOrder",
+        "kind": 6,
+        "importPath": "apps.python.app.ai.context.ordering",
+        "description": "apps.python.app.ai.context.ordering",
+        "peekOfCode": "class PreserveOrder(ContextOrdering):\n    def order(\n        self,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        return documents",
+        "detail": "apps.python.app.ai.context.ordering",
+        "documentation": {}
+    },
+    {
+        "label": "ContextPipeline",
+        "kind": 6,
+        "importPath": "apps.python.app.ai.context.pipeline",
+        "description": "apps.python.app.ai.context.pipeline",
+        "peekOfCode": "class ContextPipeline:\n    def __init__(\n        self,\n        context_filter: ContextFilter,\n        deduplicator: ContextDeduplicator,\n        ranker: ContextRanker,\n        token_budget: ContextTokenBudget,\n        compressor: ContextCompressor,\n        ordering: ContextOrdering,\n        builder: ContextBuilder,",
+        "detail": "apps.python.app.ai.context.pipeline",
+        "documentation": {}
+    },
+    {
         "label": "ContextRanker",
         "kind": 6,
         "importPath": "apps.python.app.ai.context.ranker",
@@ -7350,6 +7718,33 @@
         "description": "apps.python.app.ai.context.token_budget",
         "peekOfCode": "class ContextTokenBudget:\n    def __init__(\n        self,\n        max_tokens: int,\n    ):\n        if max_tokens <= 0:\n            raise ValueError(\n                \"max_tokens must be greater than 0\",\n            )\n        self.max_tokens = max_tokens",
         "detail": "apps.python.app.ai.context.token_budget",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryManager",
+        "kind": 6,
+        "importPath": "apps.python.app.ai.memory.manager",
+        "description": "apps.python.app.ai.memory.manager",
+        "peekOfCode": "class MemoryManager:\n    def __init__(\n        self,\n        short_term: ShortTermMemory,\n    ):\n        self.short_term = short_term\n    async def add_message(\n        self,\n        session_id: str,\n        message: MemoryMessage,",
+        "detail": "apps.python.app.ai.memory.manager",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryMessage",
+        "kind": 6,
+        "importPath": "apps.python.app.ai.memory.models",
+        "description": "apps.python.app.ai.memory.models",
+        "peekOfCode": "class MemoryMessage:\n    role: str\n    content: str\n    metadata: dict[str, Any] = field(\n        default_factory=dict,\n    )\n    created_at: datetime = field(\n        default_factory=datetime.utcnow,\n    )",
+        "detail": "apps.python.app.ai.memory.models",
+        "documentation": {}
+    },
+    {
+        "label": "ShortTermMemory",
+        "kind": 6,
+        "importPath": "apps.python.app.ai.memory.short_term",
+        "description": "apps.python.app.ai.memory.short_term",
+        "peekOfCode": "class ShortTermMemory:\n    def __init__(\n        self,\n        max_messages: int = 20,\n    ):\n        if max_messages <= 0:\n            raise ValueError(\n                \"max_messages must be greater than 0\",\n            )\n        self.max_messages = max_messages",
+        "detail": "apps.python.app.ai.memory.short_term",
         "documentation": {}
     },
     {

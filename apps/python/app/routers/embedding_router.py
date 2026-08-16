@@ -7,7 +7,8 @@ from app.db.schemas.embedding import (
     EmbeddingModelUpdate,
 )
 from app.services.embedding_service import EmbeddingModelService
-from app.core.dependencies import get_embedding_service
+from app.core.dependencies import get_embedding_service, get_reembedding_service
+from app.services.reembedding_serivce import ReEmbeddingService
 
 router = APIRouter(
     prefix="/embedding-models",
@@ -143,3 +144,29 @@ async def delete_embedding_model(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="Embedding model not found",
         )
+
+@router.post(
+    "/{model_id}/reembed",
+)
+async def reembed_embedding_model(
+    model_id: int,
+    service: ReEmbeddingService = Depends(
+        get_reembedding_service,
+    ),
+):
+    try:
+        count = await service.reembed(
+            model_id,
+        )
+
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=str(exc),
+        ) from exc
+
+    return {
+        "embedding_model_id": model_id,
+        "chunks_embedded": count,
+        "status": "completed",
+    }

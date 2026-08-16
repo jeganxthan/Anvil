@@ -24,6 +24,55 @@ class EmbeddingModelService:
 
         return EmbeddingFactory.create(config)
 
+
+    async def get_embeddings_by_id(
+    self,
+    model_id: int,
+    ):
+        config = await self.repository.get_by_id(
+            model_id,
+        )
+
+        if config is None:
+            raise ValueError(
+                f"Embedding model {model_id} not found",
+            )
+
+        return EmbeddingFactory.create(config)
+
+    async def embed_documents_with_model(
+    self,
+    model_id: int,
+    texts: list[str],
+    ) -> list[list[float]]:
+
+        config = await self.repository.get_by_id(
+            model_id,
+        )
+
+        if config is None:
+            raise ValueError(
+                f"Embedding model {model_id} not found",
+            )
+
+        embeddings = EmbeddingFactory.create(
+            config,
+        )
+
+        vectors = await embeddings.aembed_documents(
+            texts,
+        )
+
+        for vector in vectors:
+            if len(vector) != config.dimension:
+                raise ValueError(
+                    "Embedding dimension mismatch: "
+                    f"expected {config.dimension}, "
+                    f"got {len(vector)}",
+                )
+
+        return vectors
+
     async def embed_query(
     self,
     text: str,
@@ -49,12 +98,31 @@ class EmbeddingModelService:
         return vector
 
     async def embed_documents(
-        self,
-        texts: list[str],
-    ) -> list[list[float]]:
+    self,
+    texts: list[str],
+) -> list[list[float]]:
         embeddings = await self.get_embeddings()
 
-        return await embeddings.aembed_documents(texts)
+        vectors = await embeddings.aembed_documents(
+            texts,
+        )
+
+        config = await self.repository.get_active()
+
+        if config is None:
+            raise ValueError(
+                "No active embedding model configured",
+            )
+
+        for vector in vectors:
+            if len(vector) != config.dimension:
+                raise ValueError(
+                    "Embedding dimension mismatch: "
+                    f"expected {config.dimension}, "
+                    f"got {len(vector)}",
+                )
+
+        return vectors
     
     async def create(
         self,

@@ -30,6 +30,7 @@ class Chunk(Base):
             ondelete="CASCADE",
         ),
         nullable=False,
+        index=True
     )
 
     content: Mapped[str] = mapped_column(

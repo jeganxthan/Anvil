@@ -27,6 +27,8 @@ class ChunkRepository:
 
         return chunk
 
+    
+    
     async def get(
         self,
         chunk_id: int,
@@ -35,6 +37,17 @@ class ChunkRepository:
             Chunk,
             chunk_id,
         )
+
+    async def get_all(self) -> list[Chunk]:
+        result = await self.session.execute(
+            select(Chunk)
+            .order_by(
+                Chunk.document_id,
+                Chunk.chunk_index,
+            )
+        )
+
+        return list(result.scalars().all())
 
     async def get_by_document(
         self,

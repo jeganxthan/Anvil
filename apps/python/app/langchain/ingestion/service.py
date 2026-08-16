@@ -11,9 +11,13 @@ from app.langchain.loaders.registry import LoaderRegistry
 from app.langchain.vectorstore.sqlite_vec import AnvilSQLiteVec
 from app.repository.chunk_repo import ChunkRepository
 from app.repository.document_repo import DocumentRepository
+from app.repository.vector_record_repo import (
+    VectorRecordRepository,
+)
 
 
 class IngestionService:
+
     def __init__(
         self,
         session: AsyncSession,
@@ -23,6 +27,8 @@ class IngestionService:
         document_repository: DocumentRepository,
         chunk_repository: ChunkRepository,
         vectorstore: AnvilSQLiteVec,
+        vector_record_repository: VectorRecordRepository,
+        embedding_model_id: int,
     ):
         self.session = session
         self.loader_registry = loader_registry
@@ -31,6 +37,10 @@ class IngestionService:
         self.document_repository = document_repository
         self.chunk_repository = chunk_repository
         self.vectorstore = vectorstore
+        self.vector_record_repository = (
+            vector_record_repository
+        )
+        self.embedding_model_id = embedding_model_id
 
     async def ingest(
         self,
@@ -88,20 +98,33 @@ class IngestionService:
             chunk_data,
         )
 
-        # 7. Commit so chunk IDs/data are persisted
+        # 7. Commit so IDs exist
         await self.session.commit()
 
-        # 8. Use DB chunk IDs as vector IDs
+        # 8. Vector IDs = database chunk IDs
         vector_ids = [
             str(chunk.id)
             for chunk in db_chunks
         ]
 
-        # 9. LangChain VectorStore
+        # 9. Add vectors to model-specific vector store
         await asyncio.to_thread(
             self.vectorstore.add_documents,
             chunks,
             ids=vector_ids,
         )
+
+        # 10. Track which embedding model created
+        #     these vectors
+        await self.vector_record_repository.create_many(
+            chunk_ids=[
+                chunk.id
+                for chunk in db_chunks
+            ],
+            embedding_model_id=self.embedding_model_id,
+        )
+
+        # 11. Commit vector metadata
+        await self.session.commit()
 
         return document

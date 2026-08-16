@@ -116,6 +116,22 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Literal",
         "importPath": "typing",
         "description": "typing",
@@ -185,6 +201,14 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -349,6 +373,30 @@
         "documentation": {}
     },
     {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "UniqueConstraint",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "delete",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -382,6 +430,22 @@
     },
     {
         "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -518,6 +582,30 @@
         "documentation": {}
     },
     {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
         "label": "Base",
         "importPath": "app.db.base",
         "description": "app.db.base",
@@ -574,11 +662,11 @@
         "documentation": {}
     },
     {
-        "label": "Document",
-        "importPath": "app.db.models.document",
-        "description": "app.db.models.document",
+        "label": "Chunk",
+        "importPath": "app.db.models.chunk",
+        "description": "app.db.models.chunk",
         "isExtraImport": true,
-        "detail": "app.db.models.document",
+        "detail": "app.db.models.chunk",
         "documentation": {}
     },
     {
@@ -606,11 +694,11 @@
         "documentation": {}
     },
     {
-        "label": "EmbeddingModel",
-        "importPath": "app.db.models.embedding",
-        "description": "app.db.models.embedding",
+        "label": "Document",
+        "importPath": "app.db.models.document",
+        "description": "app.db.models.document",
         "isExtraImport": true,
-        "detail": "app.db.models.embedding",
+        "detail": "app.db.models.document",
         "documentation": {}
     },
     {
@@ -691,6 +779,30 @@
         "description": "app.db.models.embedding",
         "isExtraImport": true,
         "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModel",
+        "importPath": "app.db.models.embedding",
+        "description": "app.db.models.embedding",
+        "isExtraImport": true,
+        "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "VectorRecord",
+        "importPath": "app.db.models.vector_record",
+        "description": "app.db.models.vector_record",
+        "isExtraImport": true,
+        "detail": "app.db.models.vector_record",
+        "documentation": {}
+    },
+    {
+        "label": "VectorRecord",
+        "importPath": "app.db.models.vector_record",
+        "description": "app.db.models.vector_record",
+        "isExtraImport": true,
+        "detail": "app.db.models.vector_record",
         "documentation": {}
     },
     {
@@ -1175,35 +1287,19 @@
         "documentation": {}
     },
     {
-        "label": "Settings",
-        "importPath": "app.core.settings",
-        "description": "app.core.settings",
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
         "isExtraImport": true,
-        "detail": "app.core.settings",
+        "detail": "functools",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "app.core.settings",
-        "description": "app.core.settings",
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
         "isExtraImport": true,
-        "detail": "app.core.settings",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "app.core.settings",
-        "description": "app.core.settings",
-        "isExtraImport": true,
-        "detail": "app.core.settings",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "app.core.settings",
-        "description": "app.core.settings",
-        "isExtraImport": true,
-        "detail": "app.core.settings",
+        "detail": "functools",
         "documentation": {}
     },
     {
@@ -1351,35 +1447,35 @@
         "documentation": {}
     },
     {
-        "label": "lru_cache",
-        "importPath": "functools",
-        "description": "functools",
+        "label": "Settings",
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
         "isExtraImport": true,
-        "detail": "functools",
+        "detail": "app.core.settings",
         "documentation": {}
     },
     {
-        "label": "lru_cache",
-        "importPath": "functools",
-        "description": "functools",
+        "label": "settings",
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
         "isExtraImport": true,
-        "detail": "functools",
+        "detail": "app.core.settings",
         "documentation": {}
     },
     {
-        "label": "EmbeddingModelService",
-        "importPath": "app.services.embedding_service",
-        "description": "app.services.embedding_service",
+        "label": "settings",
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
         "isExtraImport": true,
-        "detail": "app.services.embedding_service",
+        "detail": "app.core.settings",
         "documentation": {}
     },
     {
-        "label": "EmbeddingModelService",
-        "importPath": "app.services.embedding_service",
-        "description": "app.services.embedding_service",
+        "label": "settings",
+        "importPath": "app.core.settings",
+        "description": "app.core.settings",
         "isExtraImport": true,
-        "detail": "app.services.embedding_service",
+        "detail": "app.core.settings",
         "documentation": {}
     },
     {
@@ -1391,35 +1487,43 @@
         "documentation": {}
     },
     {
-        "label": "ChunkService",
-        "importPath": "app.services.chunk_service",
-        "description": "app.services.chunk_service",
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
         "isExtraImport": true,
-        "detail": "app.services.chunk_service",
+        "detail": "app.langchain.embedding.factory",
         "documentation": {}
     },
     {
-        "label": "ChunkService",
-        "importPath": "app.services.chunk_service",
-        "description": "app.services.chunk_service",
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
         "isExtraImport": true,
-        "detail": "app.services.chunk_service",
+        "detail": "app.langchain.embedding.factory",
         "documentation": {}
     },
     {
-        "label": "DocumentService",
-        "importPath": "app.services.document_service",
-        "description": "app.services.document_service",
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
         "isExtraImport": true,
-        "detail": "app.services.document_service",
+        "detail": "app.langchain.embedding.factory",
         "documentation": {}
     },
     {
-        "label": "DocumentService",
-        "importPath": "app.services.document_service",
-        "description": "app.services.document_service",
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
         "isExtraImport": true,
-        "detail": "app.services.document_service",
+        "detail": "app.langchain.embedding.factory",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingFactory",
+        "importPath": "app.langchain.embedding.factory",
+        "description": "app.langchain.embedding.factory",
+        "isExtraImport": true,
+        "detail": "app.langchain.embedding.factory",
         "documentation": {}
     },
     {
@@ -1444,62 +1548,6 @@
         "description": "app.langchain.ingestion.service",
         "isExtraImport": true,
         "detail": "app.langchain.ingestion.service",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingFactory",
-        "importPath": "app.langchain.embedding.factory",
-        "description": "app.langchain.embedding.factory",
-        "isExtraImport": true,
-        "detail": "app.langchain.embedding.factory",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingFactory",
-        "importPath": "app.langchain.embedding.factory",
-        "description": "app.langchain.embedding.factory",
-        "isExtraImport": true,
-        "detail": "app.langchain.embedding.factory",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingFactory",
-        "importPath": "app.langchain.embedding.factory",
-        "description": "app.langchain.embedding.factory",
-        "isExtraImport": true,
-        "detail": "app.langchain.embedding.factory",
-        "documentation": {}
-    },
-    {
-        "label": "EmbeddingFactory",
-        "importPath": "app.langchain.embedding.factory",
-        "description": "app.langchain.embedding.factory",
-        "isExtraImport": true,
-        "detail": "app.langchain.embedding.factory",
-        "documentation": {}
-    },
-    {
-        "label": "AnvilSQLiteVec",
-        "importPath": "app.langchain.vectorstore.sqlite_vec",
-        "description": "app.langchain.vectorstore.sqlite_vec",
-        "isExtraImport": true,
-        "detail": "app.langchain.vectorstore.sqlite_vec",
-        "documentation": {}
-    },
-    {
-        "label": "AnvilSQLiteVec",
-        "importPath": "app.langchain.vectorstore.sqlite_vec",
-        "description": "app.langchain.vectorstore.sqlite_vec",
-        "isExtraImport": true,
-        "detail": "app.langchain.vectorstore.sqlite_vec",
-        "documentation": {}
-    },
-    {
-        "label": "AnvilSQLiteVec",
-        "importPath": "app.langchain.vectorstore.sqlite_vec",
-        "description": "app.langchain.vectorstore.sqlite_vec",
-        "isExtraImport": true,
-        "detail": "app.langchain.vectorstore.sqlite_vec",
         "documentation": {}
     },
     {
@@ -1543,27 +1591,19 @@
         "documentation": {}
     },
     {
-        "label": "DocumentRepository",
-        "importPath": "app.repository.document_repo",
-        "description": "app.repository.document_repo",
+        "label": "VectorStoreManager",
+        "importPath": "app.langchain.vectorstore.manager",
+        "description": "app.langchain.vectorstore.manager",
         "isExtraImport": true,
-        "detail": "app.repository.document_repo",
+        "detail": "app.langchain.vectorstore.manager",
         "documentation": {}
     },
     {
-        "label": "DocumentRepository",
-        "importPath": "app.repository.document_repo",
-        "description": "app.repository.document_repo",
+        "label": "VectorStoreManager",
+        "importPath": "app.langchain.vectorstore.manager",
+        "description": "app.langchain.vectorstore.manager",
         "isExtraImport": true,
-        "detail": "app.repository.document_repo",
-        "documentation": {}
-    },
-    {
-        "label": "DocumentRepository",
-        "importPath": "app.repository.document_repo",
-        "description": "app.repository.document_repo",
-        "isExtraImport": true,
-        "detail": "app.repository.document_repo",
+        "detail": "app.langchain.vectorstore.manager",
         "documentation": {}
     },
     {
@@ -1588,6 +1628,38 @@
         "description": "app.repository.chunk_repo",
         "isExtraImport": true,
         "detail": "app.repository.chunk_repo",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkRepository",
+        "importPath": "app.repository.chunk_repo",
+        "description": "app.repository.chunk_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.chunk_repo",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "importPath": "app.repository.document_repo",
+        "description": "app.repository.document_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.document_repo",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "importPath": "app.repository.document_repo",
+        "description": "app.repository.document_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.document_repo",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "importPath": "app.repository.document_repo",
+        "description": "app.repository.document_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.document_repo",
         "documentation": {}
     },
     {
@@ -1604,6 +1676,102 @@
         "description": "app.repository.embedding_repo",
         "isExtraImport": true,
         "detail": "app.repository.embedding_repo",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelRepository",
+        "importPath": "app.repository.embedding_repo",
+        "description": "app.repository.embedding_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.embedding_repo",
+        "documentation": {}
+    },
+    {
+        "label": "VectorRecordRepository",
+        "importPath": "app.repository.vector_record_repo",
+        "description": "app.repository.vector_record_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.vector_record_repo",
+        "documentation": {}
+    },
+    {
+        "label": "VectorRecordRepository",
+        "importPath": "app.repository.vector_record_repo",
+        "description": "app.repository.vector_record_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.vector_record_repo",
+        "documentation": {}
+    },
+    {
+        "label": "VectorRecordRepository",
+        "importPath": "app.repository.vector_record_repo",
+        "description": "app.repository.vector_record_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.vector_record_repo",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkService",
+        "importPath": "app.services.chunk_service",
+        "description": "app.services.chunk_service",
+        "isExtraImport": true,
+        "detail": "app.services.chunk_service",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkService",
+        "importPath": "app.services.chunk_service",
+        "description": "app.services.chunk_service",
+        "isExtraImport": true,
+        "detail": "app.services.chunk_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "app.services.document_service",
+        "description": "app.services.document_service",
+        "isExtraImport": true,
+        "detail": "app.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "app.services.document_service",
+        "description": "app.services.document_service",
+        "isExtraImport": true,
+        "detail": "app.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelService",
+        "importPath": "app.services.embedding_service",
+        "description": "app.services.embedding_service",
+        "isExtraImport": true,
+        "detail": "app.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingModelService",
+        "importPath": "app.services.embedding_service",
+        "description": "app.services.embedding_service",
+        "isExtraImport": true,
+        "detail": "app.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "ReEmbeddingService",
+        "importPath": "app.services.reembedding_serivce",
+        "description": "app.services.reembedding_serivce",
+        "isExtraImport": true,
+        "detail": "app.services.reembedding_serivce",
+        "documentation": {}
+    },
+    {
+        "label": "ReEmbeddingService",
+        "importPath": "app.services.reembedding_serivce",
+        "description": "app.services.reembedding_serivce",
+        "isExtraImport": true,
+        "detail": "app.services.reembedding_serivce",
         "documentation": {}
     },
     {
@@ -1783,6 +1951,22 @@
         "documentation": {}
     },
     {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "DeclarativeBase",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -1916,6 +2100,190 @@
         "description": "app.langchain.embedding.provider.openai_embedding",
         "isExtraImport": true,
         "detail": "app.langchain.embedding.provider.openai_embedding",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -2079,163 +2447,27 @@
         "documentation": {}
     },
     {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
+        "label": "AnvilSQLiteVec",
+        "importPath": "app.langchain.vectorstore.sqlite_vec",
+        "description": "app.langchain.vectorstore.sqlite_vec",
         "isExtraImport": true,
-        "detail": "langchain_core.documents",
+        "detail": "app.langchain.vectorstore.sqlite_vec",
         "documentation": {}
     },
     {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
+        "label": "AnvilSQLiteVec",
+        "importPath": "app.langchain.vectorstore.sqlite_vec",
+        "description": "app.langchain.vectorstore.sqlite_vec",
         "isExtraImport": true,
-        "detail": "langchain_core.documents",
+        "detail": "app.langchain.vectorstore.sqlite_vec",
         "documentation": {}
     },
     {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
+        "label": "AnvilSQLiteVec",
+        "importPath": "app.langchain.vectorstore.sqlite_vec",
+        "description": "app.langchain.vectorstore.sqlite_vec",
         "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "langchain_core.documents",
-        "description": "langchain_core.documents",
-        "isExtraImport": true,
-        "detail": "langchain_core.documents",
+        "detail": "app.langchain.vectorstore.sqlite_vec",
         "documentation": {}
     },
     {
@@ -2659,6 +2891,14 @@
         "documentation": {}
     },
     {
+        "label": "get_reembedding_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
         "label": "get_ingestion_service",
         "importPath": "app.core.dependencies",
         "description": "app.core.dependencies",
@@ -2801,6 +3041,24 @@
         "description": ".venv.bin.activate_this",
         "peekOfCode": "sys.prefix = base",
         "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.10c5673258fa_add_vector_record",
+        "description": "alembic.versions.10c5673258fa_add_vector_record",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('vector_records',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('chunk_id', sa.Integer(), nullable=False),\n    sa.Column('embedding_model_id', sa.Integer(), nullable=False),\n    sa.ForeignKeyConstraint(['chunk_id'], ['chunks.id'], ondelete='CASCADE'),\n    sa.ForeignKeyConstraint(['embedding_model_id'], ['embedding_models.id'], ondelete='CASCADE'),\n    sa.PrimaryKeyConstraint('id'),",
+        "detail": "alembic.versions.10c5673258fa_add_vector_record",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.10c5673258fa_add_vector_record",
+        "description": "alembic.versions.10c5673258fa_add_vector_record",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_vector_records_embedding_model_id'), table_name='vector_records')\n    op.drop_index(op.f('ix_vector_records_chunk_id'), table_name='vector_records')\n    op.drop_table('vector_records')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.10c5673258fa_add_vector_record",
         "documentation": {}
     },
     {
@@ -3114,7 +3372,16 @@
         "kind": 2,
         "importPath": "app.core.dependencies",
         "description": "app.core.dependencies",
-        "peekOfCode": "def get_settings() -> Settings:\n    return Settings()\ndef get_embedding_service(\n    db: AsyncSession = Depends(get_db),\n) -> EmbeddingModelService:\n    return EmbeddingModelService(db)\ndef get_chunk_service(\n    session: AsyncSession = Depends(get_db),\n) -> ChunkService:\n    return ChunkService(session)",
+        "peekOfCode": "def get_settings() -> Settings:\n    return Settings()\n@lru_cache\ndef get_vectorstore_manager() -> VectorStoreManager:\n    return VectorStoreManager(\n        db_path=settings.sqlite_vec_path,\n    )\ndef get_embedding_service(\n    db: AsyncSession = Depends(get_db),\n) -> EmbeddingModelService:",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore_manager",
+        "kind": 2,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "def get_vectorstore_manager() -> VectorStoreManager:\n    return VectorStoreManager(\n        db_path=settings.sqlite_vec_path,\n    )\ndef get_embedding_service(\n    db: AsyncSession = Depends(get_db),\n) -> EmbeddingModelService:\n    return EmbeddingModelService(db)\ndef get_chunk_service(\n    session: AsyncSession = Depends(get_db),",
         "detail": "app.core.dependencies",
         "documentation": {}
     },
@@ -3142,6 +3409,15 @@
         "importPath": "app.core.dependencies",
         "description": "app.core.dependencies",
         "peekOfCode": "def get_document_service(\n    session: AsyncSession = Depends(get_db),\n) -> DocumentService:\n    return DocumentService(session)\nasync def get_ingestion_service(\n    session: AsyncSession = Depends(get_db),\n) -> IngestionService:\n    embedding_repository = EmbeddingModelRepository(\n        session,\n    )",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_reembedding_service",
+        "kind": 2,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "def get_reembedding_service(\n    session: AsyncSession = Depends(get_db),\n) -> ReEmbeddingService:\n    return ReEmbeddingService(\n        session=session,\n        vectorstore_manager=get_vectorstore_manager(),\n    )",
         "detail": "app.core.dependencies",
         "documentation": {}
     },
@@ -3197,6 +3473,15 @@
         "description": "app.db.models.embedding",
         "peekOfCode": "class EmbeddingModel(Base):\n    __tablename__ = \"embedding_models\"\n    id: Mapped[int] = mapped_column(\n        primary_key=True,\n        autoincrement=True,\n    )\n    provider: Mapped[str] = mapped_column(\n        String(50),\n        nullable=False,\n    )",
         "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "VectorRecord",
+        "kind": 6,
+        "importPath": "app.db.models.vector_record",
+        "description": "app.db.models.vector_record",
+        "peekOfCode": "class VectorRecord(Base):\n    __tablename__ = \"vector_records\"\n    id: Mapped[int] = mapped_column(\n        Integer,\n        primary_key=True,\n    )\n    chunk_id: Mapped[int] = mapped_column(\n        ForeignKey(\n            \"chunks.id\",\n            ondelete=\"CASCADE\",",
+        "detail": "app.db.models.vector_record",
         "documentation": {}
     },
     {
@@ -3350,6 +3635,15 @@
         "description": "app.langchain.embedding.models",
         "peekOfCode": "class EmbeddingConfig(BaseModel):\n    provider: str\n    model: str\n    api_key: str | None = None\n    device: str = \"cpu\"",
         "detail": "app.langchain.embedding.models",
+        "documentation": {}
+    },
+    {
+        "label": "chunk_to_langchain_document",
+        "kind": 2,
+        "importPath": "app.langchain.ingestion.converter",
+        "description": "app.langchain.ingestion.converter",
+        "peekOfCode": "def chunk_to_langchain_document(\n    chunk: Chunk,\n) -> LCDocument:\n    metadata = getattr(\n        chunk,\n        \"chunk_metadata\",\n        None,\n    )\n    return LCDocument(\n        page_content=chunk.content,",
+        "detail": "app.langchain.ingestion.converter",
         "documentation": {}
     },
     {
@@ -3542,6 +3836,15 @@
         "documentation": {}
     },
     {
+        "label": "VectorStoreManager",
+        "kind": 6,
+        "importPath": "app.langchain.vectorstore.manager",
+        "description": "app.langchain.vectorstore.manager",
+        "peekOfCode": "class VectorStoreManager:\n    def __init__(\n        self,\n        db_path: str | Path,\n    ):\n        self.db_path = Path(db_path)\n        self._stores: dict[\n            int,\n            AnvilSQLiteVec,\n        ] = {}",
+        "detail": "app.langchain.vectorstore.manager",
+        "documentation": {}
+    },
+    {
         "label": "VectorRecord",
         "kind": 6,
         "importPath": "app.langchain.vectorstore.models",
@@ -3632,6 +3935,15 @@
         "documentation": {}
     },
     {
+        "label": "VectorRecordRepository",
+        "kind": 6,
+        "importPath": "app.repository.vector_record_repo",
+        "description": "app.repository.vector_record_repo",
+        "peekOfCode": "class VectorRecordRepository:\n    def __init__(\n        self,\n        session: AsyncSession,\n    ):\n        self.session = session\n    async def create_many(\n        self,\n        chunk_ids: list[int],\n        embedding_model_id: int,",
+        "detail": "app.repository.vector_record_repo",
+        "documentation": {}
+    },
+    {
         "label": "router",
         "kind": 5,
         "importPath": "app.routers.chunk_router",
@@ -3692,6 +4004,15 @@
         "description": "app.services.embedding_service",
         "peekOfCode": "class EmbeddingModelService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n        self.repository = EmbeddingModelRepository(session)\n    async def get_embeddings(self):\n        config = await self.repository.get_active()\n        if config is None:\n            raise ValueError(\n                \"No active embedding model configured\"\n            )",
         "detail": "app.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "ReEmbeddingService",
+        "kind": 6,
+        "importPath": "app.services.reembedding_serivce",
+        "description": "app.services.reembedding_serivce",
+        "peekOfCode": "class ReEmbeddingService:\n    def __init__(\n        self,\n        session: AsyncSession,\n        vectorstore_manager: VectorStoreManager,\n    ):\n        self.session = session\n        self.embedding_repository = (\n            EmbeddingModelRepository(session)\n        )",
+        "detail": "app.services.reembedding_serivce",
         "documentation": {}
     },
     {

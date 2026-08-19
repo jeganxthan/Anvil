@@ -22,6 +22,9 @@ from app.services.chunk_service import ChunkService
 from app.services.document_service import DocumentService
 from app.services.embedding_service import EmbeddingModelService
 from app.services.reembedding_serivce import ReEmbeddingService
+from app.services.llm_model_service import LLMModelService
+from app.litellm.service import LLMService
+from app.litellm.provider.factory import LLMFactory
 
 
 @lru_cache
@@ -106,4 +109,21 @@ def get_reembedding_service(
     return ReEmbeddingService(
         session=session,
         vectorstore_manager=get_vectorstore_manager(),
+    )
+
+def get_llm_model_service(
+    session: AsyncSession = Depends(get_db),
+) -> LLMModelService:
+
+    return LLMModelService(session)
+
+def get_llm_service(
+    session: AsyncSession = Depends(get_db),
+) -> LLMService:
+
+    return LLMService(
+        factory=LLMFactory(),
+        model_service=LLMModelService(
+            session,
+        ),
     )

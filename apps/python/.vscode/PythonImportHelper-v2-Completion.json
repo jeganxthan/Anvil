@@ -132,7 +132,7 @@
         "documentation": {}
     },
     {
-        "label": "Literal",
+        "label": "Sequence",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -140,15 +140,7 @@
         "documentation": {}
     },
     {
-        "label": "Any",
-        "importPath": "typing",
-        "description": "typing",
-        "isExtraImport": true,
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "Any",
+        "label": "Union",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -196,11 +188,27 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Literal",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -373,6 +381,38 @@
         "documentation": {}
     },
     {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "ForeignKey",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -414,6 +454,22 @@
     },
     {
         "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -598,6 +654,30 @@
         "documentation": {}
     },
     {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
         "label": "Base",
         "importPath": "app.db.base",
         "description": "app.db.base",
@@ -806,484 +886,35 @@
         "documentation": {}
     },
     {
-        "label": "Context",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
+        "label": "LLMModel",
+        "importPath": "app.db.models.llm_model",
+        "description": "app.db.models.llm_model",
         "isExtraImport": true,
-        "detail": "app.ai.context.model",
+        "detail": "app.db.models.llm_model",
         "documentation": {}
     },
     {
-        "label": "ContextDocument",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
+        "label": "LLMModel",
+        "importPath": "app.db.models.llm_model",
+        "description": "app.db.models.llm_model",
         "isExtraImport": true,
-        "detail": "app.ai.context.model",
+        "detail": "app.db.models.llm_model",
         "documentation": {}
     },
     {
-        "label": "ContextMessage",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
+        "label": "LLMModel",
+        "importPath": "app.db.models.llm_model",
+        "description": "app.db.models.llm_model",
         "isExtraImport": true,
-        "detail": "app.ai.context.model",
+        "detail": "app.db.models.llm_model",
         "documentation": {}
     },
     {
-        "label": "ContextDocument",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
+        "label": "LLMModel",
+        "importPath": "app.db.models.llm_model",
+        "description": "app.db.models.llm_model",
         "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDocument",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDocument",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDocument",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "Context",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDocument",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextMessage",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDocument",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDocument",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDocument",
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "isExtraImport": true,
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ABC",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "abstractmethod",
-        "importPath": "abc",
-        "description": "abc",
-        "isExtraImport": true,
-        "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "ContextBuilder",
-        "importPath": "app.ai.context.builder",
-        "description": "app.ai.context.builder",
-        "isExtraImport": true,
-        "detail": "app.ai.context.builder",
-        "documentation": {}
-    },
-    {
-        "label": "ContextBuilder",
-        "importPath": "app.ai.context.builder",
-        "description": "app.ai.context.builder",
-        "isExtraImport": true,
-        "detail": "app.ai.context.builder",
-        "documentation": {}
-    },
-    {
-        "label": "ContextBuilder",
-        "importPath": "app.ai.context.builder",
-        "description": "app.ai.context.builder",
-        "isExtraImport": true,
-        "detail": "app.ai.context.builder",
-        "documentation": {}
-    },
-    {
-        "label": "ExtractiveCompressor",
-        "importPath": "app.ai.context.compressor",
-        "description": "app.ai.context.compressor",
-        "isExtraImport": true,
-        "detail": "app.ai.context.compressor",
-        "documentation": {}
-    },
-    {
-        "label": "ContextCompressor",
-        "importPath": "app.ai.context.compressor",
-        "description": "app.ai.context.compressor",
-        "isExtraImport": true,
-        "detail": "app.ai.context.compressor",
-        "documentation": {}
-    },
-    {
-        "label": "ExtractiveCompressor",
-        "importPath": "app.ai.context.compressor",
-        "description": "app.ai.context.compressor",
-        "isExtraImport": true,
-        "detail": "app.ai.context.compressor",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDeduplicator",
-        "importPath": "app.ai.context.deduplicator",
-        "description": "app.ai.context.deduplicator",
-        "isExtraImport": true,
-        "detail": "app.ai.context.deduplicator",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDeduplicator",
-        "importPath": "app.ai.context.deduplicator",
-        "description": "app.ai.context.deduplicator",
-        "isExtraImport": true,
-        "detail": "app.ai.context.deduplicator",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDeduplicator",
-        "importPath": "app.ai.context.deduplicator",
-        "description": "app.ai.context.deduplicator",
-        "isExtraImport": true,
-        "detail": "app.ai.context.deduplicator",
-        "documentation": {}
-    },
-    {
-        "label": "ContextFilter",
-        "importPath": "app.ai.context.filter",
-        "description": "app.ai.context.filter",
-        "isExtraImport": true,
-        "detail": "app.ai.context.filter",
-        "documentation": {}
-    },
-    {
-        "label": "ContextFilter",
-        "importPath": "app.ai.context.filter",
-        "description": "app.ai.context.filter",
-        "isExtraImport": true,
-        "detail": "app.ai.context.filter",
-        "documentation": {}
-    },
-    {
-        "label": "ContextFilter",
-        "importPath": "app.ai.context.filter",
-        "description": "app.ai.context.filter",
-        "isExtraImport": true,
-        "detail": "app.ai.context.filter",
-        "documentation": {}
-    },
-    {
-        "label": "PreserveOrder",
-        "importPath": "app.ai.context.ordering",
-        "description": "app.ai.context.ordering",
-        "isExtraImport": true,
-        "detail": "app.ai.context.ordering",
-        "documentation": {}
-    },
-    {
-        "label": "ContextOrdering",
-        "importPath": "app.ai.context.ordering",
-        "description": "app.ai.context.ordering",
-        "isExtraImport": true,
-        "detail": "app.ai.context.ordering",
-        "documentation": {}
-    },
-    {
-        "label": "PreserveOrder",
-        "importPath": "app.ai.context.ordering",
-        "description": "app.ai.context.ordering",
-        "isExtraImport": true,
-        "detail": "app.ai.context.ordering",
-        "documentation": {}
-    },
-    {
-        "label": "ContextPipeline",
-        "importPath": "app.ai.context.pipeline",
-        "description": "app.ai.context.pipeline",
-        "isExtraImport": true,
-        "detail": "app.ai.context.pipeline",
-        "documentation": {}
-    },
-    {
-        "label": "ContextRanker",
-        "importPath": "app.ai.context.ranker",
-        "description": "app.ai.context.ranker",
-        "isExtraImport": true,
-        "detail": "app.ai.context.ranker",
-        "documentation": {}
-    },
-    {
-        "label": "ContextRanker",
-        "importPath": "app.ai.context.ranker",
-        "description": "app.ai.context.ranker",
-        "isExtraImport": true,
-        "detail": "app.ai.context.ranker",
-        "documentation": {}
-    },
-    {
-        "label": "ContextRanker",
-        "importPath": "app.ai.context.ranker",
-        "description": "app.ai.context.ranker",
-        "isExtraImport": true,
-        "detail": "app.ai.context.ranker",
-        "documentation": {}
-    },
-    {
-        "label": "ContextTokenBudget",
-        "importPath": "app.ai.context.token_budget",
-        "description": "app.ai.context.token_budget",
-        "isExtraImport": true,
-        "detail": "app.ai.context.token_budget",
-        "documentation": {}
-    },
-    {
-        "label": "ContextTokenBudget",
-        "importPath": "app.ai.context.token_budget",
-        "description": "app.ai.context.token_budget",
-        "isExtraImport": true,
-        "detail": "app.ai.context.token_budget",
-        "documentation": {}
-    },
-    {
-        "label": "ContextTokenBudget",
-        "importPath": "app.ai.context.token_budget",
-        "description": "app.ai.context.token_budget",
-        "isExtraImport": true,
-        "detail": "app.ai.context.token_budget",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "field",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "field",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "dataclass",
-        "importPath": "dataclasses",
-        "description": "dataclasses",
-        "isExtraImport": true,
-        "detail": "dataclasses",
-        "documentation": {}
-    },
-    {
-        "label": "MemoryMessage",
-        "importPath": "app.ai.memory.models",
-        "description": "app.ai.memory.models",
-        "isExtraImport": true,
-        "detail": "app.ai.memory.models",
-        "documentation": {}
-    },
-    {
-        "label": "MemoryMessage",
-        "importPath": "app.ai.memory.models",
-        "description": "app.ai.memory.models",
-        "isExtraImport": true,
-        "detail": "app.ai.memory.models",
-        "documentation": {}
-    },
-    {
-        "label": "MemoryMessage",
-        "importPath": "app.ai.memory.models",
-        "description": "app.ai.memory.models",
-        "isExtraImport": true,
-        "detail": "app.ai.memory.models",
-        "documentation": {}
-    },
-    {
-        "label": "ShortTermMemory",
-        "importPath": "app.ai.memory.short_term",
-        "description": "app.ai.memory.short_term",
-        "isExtraImport": true,
-        "detail": "app.ai.memory.short_term",
-        "documentation": {}
-    },
-    {
-        "label": "ShortTermMemory",
-        "importPath": "app.ai.memory.short_term",
-        "description": "app.ai.memory.short_term",
-        "isExtraImport": true,
-        "detail": "app.ai.memory.short_term",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "MemoryManager",
-        "importPath": "app.ai.memory.manager",
-        "description": "app.ai.memory.manager",
-        "isExtraImport": true,
-        "detail": "app.ai.memory.manager",
+        "detail": "app.db.models.llm_model",
         "documentation": {}
     },
     {
@@ -1432,6 +1063,46 @@
     },
     {
         "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -1775,6 +1446,70 @@
         "documentation": {}
     },
     {
+        "label": "LLMModelService",
+        "importPath": "app.services.llm_model_service",
+        "description": "app.services.llm_model_service",
+        "isExtraImport": true,
+        "detail": "app.services.llm_model_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelService",
+        "importPath": "app.services.llm_model_service",
+        "description": "app.services.llm_model_service",
+        "isExtraImport": true,
+        "detail": "app.services.llm_model_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelService",
+        "importPath": "app.services.llm_model_service",
+        "description": "app.services.llm_model_service",
+        "isExtraImport": true,
+        "detail": "app.services.llm_model_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "importPath": "app.litellm.service",
+        "description": "app.litellm.service",
+        "isExtraImport": true,
+        "detail": "app.litellm.service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "importPath": "app.litellm.service",
+        "description": "app.litellm.service",
+        "isExtraImport": true,
+        "detail": "app.litellm.service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMFactory",
+        "importPath": "app.litellm.provider.factory",
+        "description": "app.litellm.provider.factory",
+        "isExtraImport": true,
+        "detail": "app.litellm.provider.factory",
+        "documentation": {}
+    },
+    {
+        "label": "LLMFactory",
+        "importPath": "app.litellm.provider.factory",
+        "description": "app.litellm.provider.factory",
+        "isExtraImport": true,
+        "detail": "app.litellm.provider.factory",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
         "label": "Field",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -1855,6 +1590,38 @@
         "documentation": {}
     },
     {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "SecretStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -1879,6 +1646,14 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseSettings",
         "importPath": "pydantic_settings",
         "description": "pydantic_settings",
@@ -1887,6 +1662,46 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "Mapped",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -1920,14 +1735,6 @@
     },
     {
         "label": "mapped_column",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -1988,6 +1795,78 @@
         "description": "collections.abc",
         "isExtraImport": true,
         "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryManager",
+        "importPath": "app.ai.memory.manager",
+        "description": "app.ai.memory.manager",
+        "isExtraImport": true,
+        "detail": "app.ai.memory.manager",
+        "documentation": {}
+    },
+    {
+        "label": "VectorRetriever",
+        "importPath": "app.langchain.retrieval.retriever",
+        "description": "app.langchain.retrieval.retriever",
+        "isExtraImport": true,
+        "detail": "app.langchain.retrieval.retriever",
+        "documentation": {}
+    },
+    {
+        "label": "ContextBuilder",
+        "importPath": "app.langchain.context.builder",
+        "description": "app.langchain.context.builder",
+        "isExtraImport": true,
+        "detail": "app.langchain.context.builder",
+        "documentation": {}
+    },
+    {
+        "label": "ContextBuilder",
+        "importPath": "app.langchain.context.builder",
+        "description": "app.langchain.context.builder",
+        "isExtraImport": true,
+        "detail": "app.langchain.context.builder",
         "documentation": {}
     },
     {
@@ -2076,6 +1955,70 @@
         "description": "langchain_openai",
         "isExtraImport": true,
         "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
         "documentation": {}
     },
     {
@@ -2615,6 +2558,14 @@
         "documentation": {}
     },
     {
+        "label": "ContextDocument",
+        "importPath": "app.ai.context.model",
+        "description": "app.ai.context.model",
+        "isExtraImport": true,
+        "detail": "app.ai.context.model",
+        "documentation": {}
+    },
+    {
         "label": "BaseSplitter",
         "importPath": "app.langchain.spliter.base",
         "description": "app.langchain.spliter.base",
@@ -2735,6 +2686,22 @@
         "documentation": {}
     },
     {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -2803,6 +2770,127 @@
         "documentation": {}
     },
     {
+        "label": "ChatRequest",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessage",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatInput",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessage",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "isExtraImport": true,
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseLLMProvider",
+        "importPath": "app.litellm.provider.base",
+        "description": "app.litellm.provider.base",
+        "isExtraImport": true,
+        "detail": "app.litellm.provider.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseLLMProvider",
+        "importPath": "app.litellm.provider.base",
+        "description": "app.litellm.provider.base",
+        "isExtraImport": true,
+        "detail": "app.litellm.provider.base",
+        "documentation": {}
+    },
+    {
+        "label": "LiteLLMProvider",
+        "importPath": "app.litellm.provider.litellm_provider",
+        "description": "app.litellm.provider.litellm_provider",
+        "isExtraImport": true,
+        "detail": "app.litellm.provider.litellm_provider",
+        "documentation": {}
+    },
+    {
+        "label": "litellm",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "litellm",
+        "description": "litellm",
+        "detail": "litellm",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncOpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
         "label": "EmbeddingModelCreate",
         "importPath": "app.db.schemas.embedding",
         "description": "app.db.schemas.embedding",
@@ -2859,6 +2947,62 @@
         "documentation": {}
     },
     {
+        "label": "LLMModelCreate",
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelUpdate",
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelCreate",
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelResponse",
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelUpdate",
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelCreate",
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelUpdate",
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "isExtraImport": true,
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
         "label": "get_chunk_service",
         "importPath": "app.core.dependencies",
         "description": "app.core.dependencies",
@@ -2907,11 +3051,83 @@
         "documentation": {}
     },
     {
+        "label": "get_llm_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model_service",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
         "label": "to_context_document",
         "importPath": "app.langchain.retrieval.adapter",
         "description": "app.langchain.retrieval.adapter",
         "isExtraImport": true,
         "detail": "app.langchain.retrieval.adapter",
+        "documentation": {}
+    },
+    {
+        "label": "ContextBuilder",
+        "importPath": "app.ai.context.builder",
+        "description": "app.ai.context.builder",
+        "isExtraImport": true,
+        "detail": "app.ai.context.builder",
+        "documentation": {}
+    },
+    {
+        "label": "ContextFilter",
+        "importPath": "app.ai.context.filter",
+        "description": "app.ai.context.filter",
+        "isExtraImport": true,
+        "detail": "app.ai.context.filter",
+        "documentation": {}
+    },
+    {
+        "label": "ContextDeduplicator",
+        "importPath": "app.ai.context.deduplicator",
+        "description": "app.ai.context.deduplicator",
+        "isExtraImport": true,
+        "detail": "app.ai.context.deduplicator",
+        "documentation": {}
+    },
+    {
+        "label": "ContextRanker",
+        "importPath": "app.ai.context.ranker",
+        "description": "app.ai.context.ranker",
+        "isExtraImport": true,
+        "detail": "app.ai.context.ranker",
+        "documentation": {}
+    },
+    {
+        "label": "ContextTokenBudget",
+        "importPath": "app.ai.context.token_budget",
+        "description": "app.ai.context.token_budget",
+        "isExtraImport": true,
+        "detail": "app.ai.context.token_budget",
+        "documentation": {}
+    },
+    {
+        "label": "ExtractiveCompressor",
+        "importPath": "app.ai.context.compressor",
+        "description": "app.ai.context.compressor",
+        "isExtraImport": true,
+        "detail": "app.ai.context.compressor",
+        "documentation": {}
+    },
+    {
+        "label": "PreserveOrder",
+        "importPath": "app.ai.context.ordering",
+        "description": "app.ai.context.ordering",
+        "isExtraImport": true,
+        "detail": "app.ai.context.ordering",
         "documentation": {}
     },
     {
@@ -2928,6 +3144,30 @@
         "description": "app.langchain.ingestion.models",
         "isExtraImport": true,
         "detail": "app.langchain.ingestion.models",
+        "documentation": {}
+    },
+    {
+        "label": "StreamingResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "app.litellm.schemas",
+        "description": "app.litellm.schemas",
+        "isExtraImport": true,
+        "detail": "app.litellm.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelRepository",
+        "importPath": "app.repository.llm_model_repo",
+        "description": "app.repository.llm_model_repo",
+        "isExtraImport": true,
+        "detail": "app.repository.llm_model_repo",
         "documentation": {}
     },
     {
@@ -2960,6 +3200,22 @@
         "description": "app.routers.ingestion_router",
         "isExtraImport": true,
         "detail": "app.routers.ingestion_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.routers.llm",
+        "description": "app.routers.llm",
+        "isExtraImport": true,
+        "detail": "app.routers.llm",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.routers.llm_models",
+        "description": "app.routers.llm_models",
+        "isExtraImport": true,
+        "detail": "app.routers.llm_models",
         "documentation": {}
     },
     {
@@ -3100,6 +3356,24 @@
     {
         "label": "upgrade",
         "kind": 2,
+        "importPath": "alembic.versions.a25efd28288c_create_llm_models",
+        "description": "alembic.versions.a25efd28288c_create_llm_models",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('llm_models',\n    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),\n    sa.Column('model', sa.String(length=255), nullable=False),\n    sa.Column('api_base', sa.String(length=500), nullable=True),\n    sa.Column('api_key', sa.String(length=1000), nullable=True),\n    sa.Column('temperature', sa.Float(), nullable=False),\n    sa.Column('top_p', sa.Float(), nullable=False),",
+        "detail": "alembic.versions.a25efd28288c_create_llm_models",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.a25efd28288c_create_llm_models",
+        "description": "alembic.versions.a25efd28288c_create_llm_models",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_chunks_document_id'), table_name='chunks')\n    op.drop_table('llm_models')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.a25efd28288c_create_llm_models",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
         "importPath": "alembic.versions.f446268513d3_update_document_relationships",
         "description": "alembic.versions.f446268513d3_update_document_relationships",
         "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('chunk_vectors_auxiliary')\n    op.drop_table('chunk_vectors_vector_chunks00')\n    op.drop_table('chunk_vectors_rowids')\n    op.drop_table('chunk_vectors_info')\n    op.drop_table('chunk_vectors_chunks')\n    # ### end Alembic commands ###\ndef downgrade() -> None:",
@@ -3138,7 +3412,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def include_name(\n    name,\n    type_,\n    parent_names,\n):\n    if type_ == \"table\" and name in EXCLUDED_TABLES:\n        return False\n    return True\ndef include_object(\n    object,",
+        "peekOfCode": "def include_name(\n    name,\n    type_,\n    parent_names,\n):\n    if type_ == \"table\":\n        if name in EXCLUDED_TABLES:\n            return False\n        if name.startswith(\n            \"chunk_vectors_model_\",",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -3147,7 +3421,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def include_object(\n    object,\n    name,\n    type_,\n    reflected,\n    compare_to,\n):\n    if type_ == \"table\" and name in EXCLUDED_TABLES:\n        return False\n    return True",
+        "peekOfCode": "def include_object(\n    object,\n    name,\n    type_,\n    reflected,\n    compare_to,\n):\n    if type_ == \"table\":\n        if name in EXCLUDED_TABLES:\n            return False",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -3165,7 +3439,7 @@
         "kind": 2,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "def do_run_migrations(\n    connection: Connection,\n) -> None:\n    context.configure(\n        connection=connection,\n        target_metadata=target_metadata,\n        include_name=include_name,\n        include_object=include_object,\n    )\n    with context.begin_transaction():",
+        "peekOfCode": "def do_run_migrations(\n    connection: Connection,\n) -> None:\n    context.configure(\n        connection=connection,\n        target_metadata=target_metadata,\n        include_name=include_name,\n        include_object=include_object,\n        include_schemas=False,\n    )",
         "detail": "alembic.env",
         "documentation": {}
     },
@@ -3201,170 +3475,8 @@
         "kind": 5,
         "importPath": "alembic.env",
         "description": "alembic.env",
-        "peekOfCode": "EXCLUDED_TABLES = {\n    \"chunk_vectors\",\n    \"vector_store_metadata\",\n}\ndef include_name(\n    name,\n    type_,\n    parent_names,\n):\n    if type_ == \"table\" and name in EXCLUDED_TABLES:",
+        "peekOfCode": "EXCLUDED_TABLES = {\n    \"chunk_vectors\",\n    \"vector_store_metadata\",\n}\ndef include_name(\n    name,\n    type_,\n    parent_names,\n):\n    if type_ == \"table\":",
         "detail": "alembic.env",
-        "documentation": {}
-    },
-    {
-        "label": "ContextBuilder",
-        "kind": 6,
-        "importPath": "app.ai.context.builder",
-        "description": "app.ai.context.builder",
-        "peekOfCode": "class ContextBuilder:\n    def build(\n        self,\n        query: str,\n        documents: list[ContextDocument] | None = None,\n        messages: list[ContextMessage] | None = None,\n    ) -> Context:\n        return Context(\n            query=query,\n            documents=documents or [],",
-        "detail": "app.ai.context.builder",
-        "documentation": {}
-    },
-    {
-        "label": "ContextCompressor",
-        "kind": 6,
-        "importPath": "app.ai.context.compressor",
-        "description": "app.ai.context.compressor",
-        "peekOfCode": "class ContextCompressor(ABC):\n    @abstractmethod\n    def compress(\n        self,\n        query: str,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        ...\nclass NoOpCompressor(ContextCompressor):\n    def compress(",
-        "detail": "app.ai.context.compressor",
-        "documentation": {}
-    },
-    {
-        "label": "NoOpCompressor",
-        "kind": 6,
-        "importPath": "app.ai.context.compressor",
-        "description": "app.ai.context.compressor",
-        "peekOfCode": "class NoOpCompressor(ContextCompressor):\n    def compress(\n        self,\n        query: str,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        return documents\nclass ExtractiveCompressor(ContextCompressor):\n    def __init__(\n        self,",
-        "detail": "app.ai.context.compressor",
-        "documentation": {}
-    },
-    {
-        "label": "ExtractiveCompressor",
-        "kind": 6,
-        "importPath": "app.ai.context.compressor",
-        "description": "app.ai.context.compressor",
-        "peekOfCode": "class ExtractiveCompressor(ContextCompressor):\n    def __init__(\n        self,\n        max_tokens_per_document: int = 500,\n    ):\n        if max_tokens_per_document <= 0:\n            raise ValueError(\n                \"max_tokens_per_document must be greater than 0\",\n            )\n        self.max_tokens_per_document = (",
-        "detail": "app.ai.context.compressor",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDeduplicator",
-        "kind": 6,
-        "importPath": "app.ai.context.deduplicator",
-        "description": "app.ai.context.deduplicator",
-        "peekOfCode": "class ContextDeduplicator:\n    def deduplicate(\n        self,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        seen: set[str] = set()\n        unique_documents: list[ContextDocument] = []\n        for document in documents:\n            content = document.content.strip()\n            if not content:",
-        "detail": "app.ai.context.deduplicator",
-        "documentation": {}
-    },
-    {
-        "label": "create_context_pipeline",
-        "kind": 2,
-        "importPath": "app.ai.context.factory",
-        "description": "app.ai.context.factory",
-        "peekOfCode": "def create_context_pipeline() -> ContextPipeline:\n    return ContextPipeline(\n        context_filter=ContextFilter(),\n        deduplicator=ContextDeduplicator(),\n        ranker=ContextRanker(),\n        token_budget=ContextTokenBudget(\n            max_tokens=3000,\n        ),\n        compressor=ExtractiveCompressor(\n            max_tokens_per_document=500,",
-        "detail": "app.ai.context.factory",
-        "documentation": {}
-    },
-    {
-        "label": "ContextFilter",
-        "kind": 6,
-        "importPath": "app.ai.context.filter",
-        "description": "app.ai.context.filter",
-        "peekOfCode": "class ContextFilter:\n    def __init__(\n        self,\n        threshold: float | None = None,\n        mode: Literal[\"higher\", \"lower\"] = \"higher\",\n    ):\n        self.threshold = threshold\n        self.mode = mode\n    def filter(\n        self,",
-        "detail": "app.ai.context.filter",
-        "documentation": {}
-    },
-    {
-        "label": "ContextDocument",
-        "kind": 6,
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "peekOfCode": "class ContextDocument:\n    content: str\n    metadata: dict[str, Any] = field(\n        default_factory=dict,\n    )\n    score: float | None = None\n@dataclass\nclass ContextMessage:\n    role: str\n    content: str",
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextMessage",
-        "kind": 6,
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "peekOfCode": "class ContextMessage:\n    role: str\n    content: str\n    metadata: dict[str, Any] = field(\n        default_factory=dict,\n    )\n@dataclass\nclass Context:\n    query: str\n    documents: list[ContextDocument] = field(",
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "Context",
-        "kind": 6,
-        "importPath": "app.ai.context.model",
-        "description": "app.ai.context.model",
-        "peekOfCode": "class Context:\n    query: str\n    documents: list[ContextDocument] = field(\n        default_factory=list,\n    )\n    messages: list[ContextMessage] = field(\n        default_factory=list,\n    )",
-        "detail": "app.ai.context.model",
-        "documentation": {}
-    },
-    {
-        "label": "ContextOrdering",
-        "kind": 6,
-        "importPath": "app.ai.context.ordering",
-        "description": "app.ai.context.ordering",
-        "peekOfCode": "class ContextOrdering(ABC):\n    @abstractmethod\n    def order(\n        self,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        ...\nclass PreserveOrder(ContextOrdering):\n    def order(\n        self,",
-        "detail": "app.ai.context.ordering",
-        "documentation": {}
-    },
-    {
-        "label": "PreserveOrder",
-        "kind": 6,
-        "importPath": "app.ai.context.ordering",
-        "description": "app.ai.context.ordering",
-        "peekOfCode": "class PreserveOrder(ContextOrdering):\n    def order(\n        self,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        return documents",
-        "detail": "app.ai.context.ordering",
-        "documentation": {}
-    },
-    {
-        "label": "ContextPipeline",
-        "kind": 6,
-        "importPath": "app.ai.context.pipeline",
-        "description": "app.ai.context.pipeline",
-        "peekOfCode": "class ContextPipeline:\n    def __init__(\n        self,\n        context_filter: ContextFilter,\n        deduplicator: ContextDeduplicator,\n        ranker: ContextRanker,\n        token_budget: ContextTokenBudget,\n        compressor: ContextCompressor,\n        ordering: ContextOrdering,\n        builder: ContextBuilder,",
-        "detail": "app.ai.context.pipeline",
-        "documentation": {}
-    },
-    {
-        "label": "ContextRanker",
-        "kind": 6,
-        "importPath": "app.ai.context.ranker",
-        "description": "app.ai.context.ranker",
-        "peekOfCode": "class ContextRanker:\n    def rank(\n        self,\n        documents: list[ContextDocument],\n    ) -> list[ContextDocument]:\n        scored_documents = [\n            document\n            for document in documents\n            if document.score is not None\n        ]",
-        "detail": "app.ai.context.ranker",
-        "documentation": {}
-    },
-    {
-        "label": "ContextTokenBudget",
-        "kind": 6,
-        "importPath": "app.ai.context.token_budget",
-        "description": "app.ai.context.token_budget",
-        "peekOfCode": "class ContextTokenBudget:\n    def __init__(\n        self,\n        max_tokens: int,\n    ):\n        if max_tokens <= 0:\n            raise ValueError(\n                \"max_tokens must be greater than 0\",\n            )\n        self.max_tokens = max_tokens",
-        "detail": "app.ai.context.token_budget",
-        "documentation": {}
-    },
-    {
-        "label": "MemoryManager",
-        "kind": 6,
-        "importPath": "app.ai.memory.manager",
-        "description": "app.ai.memory.manager",
-        "peekOfCode": "class MemoryManager:\n    def __init__(\n        self,\n        short_term: ShortTermMemory,\n    ):\n        self.short_term = short_term\n    async def add_message(\n        self,\n        session_id: str,\n        message: MemoryMessage,",
-        "detail": "app.ai.memory.manager",
-        "documentation": {}
-    },
-    {
-        "label": "MemoryMessage",
-        "kind": 6,
-        "importPath": "app.ai.memory.models",
-        "description": "app.ai.memory.models",
-        "peekOfCode": "class MemoryMessage:\n    role: str\n    content: str\n    metadata: dict[str, Any] = field(\n        default_factory=dict,\n    )\n    created_at: datetime = field(\n        default_factory=datetime.utcnow,\n    )",
-        "detail": "app.ai.memory.models",
-        "documentation": {}
-    },
-    {
-        "label": "ShortTermMemory",
-        "kind": 6,
-        "importPath": "app.ai.memory.short_term",
-        "description": "app.ai.memory.short_term",
-        "peekOfCode": "class ShortTermMemory:\n    def __init__(\n        self,\n        max_messages: int = 20,\n    ):\n        if max_messages <= 0:\n            raise ValueError(\n                \"max_messages must be greater than 0\",\n            )\n        self.max_messages = max_messages",
-        "detail": "app.ai.memory.short_term",
         "documentation": {}
     },
     {
@@ -3417,8 +3529,35 @@
         "kind": 2,
         "importPath": "app.core.dependencies",
         "description": "app.core.dependencies",
-        "peekOfCode": "def get_reembedding_service(\n    session: AsyncSession = Depends(get_db),\n) -> ReEmbeddingService:\n    return ReEmbeddingService(\n        session=session,\n        vectorstore_manager=get_vectorstore_manager(),\n    )",
+        "peekOfCode": "def get_reembedding_service(\n    session: AsyncSession = Depends(get_db),\n) -> ReEmbeddingService:\n    return ReEmbeddingService(\n        session=session,\n        vectorstore_manager=get_vectorstore_manager(),\n    )\ndef get_llm_model_service(\n    session: AsyncSession = Depends(get_db),\n) -> LLMModelService:",
         "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_model_service",
+        "kind": 2,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "def get_llm_model_service(\n    session: AsyncSession = Depends(get_db),\n) -> LLMModelService:\n    return LLMModelService(session)\ndef get_llm_service(\n    session: AsyncSession = Depends(get_db),\n) -> LLMService:\n    return LLMService(\n        factory=LLMFactory(),\n        model_service=LLMModelService(",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_service",
+        "kind": 2,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "def get_llm_service(\n    session: AsyncSession = Depends(get_db),\n) -> LLMService:\n    return LLMService(\n        factory=LLMFactory(),\n        model_service=LLMModelService(\n            session,\n        ),\n    )",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "LLMProvider",
+        "kind": 6,
+        "importPath": "app.core.enum",
+        "description": "app.core.enum",
+        "peekOfCode": "class LLMProvider(str, Enum):\n    OPENAI = \"openai\"\n    ANTHROPIC = \"anthropic\"\n    GEMINI = \"gemini\"\n    NVIDIA = \"nvidia\"\n    OLLAMA = \"ollama\"",
+        "detail": "app.core.enum",
         "documentation": {}
     },
     {
@@ -3473,6 +3612,15 @@
         "description": "app.db.models.embedding",
         "peekOfCode": "class EmbeddingModel(Base):\n    __tablename__ = \"embedding_models\"\n    id: Mapped[int] = mapped_column(\n        primary_key=True,\n        autoincrement=True,\n    )\n    provider: Mapped[str] = mapped_column(\n        String(50),\n        nullable=False,\n    )",
         "detail": "app.db.models.embedding",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModel",
+        "kind": 6,
+        "importPath": "app.db.models.llm_model",
+        "description": "app.db.models.llm_model",
+        "peekOfCode": "class LLMModel(Base):\n    __tablename__ = \"llm_models\"\n    id: Mapped[int] = mapped_column(\n        Integer,\n        primary_key=True,\n        autoincrement=True,\n    )\n    model: Mapped[str] = mapped_column(\n        String(255),\n        nullable=False,",
+        "detail": "app.db.models.llm_model",
         "documentation": {}
     },
     {
@@ -3557,6 +3705,42 @@
         "documentation": {}
     },
     {
+        "label": "LLMModelBase",
+        "kind": 6,
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "peekOfCode": "class LLMModelBase(BaseModel):\n    model: str\n    api_base: str | None = None\n    temperature: float = Field(\n        default=0.2,\n        ge=0.0,\n        le=2.0,\n    )\n    top_p: float = Field(\n        default=0.7,",
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelCreate",
+        "kind": 6,
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "peekOfCode": "class LLMModelCreate(LLMModelBase):\n    api_key: SecretStr | None = None\n    is_active: bool = False\nclass LLMModelUpdate(BaseModel):\n    model: str | None = None\n    api_base: str | None = None\n    api_key: SecretStr | None = None\n    temperature: float | None = Field(\n        default=None,\n        ge=0.0,",
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelUpdate",
+        "kind": 6,
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "peekOfCode": "class LLMModelUpdate(BaseModel):\n    model: str | None = None\n    api_base: str | None = None\n    api_key: SecretStr | None = None\n    temperature: float | None = Field(\n        default=None,\n        ge=0.0,\n        le=2.0,\n    )\n    top_p: float | None = Field(",
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelResponse",
+        "kind": 6,
+        "importPath": "app.db.schemas.llm_model",
+        "description": "app.db.schemas.llm_model",
+        "peekOfCode": "class LLMModelResponse(LLMModelBase):\n    id: int\n    is_active: bool\n    model_config = ConfigDict(\n        from_attributes=True,\n    )",
+        "detail": "app.db.schemas.llm_model",
+        "documentation": {}
+    },
+    {
         "label": "Base",
         "kind": 6,
         "importPath": "app.db.base",
@@ -3581,6 +3765,33 @@
         "description": "app.db.database",
         "peekOfCode": "AsyncSessionLocal = async_sessionmaker(\n    engine,\n    class_=AsyncSession,\n    expire_on_commit=False,\n)\nasync def get_db() -> AsyncGenerator[AsyncSession, None]:\n    async with AsyncSessionLocal() as session:\n        yield session",
         "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "ContextBuilder",
+        "kind": 6,
+        "importPath": "app.langchain.context.builder",
+        "description": "app.langchain.context.builder",
+        "peekOfCode": "class ContextBuilder:\n    def build(\n        self,\n        system_prompt: str,\n        memories: list[str] | None = None,\n        documents: list[str] | None = None,\n        conversation: list[dict[str, str]] | None = None,\n        query: str = \"\",\n    ) -> list[BaseMessage]:\n        messages: list[BaseMessage] = []",
+        "detail": "app.langchain.context.builder",
+        "documentation": {}
+    },
+    {
+        "label": "ContextService",
+        "kind": 6,
+        "importPath": "app.langchain.context.service",
+        "description": "app.langchain.context.service",
+        "peekOfCode": "class ContextService:\n    def __init__(\n        self,\n        memory_manager: MemoryManager,\n        retriever: VectorRetriever,\n        builder: ContextBuilder,\n    ):\n        self.memory_manager = memory_manager\n        self.retriever = retriever\n        self.builder = builder",
+        "detail": "app.langchain.context.service",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app.langchain.context.test_builder",
+        "description": "app.langchain.context.test_builder",
+        "peekOfCode": "def main():\n    builder = ContextBuilder()\n    messages = builder.build(\n        system_prompt=(\n            \"You are Anvil, an AI assistant. \"\n            \"Answer accurately and concisely.\"\n        ),\n        memories=[\n            \"The user is building a RAG application.\",\n            \"The user uses SQLite-Vec for vector storage.\",",
+        "detail": "app.langchain.context.test_builder",
         "documentation": {}
     },
     {
@@ -3840,7 +4051,7 @@
         "kind": 6,
         "importPath": "app.langchain.vectorstore.manager",
         "description": "app.langchain.vectorstore.manager",
-        "peekOfCode": "class VectorStoreManager:\n    def __init__(\n        self,\n        db_path: str | Path,\n    ):\n        self.db_path = Path(db_path)\n        self._stores: dict[\n            int,\n            AnvilSQLiteVec,\n        ] = {}",
+        "peekOfCode": "class VectorStoreManager:\n    def __init__(\n        self,\n        db_path: str | Path,\n    ):\n        self.db_path = Path(db_path)\n        self._stores: dict[\n            tuple[str, int],\n            AnvilSQLiteVec,\n        ] = {}",
         "detail": "app.langchain.vectorstore.manager",
         "documentation": {}
     },
@@ -3908,6 +4119,105 @@
         "documentation": {}
     },
     {
+        "label": "BaseLLMProvider",
+        "kind": 6,
+        "importPath": "app.litellm.provider.base",
+        "description": "app.litellm.provider.base",
+        "peekOfCode": "class BaseLLMProvider(ABC):\n    @abstractmethod\n    async def chat(\n        self,\n        request: ChatRequest,\n    ) -> ChatResponse:\n        ...\n    @abstractmethod\n    async def stream(\n        self,",
+        "detail": "app.litellm.provider.base",
+        "documentation": {}
+    },
+    {
+        "label": "LLMFactory",
+        "kind": 6,
+        "importPath": "app.litellm.provider.factory",
+        "description": "app.litellm.provider.factory",
+        "peekOfCode": "class LLMFactory:\n    def __init__(self):\n        self._provider = LiteLLMProvider()\n    def create(self) -> BaseLLMProvider:\n        return self._provider",
+        "detail": "app.litellm.provider.factory",
+        "documentation": {}
+    },
+    {
+        "label": "LiteLLMProvider",
+        "kind": 6,
+        "importPath": "app.litellm.provider.litellm_provider",
+        "description": "app.litellm.provider.litellm_provider",
+        "peekOfCode": "class LiteLLMProvider(BaseLLMProvider):\n    async def chat(\n        self,\n        request: ChatRequest,\n    ) -> ChatResponse:\n        messages = [\n            {\n                \"role\": message.role,\n                \"content\": message.content,\n            }",
+        "detail": "app.litellm.provider.litellm_provider",
+        "documentation": {}
+    },
+    {
+        "label": "litellm.drop_params",
+        "kind": 5,
+        "importPath": "app.litellm.provider.litellm_provider",
+        "description": "app.litellm.provider.litellm_provider",
+        "peekOfCode": "litellm.drop_params = True\nclass LiteLLMProvider(BaseLLMProvider):\n    async def chat(\n        self,\n        request: ChatRequest,\n    ) -> ChatResponse:\n        messages = [\n            {\n                \"role\": message.role,\n                \"content\": message.content,",
+        "detail": "app.litellm.provider.litellm_provider",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessage",
+        "kind": 6,
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "peekOfCode": "class ChatMessage:\n    role: str\n    content: str\n@dataclass\nclass ChatInput:\n    messages: list[ChatMessage]\n    seed: int | None = None\n@dataclass\nclass ChatRequest:\n    model: str",
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatInput",
+        "kind": 6,
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "peekOfCode": "class ChatInput:\n    messages: list[ChatMessage]\n    seed: int | None = None\n@dataclass\nclass ChatRequest:\n    model: str\n    messages: list[ChatMessage]\n    api_base: str | None = None\n    api_key: str | None = None\n    temperature: float = 0.2",
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "peekOfCode": "class ChatRequest:\n    model: str\n    messages: list[ChatMessage]\n    api_base: str | None = None\n    api_key: str | None = None\n    temperature: float = 0.2\n    max_tokens: int | None = 1024\n    top_p: float = 0.7\n    frequency_penalty: float = 0.0\n    presence_penalty: float = 0.0",
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "kind": 6,
+        "importPath": "app.litellm.models",
+        "description": "app.litellm.models",
+        "peekOfCode": "class ChatResponse:\n    content: str\n    model: str\n    usage: dict[str, Any] | None = None",
+        "detail": "app.litellm.models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessageRequest",
+        "kind": 6,
+        "importPath": "app.litellm.schemas",
+        "description": "app.litellm.schemas",
+        "peekOfCode": "class ChatMessageRequest(BaseModel):\n    role: str\n    content: str\nclass ChatRequest(BaseModel):\n    messages: list[ChatMessageRequest]\n    seed: int | None = None",
+        "detail": "app.litellm.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "app.litellm.schemas",
+        "description": "app.litellm.schemas",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    messages: list[ChatMessageRequest]\n    seed: int | None = None",
+        "detail": "app.litellm.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "LLMService",
+        "kind": 6,
+        "importPath": "app.litellm.service",
+        "description": "app.litellm.service",
+        "peekOfCode": "class LLMService:\n    def __init__(\n        self,\n        factory: LLMFactory,\n        model_service: LLMModelService,\n    ):\n        self.provider = factory.create()\n        self.model_service = model_service\n    async def _build_request(\n        self,",
+        "detail": "app.litellm.service",
+        "documentation": {}
+    },
+    {
         "label": "ChunkRepository",
         "kind": 6,
         "importPath": "app.repository.chunk_repo",
@@ -3932,6 +4242,15 @@
         "description": "app.repository.embedding_repo",
         "peekOfCode": "class EmbeddingModelRepository:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n    async def create(\n        self,\n        data: EmbeddingModelCreate,\n    ) -> EmbeddingModel:\n        embedding_model = EmbeddingModel(\n            provider=data.provider,\n            model=data.model,",
         "detail": "app.repository.embedding_repo",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelRepository",
+        "kind": 6,
+        "importPath": "app.repository.llm_model_repo",
+        "description": "app.repository.llm_model_repo",
+        "peekOfCode": "class LLMModelRepository:\n    def __init__(\n        self,\n        session: AsyncSession,\n    ):\n        self.session = session\n    async def create(\n        self,\n        data: LLMModelCreate,\n    ) -> LLMModel:",
+        "detail": "app.repository.llm_model_repo",
         "documentation": {}
     },
     {
@@ -3980,6 +4299,33 @@
         "documentation": {}
     },
     {
+        "label": "build_chat_input",
+        "kind": 2,
+        "importPath": "app.routers.llm",
+        "description": "app.routers.llm",
+        "peekOfCode": "def build_chat_input(\n    request: ChatRequest,\n) -> ChatInput:\n    return ChatInput(\n        messages=[\n            ChatMessage(\n                role=message.role,\n                content=message.content,\n            )\n            for message in request.messages",
+        "detail": "app.routers.llm",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.llm",
+        "description": "app.routers.llm",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/llm\",\n    tags=[\"LLM\"],\n)\ndef build_chat_input(\n    request: ChatRequest,\n) -> ChatInput:\n    return ChatInput(\n        messages=[\n            ChatMessage(",
+        "detail": "app.routers.llm",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.llm_models",
+        "description": "app.routers.llm_models",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/llm/models\",\n    tags=[\"LLM Models\"],\n)\n@router.post(\n    \"\",\n    response_model=LLMModelResponse,\n)\nasync def create_model(\n    data: LLMModelCreate,",
+        "detail": "app.routers.llm_models",
+        "documentation": {}
+    },
+    {
         "label": "ChunkService",
         "kind": 6,
         "importPath": "app.services.chunk_service",
@@ -4004,6 +4350,15 @@
         "description": "app.services.embedding_service",
         "peekOfCode": "class EmbeddingModelService:\n    def __init__(self, session: AsyncSession):\n        self.session = session\n        self.repository = EmbeddingModelRepository(session)\n    async def get_embeddings(self):\n        config = await self.repository.get_active()\n        if config is None:\n            raise ValueError(\n                \"No active embedding model configured\"\n            )",
         "detail": "app.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "LLMModelService",
+        "kind": 6,
+        "importPath": "app.services.llm_model_service",
+        "description": "app.services.llm_model_service",
+        "peekOfCode": "class LLMModelService:\n    def __init__(\n        self,\n        session: AsyncSession,\n    ):\n        self.session = session\n        self.repository = LLMModelRepository(\n            session,\n        )\n    async def create(",
+        "detail": "app.services.llm_model_service",
         "documentation": {}
     },
     {
@@ -4038,7 +4393,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI()\nfrom app.routers.embedding_router import router as embedding_router\nfrom app.routers.document_router import router as document_router\nfrom app.routers.chunk_router import router as chunk_router\nfrom app.routers.ingestion_router import router as ingestion_router\napp.include_router(embedding_router)\napp.include_router(document_router)\napp.include_router(chunk_router)\napp.include_router(ingestion_router)\n@app.get(\"/\")",
+        "peekOfCode": "app = FastAPI()\nfrom app.routers.embedding_router import router as embedding_router\nfrom app.routers.document_router import router as document_router\nfrom app.routers.chunk_router import router as chunk_router\nfrom app.routers.ingestion_router import router as ingestion_router\nfrom app.routers.llm import router as llm\nfrom app.routers.llm_models import router as llm_models_router\napp.include_router(embedding_router)\napp.include_router(document_router)\napp.include_router(chunk_router)",
         "detail": "app.main",
         "documentation": {}
     }

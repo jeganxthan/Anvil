@@ -12,6 +12,7 @@ from app.db.models.chunk import Chunk
 from app.db.models.document import Document
 from app.db.models.embedding import EmbeddingModel
 from app.db.models.vector_record import VectorRecord 
+from app.db.models.llm_model import LLMModel
 
 
 config = context.config
@@ -38,11 +39,17 @@ def include_name(
     type_,
     parent_names,
 ):
-    if type_ == "table" and name in EXCLUDED_TABLES:
-        return False
+    if type_ == "table":
+
+        if name in EXCLUDED_TABLES:
+            return False
+
+        if name.startswith(
+            "chunk_vectors_model_",
+        ):
+            return False
 
     return True
-
 
 def include_object(
     object,
@@ -51,11 +58,17 @@ def include_object(
     reflected,
     compare_to,
 ):
-    if type_ == "table" and name in EXCLUDED_TABLES:
-        return False
+    if type_ == "table":
+
+        if name in EXCLUDED_TABLES:
+            return False
+
+        if name.startswith(
+            "chunk_vectors_model_",
+        ):
+            return False
 
     return True
-
 
 # ---------------------------------------------------------
 # Offline migrations
@@ -94,6 +107,7 @@ def do_run_migrations(
         target_metadata=target_metadata,
         include_name=include_name,
         include_object=include_object,
+        include_schemas=False,
     )
 
     with context.begin_transaction():

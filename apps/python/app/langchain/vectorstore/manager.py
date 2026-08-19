@@ -13,16 +13,18 @@ class VectorStoreManager:
         self.db_path = Path(db_path)
 
         self._stores: dict[
-            int,
+            tuple[str, int],
             AnvilSQLiteVec,
         ] = {}
 
     def _collection_name(
         self,
         embedding_model: EmbeddingModel,
+        collection_type: str,
     ) -> str:
+
         return (
-            f"chunk_vectors_model_"
+            f"{collection_type}_vectors_model_"
             f"{embedding_model.id}"
         )
 
@@ -30,30 +32,42 @@ class VectorStoreManager:
         self,
         embedding_model: EmbeddingModel,
         embeddings,
+        collection_type: str = "chunk",
     ) -> AnvilSQLiteVec:
 
-        model_id = embedding_model.id
+        key = (
+            collection_type,
+            embedding_model.id,
+        )
 
-        if model_id not in self._stores:
+        if key not in self._stores:
 
-            collection_name = self._collection_name(
-                embedding_model,
+            collection_name = (
+                self._collection_name(
+                    embedding_model,
+                    collection_type,
+                )
             )
 
-            self._stores[model_id] = AnvilSQLiteVec(
+            self._stores[key] = AnvilSQLiteVec(
                 db_path=self.db_path,
                 embedding=embeddings,
                 collection_name=collection_name,
             )
 
-        return self._stores[model_id]
+        return self._stores[key]
 
     def remove(
         self,
         model_id: int,
+        collection_type: str = "chunk",
     ) -> None:
+
         self._stores.pop(
-            model_id,
+            (
+                collection_type,
+                model_id,
+            ),
             None,
         )
 

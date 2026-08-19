@@ -124,12 +124,16 @@ class AnvilSQLiteVec(VectorStore):
         self,
         connection: sqlite3.Connection,
     ) -> int | None:
+
+        key = f"dimension:{self.collection_name}"
+
         row = connection.execute(
             """
             SELECT value
             FROM vector_store_metadata
-            WHERE key = 'dimension'
-            """
+            WHERE key = ?
+            """,
+            (key,),
         ).fetchone()
 
         if row is None:
@@ -142,29 +146,31 @@ class AnvilSQLiteVec(VectorStore):
         connection: sqlite3.Connection,
         dimension: int,
     ) -> None:
+
+        key = f"dimension:{self.collection_name}"
+
         connection.execute(
             """
             INSERT INTO vector_store_metadata (
                 key,
                 value
             )
-            VALUES (
-                'dimension',
-                ?
-            )
+            VALUES (?, ?)
             ON CONFLICT(key)
             DO UPDATE SET value = excluded.value
             """,
             (
+                key,
                 str(dimension),
             ),
         )
 
     def _ensure_vector_table(
-        self,
-        connection: sqlite3.Connection,
-        dimension: int,
-    ) -> None:
+    self,
+    connection: sqlite3.Connection,
+    dimension: int,
+) -> None:
+
         existing_dimension = self._get_dimension(
             connection,
         )
@@ -178,6 +184,13 @@ class AnvilSQLiteVec(VectorStore):
                 )
 
         if self._vector_table_exists(connection):
+            if existing_dimension is None:
+                self._set_dimension(
+                    connection,
+                    dimension,
+                )
+                connection.commit()
+
             return
 
         table_name = self._quote_identifier(
@@ -189,7 +202,6 @@ class AnvilSQLiteVec(VectorStore):
             CREATE VIRTUAL TABLE {table_name}
             USING vec0(
                 embedding float[{dimension}],
-
                 +chunk_id INTEGER,
                 +content TEXT,
                 +metadata TEXT

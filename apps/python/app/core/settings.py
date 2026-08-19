@@ -15,6 +15,11 @@ class Settings(BaseSettings):
         validation_alias="SQLITE_PATH",
     )
     
+    model_config = {
+        "env_file": ".env",
+        "extra": "ignore",
+    }
+    
 @lru_cache
 def get_settings() -> Settings:
     return Settings()

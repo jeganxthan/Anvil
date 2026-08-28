@@ -1,7 +1,6 @@
+
 from langchain_core.messages import BaseMessage
 
-from app.ai.memory.manager import MemoryManager
-from app.langchain.retrieval.retriever import VectorRetriever
 
 from app.langchain.context.builder import ContextBuilder
 

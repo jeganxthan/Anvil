@@ -918,6 +918,31 @@
         "documentation": {}
     },
     {
+        "label": "ShortTermMemory",
+        "importPath": "app.ai.memory.manager",
+        "description": "app.ai.memory.manager",
+        "isExtraImport": true,
+        "detail": "app.ai.memory.manager",
+        "documentation": {}
+    },
+    {
+        "label": "app.ai.memory.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "app.ai.memory.models",
+        "description": "app.ai.memory.models",
+        "detail": "app.ai.memory.models",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryMessage",
+        "importPath": "app.ai.memory.models",
+        "description": "app.ai.memory.models",
+        "isExtraImport": true,
+        "detail": "app.ai.memory.models",
+        "documentation": {}
+    },
+    {
         "label": "lru_cache",
         "importPath": "functools",
         "description": "functools",
@@ -1835,22 +1860,6 @@
         "description": "langchain_core.messages",
         "isExtraImport": true,
         "detail": "langchain_core.messages",
-        "documentation": {}
-    },
-    {
-        "label": "MemoryManager",
-        "importPath": "app.ai.memory.manager",
-        "description": "app.ai.memory.manager",
-        "isExtraImport": true,
-        "detail": "app.ai.memory.manager",
-        "documentation": {}
-    },
-    {
-        "label": "VectorRetriever",
-        "importPath": "app.langchain.retrieval.retriever",
-        "description": "app.langchain.retrieval.retriever",
-        "isExtraImport": true,
-        "detail": "app.langchain.retrieval.retriever",
         "documentation": {}
     },
     {
@@ -3477,6 +3486,24 @@
         "description": "alembic.env",
         "peekOfCode": "EXCLUDED_TABLES = {\n    \"chunk_vectors\",\n    \"vector_store_metadata\",\n}\ndef include_name(\n    name,\n    type_,\n    parent_names,\n):\n    if type_ == \"table\":",
         "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryManager",
+        "kind": 6,
+        "importPath": "app.ai.memory.manager",
+        "description": "app.ai.memory.manager",
+        "peekOfCode": "class MemoryManager:\n    def __init__(\n        self,\n        short_term: ShortTermMemory,\n    ):\n        self.short_term = short_term\n    async def add_message(\n        self,\n        session_id: str,\n        message: MemoryMessage,",
+        "detail": "app.ai.memory.manager",
+        "documentation": {}
+    },
+    {
+        "label": "ShortTermMemory",
+        "kind": 6,
+        "importPath": "app.ai.memory.short_term",
+        "description": "app.ai.memory.short_term",
+        "peekOfCode": "class ShortTermMemory:\n    def __init__(\n        self,\n        max_messages: int = 20,\n    ):\n        if max_messages <= 0:\n            raise ValueError(\n                \"max_messages must be greater than 0\",\n            )\n        self.max_messages = max_messages",
+        "detail": "app.ai.memory.short_term",
         "documentation": {}
     },
     {
